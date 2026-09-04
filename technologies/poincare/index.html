@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Poincaré Explorer | Instructional Biology</title>
+<meta name="description" content="An interactive hyperbolic-disk concept map of the Signaling Cascade Knowledge Graph, and why hyperbolic space fits biological hierarchy better than a flat layout.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Instructional Biology">
+<meta property="og:title" content="The Poincaré Explorer | Instructional Biology">
+<meta property="og:description" content="An interactive hyperbolic-disk concept map of the Signaling Cascade Knowledge Graph, and why hyperbolic space fits biological hierarchy better than a flat layout.">
+<meta property="og:url" content="https://www.instructionalbiology.com/technologies/poincare/">
+<meta property="og:image" content="https://www.instructionalbiology.com/assets/img/logo-mark.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Poincaré Explorer | Instructional Biology">
+<meta name="twitter:description" content="An interactive hyperbolic-disk concept map of the Signaling Cascade Knowledge Graph, and why hyperbolic space fits biological hierarchy better than a flat layout.">
+<meta name="twitter:image" content="https://www.instructionalbiology.com/assets/img/logo-mark.jpg">
+<link rel="icon" href="/assets/img/favicon.png">
+<link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="top-line"></div>
+
+<header>
+  <div class="wrap headbar">
+    <a href="/" class="mark"><img src="/assets/img/logo-mark.jpg" alt="Instructional Biology mark">Instructional Biology</a>
+    <nav class="primary-nav" aria-label="Primary">
+      <a href="/about">About Us</a>
+      <a href="/technologies">Our Technologies</a>
+      <a href="/science">The Science</a>
+      <a href="/insights">News</a>
+    </nav>
+    <a href="mailto:instructionalbiologyinc@gmail.com" class="head-cta">Start a conversation</a>
+    <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">☰</button>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile" hidden>
+  <a href="/about">About Us</a>
+  <a href="/technologies">Our Technologies</a>
+  <a href="/science">The Science</a>
+  <a href="/insights">News</a>
+  <a href="mailto:instructionalbiologyinc@gmail.com" class="mobile-cta">Start a conversation</a>
+</nav>
+
+<main id="main-content">
+<section class="hub-hero">
+  <div class="wrap">
+    <div class="hero-top">
+      <div class="doc-tag">Instructional Biology Inc. — <b>Poincaré Explorer</b></div>
+      <h1>Every signal, mapped in its native geometry.</h1>
+      <p class="hero-sub">This is a live, interactive concept map of the Signaling Cascade Knowledge Graph, rendered in a Poincaré disk. Internally, the full graph is embedded in a 16-dimensional Poincaré ball (B<sup>16</sup>) — a hyperbolic space where distance compresses as you move outward, letting an entire branching hierarchy fit inside a bounded space without flattening its structure. The two-dimensional disk above is a simplified, illustrative projection of that same geometry.</p>
+    </div>
+  </div>
+</section>
+
+<section class="poincare-feature" style="padding-top:0;">
+  <div class="wrap">
+    <div class="exp-card" style="text-align:center;padding:40px 32px;">
+      <h6>Live demo</h6>
+      <p style="max-width:640px;margin:8px auto 20px;">The full interactive version of this map — drag to rotate, click any node to trace its labeled connections, and watch master regulators emerge from cross-talk density — now lives on the homepage.</p>
+      <a href="/#poincare-explorer" class="btn-primary">Open the live explorer →</a>
+    </div>
+
+    <div class="exp-card" style="margin-top:24px;">
+      <h6>Polarity under message passing</h6>
+      <div class="exp-polar">
+        <div class="exp-pcell">
+          <svg viewBox="0 0 220 130" width="220" height="130" role="img" aria-label="Diagram of attenuation: five arrows of shrinking length converging toward zero.">
+            <line x1="20" y1="65" x2="80" y2="65" stroke="#8b80e8" stroke-width="2"/>
+            <line x1="20" y1="65" x2="70" y2="53" stroke="#8b80e8" stroke-width="2" opacity="0.85"/>
+            <line x1="20" y1="65" x2="60" y2="41" stroke="#8b80e8" stroke-width="2" opacity="0.7"/>
+            <line x1="20" y1="65" x2="50" y2="29" stroke="#8b80e8" stroke-width="2" opacity="0.55"/>
+            <line x1="20" y1="65" x2="40" y2="17" stroke="#8b80e8" stroke-width="2" opacity="0.4"/>
+            <text x="90" y="69" fill="rgba(233,230,218,.5)" font-family="IBM Plex Mono, monospace" font-size="10">→ 0</text>
+          </svg>
+          <div class="lab">Attenuation toward zero</div>
+        </div>
+        <div class="exp-pcell">
+          <svg viewBox="0 0 220 130" width="220" height="130" role="img" aria-label="Diagram of norm-preserving rotation: five arrows of equal length sweeping through an angle.">
+            <line x1="110" y1="65" x2="172" y2="18" stroke="#d9b878" stroke-width="2" opacity="0.48"/>
+            <line x1="110" y1="65" x2="172" y2="38" stroke="#d9b878" stroke-width="2" opacity="0.61"/>
+            <line x1="110" y1="65" x2="172" y2="65" stroke="#d9b878" stroke-width="2" opacity="0.74"/>
+            <line x1="110" y1="65" x2="172" y2="92" stroke="#d9b878" stroke-width="2" opacity="0.87"/>
+            <line x1="110" y1="65" x2="172" y2="112" stroke="#d9b878" stroke-width="2"/>
+            <text x="70" y="122" fill="rgba(233,230,218,.5)" font-family="IBM Plex Mono, monospace" font-size="10">‖·‖ constant</text>
+          </svg>
+          <div class="lab">Norm-preserving rotation</div>
+        </div>
+      </div>
+      <p class="exp-note">Modeling an inhibitory relationship as attenuation drives its signal toward zero, where it becomes indistinguishable from no relationship at all. Modeling it as a rotation that preserves magnitude keeps a strong inhibitory signal distinguishable from an absent one — the difference between predicting a relationship is actively suppressed versus predicting it was never there.</p>
+    </div>
+
+    <div class="exp-card" style="margin-top:24px;">
+      <h6>Tiers, center to boundary</h6>
+      <div class="exp-legend">
+        <div class="exp-lg"><span class="exp-dot" style="background:#b5654a"></span>Regulator</div>
+        <div class="exp-lg"><span class="exp-dot" style="background:#8b80e8"></span>Cascade</div>
+        <div class="exp-lg"><span class="exp-dot" style="background:#5b7a8c"></span>Receptor</div>
+        <div class="exp-lg"><span class="exp-dot" style="background:#4a5168"></span>Peptide</div>
+        <div class="exp-lg"><span class="exp-dot" style="background:#9a8f78"></span>Disease</div>
+        <div class="exp-lg"><span class="exp-dot" style="background:#d9b878"></span>Outcome</div>
+      </div>
+      <p class="exp-note">In the live explorer, regulators with the most cross-talk connections — the master regulators — render larger and outlined in gold, and tiers separate cleanly by radius: connected nodes sit closer together than unconnected ones, the way a hierarchy should.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap article-body">
+    <h2>Why a hyperbolic disk, specifically</h2>
+    <p>Most data visualization defaults to a flat, Euclidean layout — nodes and edges scattered across ordinary two-dimensional space. That works fine for data that isn't strongly hierarchical. It works poorly for data that is, because a flat layout has a fixed amount of room near the center and the same fixed amount of room near the edges, while a real hierarchy tends to branch outward exponentially: a handful of broadly influential regulators, exponentially more specific detail — cascades, receptors, peptides, and finally disease and outcome nodes — the further out you go.</p>
+
+    <p>A hyperbolic disk solves this by construction. In this geometry, space doesn't grow linearly as you move outward from the center — it grows exponentially, which happens to be exactly the rate at which a real biological hierarchy branches. That's why the six tiers in the graph above — regulator, cascade, receptor, peptide, disease, and outcome, moving from center to boundary — sit naturally at their radius: not because of an arbitrary layout choice, but because that's where a graph of this shape actually wants to sit when it's given a geometry built for hierarchy instead of one built for a flat table.</p>
+
+    <h2>The research behind the geometry</h2>
+    <p>This isn't a design choice we invented from scratch. Hyperbolic embeddings for hierarchical data were formalized in a widely cited 2017 paper by Nickel and Kiela, <a href="https://arxiv.org/abs/1705.08039" style="color:var(--gold);">Poincaré Embeddings for Learning Hierarchical Representations</a>, which showed that embedding tree-like and hierarchical data directly into a Poincaré ball substantially outperforms standard Euclidean embeddings on the same task.</p>
+
+    <p>The core finding, in their own benchmarks: reconstructing the WordNet noun taxonomy — a large, well-studied hierarchical dataset — from a Euclidean embedding required very high dimensionality to get anywhere close to accurate, and still left the mean rank of related concepts in the thousands. A Poincaré embedding, at a fraction of the dimensionality, brought that same reconstruction error down to single digits, and did the same for link-prediction accuracy on multiple network datasets. The reason traces back to geometry, not tuning: a Euclidean space's volume grows only polynomially with radius, while a hyperbolic space's volume grows exponentially — which happens to match how fast a real hierarchy's node count grows as you move away from its root. Forcing exponential branching into a space that can only grow polynomially is what produces the "node crowding" that degrades Euclidean embeddings on this kind of data.</p>
+
+    <p>That's the property our Signaling Cascade Knowledge Graph is built to exploit: a biological signaling hierarchy — few master regulators, exponentially more specific downstream detail — is exactly the shape this geometry was shown to represent well, at far lower dimensionality than a comparably accurate Euclidean alternative would require.</p>
+
+    <h2>Reading the map</h2>
+    <p>Radial position tells you how broadly influential a node is — closer to the center means a wider reach across the downstream network, the way a master regulator affects many cascades at once, while a specific outcome sits far out because it's the endpoint of one particular path, not a hub many paths pass through. Angular position and clustering reflect similarity: nodes that share more context or evidence tend to sit nearer each other around the disk. Edges represent asserted relationships between tiers, each one meant to be traceable back to the evidence that supports it rather than inferred silently.</p>
+
+    <p>What you're looking at here is a public, illustrative concept model — a demonstration of the geometry and the interaction pattern, not a rendering of our full internal evidence graph, which is considerably larger and remains internal to ongoing research. We built this public version because we think the geometry itself is worth understanding on its own, independent of any specific dataset behind it.</p>
+
+    <div class="article-disclaimer" style="max-width:none;">This page presents a public, illustrative concept model of the Signaling Cascade Knowledge Graph's structure and geometry. It does not disclose Instructional Biology's proprietary internal graph, dataset, or evidence weightings. Instructional Biology's platform and programs are research-stage and have not completed clinical development.</div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top sitemap">
+      <div class="foot-brand">
+        <a href="/" class="mark"><img src="/assets/img/logo-mark.jpg" alt="Instructional Biology mark">Instructional Biology</a>
+        <p>Building an evidence-aware bridge between biological complexity, computational reasoning, and disciplined translation.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <a href="/about">About Us</a>
+        <a href="/about/founder">Founder's Story</a>
+        <a href="/about/contact/">Contact Us</a>
+        <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+      </div>
+      <div class="foot-col">
+        <h5>Technologies</h5>
+        <a href="/technologies">Our Technologies</a>
+        <a href="/technologies/poincare/">Poincaré Explorer</a>
+        <a href="/science">The Science</a>
+        <a href="/science/bio-manufacturing/">MHFBP</a>
+        <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+        <a href="/science/carrier-manufacturing/">Carrier-Manufacturing System</a>
+        <a href="/science/reasoning-system/">Reasoning System</a>
+        <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+      </div>
+      <div class="foot-col">
+        <h5>News</h5>
+        <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+        <a href="/insights/digital-twins/">Digital Twins</a>
+        <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+        <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+        <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+        <a href="/insights/in-silico/">In Silico</a>
+        <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+        <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+        <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+        <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+      </div>
+    </div>
+    <div class="foot-row">
+      <span>© 2026 Instructional Biology Inc. All rights reserved.</span>
+    </div>
+    <div class="foot-fine">Public, non-confidential information. Platform and program descriptions concern technologies in development and are not claims of clinical efficacy, regulatory approval, or medical advice.</div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

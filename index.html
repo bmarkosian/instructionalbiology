@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instructional Biology | Biology, Understood as Instructions</title>
+<meta name="description" content="Instructional Biology is developing a biology-native AI architecture — the Advanced Science AI Platform — that reasons across signaling biology to prioritize testable hypotheses and support individualized research.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Instructional Biology">
+<meta property="og:title" content="Instructional Biology | Biology, Understood as Instructions">
+<meta property="og:description" content="Instructional Biology is developing a biology-native AI architecture — the Advanced Science AI Platform — that reasons across signaling biology to prioritize testable hypotheses and support individualized research.">
+<meta property="og:url" content="https://www.instructionalbiology.com/">
+<meta property="og:image" content="https://www.instructionalbiology.com/assets/img/logo-mark.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Instructional Biology | Biology, Understood as Instructions">
+<meta name="twitter:description" content="Instructional Biology is developing a biology-native AI architecture — the Advanced Science AI Platform — that reasons across signaling biology to prioritize testable hypotheses and support individualized research.">
+<meta name="twitter:image" content="https://www.instructionalbiology.com/assets/img/logo-mark.jpg">
+<link rel="icon" href="/assets/img/favicon.png">
+<link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="top-line"></div>
+
+<header>
+  <div class="wrap headbar">
+    <a href="/" class="mark"><img src="/assets/img/logo-mark.jpg" alt="Instructional Biology mark">Instructional Biology</a>
+        <nav class="primary-nav" aria-label="Primary">
+      <a href="/about">About Us</a>
+      <a href="/technologies">Our Technologies</a>
+      <a href="/science">The Science</a>
+      <a href="/insights">News</a>
+    </nav>
+    <a href="mailto:instructionalbiologyinc@gmail.com" class="head-cta">Start a conversation</a>
+    <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">☰</button>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile" hidden>
+  <a href="/about">About Us</a>
+  <a href="/technologies">Our Technologies</a>
+  <a href="/science">The Science</a>
+  <a href="/insights">News</a>
+  <a href="mailto:instructionalbiologyinc@gmail.com" class="mobile-cta">Start a conversation</a>
+</nav>
+
+<main id="main-content">
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-top">
+      <div class="doc-tag">Instructional Biology Inc. — <b>Advancing the future of medicine</b></div>
+      <h1>Biology is not a list of parts. It is a language of instructions.</h1>
+      <p class="hero-sub">We're building a connected way to reason about biological signaling — combining an evidence-aware AI architecture, native-state biological processing, and disciplined translation from computational hypothesis to laboratory validation.</p>
+      <div class="hero-ctas">
+        <a href="/technologies" class="btn-primary">Explore the platform</a>
+        <a href="mailto:instructionalbiologyinc@gmail.com" class="btn-ghost">Start a conversation</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="poincare-feature" id="poincare-explorer" style="padding-top:0;">
+  <div class="wrap exp-wrap" id="exp3d">
+    <div>
+      <div class="exp-stage">
+        <div class="exp-toggle" role="group" aria-label="Layout comparison">
+          <button id="expBHier" aria-pressed="true">Hierarchical layout</button>
+          <button id="expBUn" aria-pressed="false">Unordered comparison</button>
+        </div>
+        <canvas class="exp-canvas" width="900" height="620"></canvas>
+        <div class="exp-caption">Drag to rotate. Click any node — or the line connecting two nodes — and it rotates to the center, tracing its labeled connections. Regulators with the most cross-talk render larger and outlined in gold. Illustrative synthetic data — six tiers, seven nodes each.</div>
+      </div>
+      <div class="exp-card" style="margin-top:14px;">
+        <h6>Polarity under message passing</h6>
+        <div class="exp-polar">
+          <div class="exp-pcell">
+            <canvas id="expPA" width="220" height="130"></canvas>
+            <div class="lab">Attenuation toward zero</div>
+          </div>
+          <div class="exp-pcell">
+            <canvas id="expPB" width="220" height="130"></canvas>
+            <div class="lab">Norm-preserving rotation</div>
+          </div>
+        </div>
+        <p class="exp-note">Modeling an inhibitory relationship as attenuation drives its signal toward zero, where it becomes indistinguishable from no relationship at all. Modeling it as a rotation that preserves magnitude keeps a strong inhibitory signal distinguishable from an absent one — the difference between predicting a relationship is actively suppressed versus predicting it was never there. <a href="/technologies/poincare/" style="color:var(--gold);">Why we use hyperbolic geometry for this →</a></p>
+      </div>
+    </div>
+
+    <aside>
+      <div class="exp-card">
+        <h6>Selected node</h6>
+        <div id="expSel"><div class="ph">Click a node or a connecting line to trace it.</div></div>
+      </div>
+      <div class="exp-card">
+        <h6>Master regulators</h6>
+        <div class="exp-legend" id="expHubs"></div>
+        <p class="exp-note">Ranked by cross-talk connection count within the regulator tier — modeling how a handful of hub regulators (illustratively, the AKT/mTOR pattern) end up with disproportionately more pathway connections than the rest, rather than every regulator being equally connected.</p>
+      </div>
+      <div class="exp-card">
+        <h6>Layout diagnostics</h6>
+        <div class="exp-metric"><span class="k">Outer ÷ inner tier radius</span><span class="v" id="expSep">—</span></div>
+        <div class="exp-metric"><span class="k">Unconnected ÷ connected distance</span><span class="v" id="expEnc">—</span></div>
+        <div class="exp-metric"><span class="k">Max radius</span><span class="v" id="expRad">—</span></div>
+      </div>
+      <div class="exp-card">
+        <h6>Tiers</h6>
+        <div class="exp-legend" id="expLeg"></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+
+<section class="steps-section" id="company">
+  <div class="wrap">
+    <div class="steps-head">
+      <div class="eyebrow">The one-minute explanation</div>
+      <h2>Living systems coordinate. Medicine should learn to read the coordination.</h2>
+      <p>Most biological problems don't sit inside one molecule. They emerge from relationships — signals turning other signals up or down, feedback changing direction, context changing meaning. We're building tools to map that system, identify the most informative next question, and carry it into controlled research.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="num">01</div>
+        <h3>Observe</h3>
+        <p>Bring signals, source material, literature, and context into view.</p>
+      </div>
+      <div class="step">
+        <div class="num">02</div>
+        <h3>Map</h3>
+        <p>Connect evidence across a hierarchy instead of flattening it into a list.</p>
+      </div>
+      <div class="step">
+        <div class="num">03</div>
+        <h3>Prioritize</h3>
+        <p>Rank testable questions while preserving confidence and contradiction.</p>
+      </div>
+      <div class="step">
+        <div class="num">04</div>
+        <h3>Validate</h3>
+        <p>Move promising hypotheses through deliberate experimental gates.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="thesis">
+  <div class="wrap thesis-grid">
+    <div>
+      <div class="eyebrow eyebrow-light">The operating thesis</div>
+      <h2>An industry built on forcing one target is running out of road.</h2>
+    </div>
+    <div class="thesis-text">
+      <p>Between now and 2030, independent industry estimates put $200–400 billion in annual branded-drug revenue at risk as roughly 190–200 drugs — including dozens of blockbusters — lose patent exclusivity. It is the largest cluster of expirations the sector has faced.</p>
+      <p>Instructional Biology's research thesis is that the deeper opportunity isn't simply replacing aging small-molecule products — it's building a reusable way of understanding and working with biological signaling itself, one that doesn't expire the way a single-molecule patent does.</p>
+      <div class="thesis-cols">
+        <div class="thesis-col">
+          <div class="tag">Biological layer</div>
+          <h4>Preserve the signal</h4>
+          <p>Methods in development are intended to protect native-state biological information so downstream analysis begins from a faithful input, not a degraded one.</p>
+        </div>
+        <div class="thesis-col">
+          <div class="tag">Intelligence layer</div>
+          <h4>Reason across the system</h4>
+          <p>Our platform, ASAP, is designed to organize evidence, model signaling relationships, and make prioritization explainable rather than opaque.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="compare" id="platform">
+  <div class="wrap">
+    <div class="compare-head">
+      <div class="eyebrow">Instructional Medicine</div>
+      <h2>From acting on a target to understanding a system.</h2>
+      <p>Instructional Medicine is our research thesis for a more context-aware approach: identify how biological signals relate to one another, preserve what they mean, and build interventions around what the system is communicating — rather than forcing a single receptor and waiting to see what breaks elsewhere.</p>
+    </div>
+    <div class="compare-table">
+      <div class="compare-col">
+        <span class="tag">Conventional lens</span>
+        <div class="compare-row">What single target can we change?</div>
+        <div class="compare-row">One result, at one moment</div>
+        <div class="compare-row">Data summarized at the end of a trial</div>
+      </div>
+      <div class="compare-col">
+        <span class="tag">Instructional lens</span>
+        <div class="compare-row">What network state are we trying to understand?</div>
+        <div class="compare-row">Evidence interpreted across context and time</div>
+        <div class="compare-row">Learning fed back into the next decision</div>
+      </div>
+    </div>
+    <p class="compare-note">Conceptual comparison. These approaches may complement one another; Instructional Biology's programs are research-stage and have not completed clinical development.</p>
+  </div>
+</section>
+
+<section class="sckg" id="technologies">
+  <div class="wrap">
+    <div class="sckg-text" style="max-width:640px;">
+      <div class="eyebrow">The intelligence layer</div>
+      <h2>ASAP: mapping biology as data.</h2>
+      <p>The Advanced Science AI Platform (ASAP) is built around the Signaling Cascade Knowledge Graph — a tiered, evidence-weighted representation of peptides, receptors, cascades, master regulators, disease states, and outcomes, embedded in a 16-dimensional Poincaré ball designed for hierarchy rather than a flat grid. The animated map above is a simplified, illustrative projection of that same graph, live — click any node to open the full explorer.</p>
+      <ul>
+        <li>Evidence-linked hypotheses, not black-box scores</li>
+        <li>Hierarchy-aware relationship mapping across signaling tiers</li>
+        <li>Human-reviewed prioritization at every gate</li>
+      </ul>
+      <div class="sckg-ctas">
+        <a href="/technologies" class="btn-ghost">Our technologies</a>
+        <a href="/technologies/poincare/" class="btn-ghost">Open the full explorer</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stack">
+  <div class="wrap">
+    <div class="stack-head">
+      <div class="eyebrow">Five core technology systems</div>
+      <h2>A connected capability stack.</h2>
+      <p>No single algorithm or protocol translates a biological idea into a validated intervention on its own. Our platform is built as five distinct systems designed to work as one chain — each independently examinable, and each addressing a different point of failure in how biology is usually reasoned about and processed.</p>
+    </div>
+    <div class="stack-rows">
+      <div class="stack-row">
+        <div class="stack-num">01</div>
+        <div class="stack-name">Markosian High-Fidelity Bio-Processing Protocol (MHFBP)</div>
+        <div class="sdesc">Sentinel-protein thermal control designed to preserve native structure through isolation — the physical foundation the other four systems depend on having intact evidence to work with.</div>
+      </div>
+      <div class="stack-row">
+        <div class="stack-num">02</div>
+        <div class="stack-name">Pathogen-reduction system</div>
+        <div class="sdesc">Ultrashort-pulse optical clearance, tuned below the threshold that damages protein structure — a non-thermal path to safety that doesn't trade away structural fidelity to get there.</div>
+      </div>
+      <div class="stack-row">
+        <div class="stack-num">03</div>
+        <div class="stack-name">Carrier-manufacturing system</div>
+        <div class="sdesc">Engineered delivery vesicles, configured per individual by the same reasoning architecture that maps the underlying signaling biology.</div>
+      </div>
+      <div class="stack-row">
+        <div class="stack-num">04</div>
+        <div class="stack-name">Reasoning system</div>
+        <div class="sdesc">A hyperbolic knowledge graph — the Signaling Cascade Knowledge Graph, reasoned over by ASAP — linking signaling biology to individual outcome.</div>
+      </div>
+      <div class="stack-row">
+        <div class="stack-num">05</div>
+        <div class="stack-name">Therapeutic-regulation system</div>
+        <div class="sdesc">Closed-loop revision within a clinician-authorized envelope — bounded, reviewed, and never a fully autonomous decision a device makes on its own.</div>
+      </div>
+    </div>
+    <div class="hub-nested-cta">
+      <div>
+        <h4>Interested in partnering or licensing?</h4>
+        <p>We're open to conversations with research, clinical, and pharmaceutical partners interested in any of these five systems, individually or as a whole.</p>
+      </div>
+      <a href="/about/partnerships/" class="btn-ghost">Discuss partnership or licensing →</a>
+    </div>
+  </div>
+</section>
+
+<section class="founder">
+  <div class="wrap founder-grid">
+    <div class="founder-creds">
+      <div class="eyebrow">Founder's story</div>
+      <h2 style="margin-bottom:8px;">Boris Markosian</h2>
+      <div class="founder-cred"><b>Founder & Scientific Architect</b></div>
+    </div>
+    <div class="founder-text">
+      <p>Boris Markosian's path runs across neuroscience, data architecture, and biological operations toward a systems-level view of medicine — the conviction that biology should be reasoned about as a connected language of signals, not a parts list to be individually blocked.</p>
+      <p><a href="/about/founder" class="btn-ghost">Read Boris's story</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="insights-section">
+  <div class="wrap">
+    <div class="insights-head">
+      <div>
+        <div class="eyebrow">Latest news, press, and perspectives</div>
+        <h2>Ideas shaping the next biological era.</h2>
+      </div>
+      <a href="/insights" class="btn-ghost">View all insights</a>
+    </div>
+    <div class="post-grid">
+      <div class="post-card">
+        <div class="post-meta">Explainer · 6 min read</div>
+        <h3>Digital Twins: A Model That Learns With You</h3>
+        <p>A responsible digital twin isn't a science-fiction duplicate. It's an evolving, evidence-bounded model that could one day help researchers understand change over time.</p>
+        <a href="/insights/digital-twins/" class="read-more">Read the perspective →</a>
+      </div>
+      <div class="post-card">
+        <div class="post-meta">Perspective · 6 min read</div>
+        <h3>Bespoke Therapeutics: A Paradigm Shift Is Here</h3>
+        <p>The next era of medicine isn't one more molecule for one more target. It's therapeutics designed around the logic of an individual system, not a population average.</p>
+        <a href="/insights/bespoke-therapeutics/" class="read-more">Read the perspective →</a>
+      </div>
+      <div class="post-card">
+        <div class="post-meta">Explainer · 6 min read</div>
+        <h3>No One Is the Same: Medicine That Adapts to You</h3>
+        <p>Wearables already track how your body responds, minute to minute. Why the next frontier is treatment that's informed by that response — not a fixed dose that ignores it.</p>
+        <a href="/insights/adaptive-medicine/" class="read-more">Read the perspective →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter" id="get-in-touch">
+  <div class="wrap newsletter-grid">
+    <div class="newsletter-head">
+      <div class="eyebrow eyebrow-light" style="color:var(--muted-on-dark);">Stay close to the signal</div>
+      <h2>Follow the evolution of Instructional Biology.</h2>
+      <p>Occasional company perspectives, platform explainers, and public milestones — written for scientists, partners, and curious readers.</p>
+      <form id="newsletterForm" class="form-row" style="margin-top:28px;">
+        <input type="email" id="newsletterEmail" placeholder="Email address" required aria-label="Email address">
+        <button type="submit">Stay informed</button>
+      </form>
+      <p class="form-note">This opens a pre-filled email to instructionalbiologyinc@gmail.com — we'll add you to the list from there. A one-click signup is coming once we connect a mailing list provider.</p>
+    </div>
+    <div>
+      <div class="eyebrow eyebrow-light" style="color:var(--muted-on-dark);">Get in touch</div>
+      <h2 style="margin-bottom:20px;">Send us a message.</h2>
+      <form id="contactForm" class="contact-form">
+        <div>
+          <label for="contactName">Name</label>
+          <input type="text" id="contactName" required>
+        </div>
+        <div>
+          <label for="contactEmail">Email</label>
+          <input type="email" id="contactEmail" required>
+        </div>
+        <div>
+          <label for="contactMessage">Message</label>
+          <textarea id="contactMessage" required></textarea>
+        </div>
+        <button type="submit">Send message</button>
+      </form>
+      <p class="form-note">Sends via your email client to instructionalbiologyinc@gmail.com. Direct: <a href="mailto:instructionalbiologyinc@gmail.com" style="color:var(--gold);">instructionalbiologyinc@gmail.com</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="vault" id="vault">
+  <div class="wrap">
+    <svg class="vault-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="1"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><circle cx="12" cy="15" r="1.4" fill="currentColor" stroke="none"/></svg>
+    <h2>Investor reference room</h2>
+    <p>Our public site explains the vision without exposing protected work. Qualified reviewers may request access to a controlled virtual data room after an introductory conversation.</p>
+    <a href="mailto:instructionalbiologyinc@gmail.com?subject=Investor%20introduction" class="btn-ghost">Approach the vault</a>
+  </div>
+</section>
+
+<section class="close" id="contact">
+  <div class="wrap">
+    <h2>Bring a difficult biological question.</h2>
+    <p>Briefings for research, clinical, and investment partners.</p>
+    <a href="mailto:instructionalbiologyinc@gmail.com" class="btn-primary">Start a conversation</a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top sitemap">
+      <div class="foot-brand">
+        <a href="/" class="mark"><img src="/assets/img/logo-mark.jpg" alt="Instructional Biology mark">Instructional Biology</a>
+        <p>Building an evidence-aware bridge between biological complexity, computational reasoning, and disciplined translation.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <a href="/about">About Us</a>
+        <a href="/about/founder">Founder's Story</a>
+        <a href="/about/contact/">Contact Us</a>
+        <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+      </div>
+      <div class="foot-col">
+        <h5>Technologies</h5>
+        <a href="/technologies">Our Technologies</a>
+        <a href="/technologies/poincare/">Poincaré Explorer</a>
+        <a href="/science">The Science</a>
+        <a href="/science/bio-manufacturing/">MHFBP</a>
+        <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+        <a href="/science/carrier-manufacturing/">Carrier-Manufacturing System</a>
+        <a href="/science/reasoning-system/">Reasoning System</a>
+        <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+      </div>
+      <div class="foot-col">
+        <h5>News</h5>
+        <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+        <a href="/insights/digital-twins/">Digital Twins</a>
+        <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+        <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+        <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+        <a href="/insights/in-silico/">In Silico</a>
+        <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+        <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+        <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+        <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+      </div>
+    </div>
+    <div class="foot-row">
+      <span>© 2026 Instructional Biology Inc. All rights reserved.</span>
+    </div>
+    <div class="foot-fine">Public, non-confidential information. Platform and program descriptions concern technologies in development and are not claims of clinical efficacy, regulatory approval, or medical advice.</div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/explorer3d.js"></script>
+</body>
+</html>
