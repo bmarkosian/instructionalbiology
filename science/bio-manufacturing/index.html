@@ -26,20 +26,102 @@
   <div class="wrap headbar">
     <a href="/" class="mark"><img src="/assets/img/logo-mark.jpg" alt="Instructional Biology mark">Instructional Biology</a>
     <nav class="primary-nav" aria-label="Primary">
-      <a href="/about">About Us</a>
-      <a href="/technologies">Our Technologies</a>
-      <a href="/science">The Science</a>
-      <a href="/insights">News</a>
+      <div class="nav-item">
+        <a href="/about">About Us</a>
+        <div class="nav-dropdown">
+          <a href="/about">Overview</a>
+          <a href="/about/founder">Founder's Story</a>
+          <a href="/about/contact/">Contact Us</a>
+          <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/technologies">Our Technologies</a>
+        <div class="nav-dropdown">
+          <a href="/technologies">Overview</a>
+          <a href="/technologies/poincare/">Poincaré Explorer</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/science">The Science</a>
+        <div class="nav-dropdown">
+          <a href="/science">Overview</a>
+          <a href="/science/bio-manufacturing/">MHFBP</a>
+          <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+          <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+          <a href="/science/reasoning-system/">Reasoning System</a>
+          <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/insights">Insights</a>
+        <div class="nav-dropdown">
+          <a href="/insights">Overview</a>
+          <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+          <a href="/insights/digital-twins/">Digital Twins</a>
+          <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+          <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+          <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+          <a href="/insights/in-silico/">In Silico</a>
+          <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+          <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+          <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+          <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+        </div>
+      </div>
+      <a href="/press">Press</a>
+      <a href="/faq">FAQ</a>
     </nav>
     <a href="mailto:instructionalbiologyinc@gmail.com" class="head-cta">Start a conversation</a>
     <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">☰</button>
   </div>
 </header>
 <nav class="mobile-nav" id="mobileNav" aria-label="Mobile" hidden>
-  <a href="/about">About Us</a>
-  <a href="/technologies">Our Technologies</a>
-  <a href="/science">The Science</a>
-  <a href="/insights">News</a>
+  <details class="mobile-nav-group">
+    <summary>About Us<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/about">Overview</a>
+      <a href="/about/founder">Founder's Story</a>
+      <a href="/about/contact/">Contact Us</a>
+      <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>Our Technologies<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/technologies">Overview</a>
+      <a href="/technologies/poincare/">Poincaré Explorer</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>The Science<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/science">Overview</a>
+      <a href="/science/bio-manufacturing/">MHFBP</a>
+      <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+      <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+      <a href="/science/reasoning-system/">Reasoning System</a>
+      <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>Insights<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/insights">Overview</a>
+      <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+      <a href="/insights/digital-twins/">Digital Twins</a>
+      <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+      <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+      <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+      <a href="/insights/in-silico/">In Silico</a>
+      <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+      <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+      <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+      <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+    </div>
+  </details>
+  <a href="/press">Press</a>
+  <a href="/faq">FAQ</a>
   <a href="mailto:instructionalbiologyinc@gmail.com" class="mobile-cta">Start a conversation</a>
 </nav>
 
@@ -62,12 +144,12 @@
     <p>Historically, biopharmaceutical processing has optimized hard for one variable — pathogen safety — using tools, chiefly high-heat sterilization, that are excellent at that one job and indifferent to structural preservation as a side effect. That trade-off made sense when there wasn't a practical alternative. It's made less sense as sourcing standards and non-thermal safety technologies have matured, because the two goals were never actually in permanent conflict — they were just usually pursued with tools that forced a conflict between them.</p>
 
     <h2>What MHFBP is designed to do differently</h2>
-    <p>MHFBP is a controlled processing protocol built around a straightforward design principle: use lower, carefully regulated temperatures to protect structural integrity, and rely on non-thermal methods — rather than brute heat — to manage pathogen safety. Paired with specific-pathogen-free sourcing, which meaningfully reduces the bioburden a process has to guard against in the first place, this changes how much thermal or chemical force is actually necessary to reach an acceptable safety margin, as opposed to how much has simply been standard industry practice.</p>
+    <p>MHFBP is a controlled processing protocol built around a straightforward design principle: use lower, carefully regulated temperatures to protect structural integrity, and rely on <a href="/science/pathogen-reduction/" style="color:var(--gold);">non-thermal methods</a> — rather than brute heat — to manage pathogen safety. Paired with specific-pathogen-free sourcing, which meaningfully reduces the bioburden a process has to guard against in the first place, this changes how much thermal or chemical force is actually necessary to reach an acceptable safety margin, as opposed to how much has simply been standard industry practice.</p>
 
     <p>The tradeoff is throughput. Lower-temperature, structure-preserving processing is slower than high-heat sterilization, and slower has historically meant less attractive at industrial scale. We think that tradeoff is worth making deliberately rather than avoiding by default — because a faster process that produces structurally silent material isn't actually solving the problem biomanufacturing exists to solve. It's optimizing for a proxy (pathogen safety) at the direct expense of the thing that proxy was supposed to protect (a functional, usable product).</p>
 
     <h2>Why this matters beyond one protocol</h2>
-    <p>We think of MHFBP as a case study in a broader principle that shows up across our platform: legacy defaults are often optimized for constraints that no longer fully apply, and revisiting them deliberately — rather than treating them as fixed — is frequently where the real engineering opportunity sits. That's as true of single-target pharmacology as it is of high-heat sterilization. In both cases, the field settled on a working answer decades ago and largely stopped asking whether the constraints that produced that answer still hold.</p>
+    <p>We think of MHFBP as a case study in a broader principle that shows up across <a href="/technologies" style="color:var(--gold);">our platform</a>: legacy defaults are often optimized for constraints that no longer fully apply, and revisiting them deliberately — rather than treating them as fixed — is frequently where the real engineering opportunity sits. That's as true of <a href="/insights/bespoke-therapeutics/" style="color:var(--gold);">single-target pharmacology</a> as it is of high-heat sterilization. In both cases, the field settled on a working answer decades ago and largely stopped asking whether the constraints that produced that answer still hold.</p>
 
     <p>MHFBP is our answer to that question for biomanufacturing specifically. It remains a protocol under active development, refined through iterative process work, and — like everything else on this page — it's a research-stage capability, not a finished, validated manufacturing standard.</p>
 
@@ -89,6 +171,8 @@
         <a href="/about/founder">Founder's Story</a>
         <a href="/about/contact/">Contact Us</a>
         <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+        <a href="/press">Press</a>
+        <a href="/faq">FAQ</a>
       </div>
       <div class="foot-col">
         <h5>Technologies</h5>
@@ -102,7 +186,7 @@
         <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
       </div>
       <div class="foot-col">
-        <h5>News</h5>
+        <h5>Insights</h5>
         <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
         <a href="/insights/digital-twins/">Digital Twins</a>
         <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
@@ -117,6 +201,7 @@
     </div>
     <div class="foot-row">
       <span>© 2026 Instructional Biology Inc. All rights reserved.</span>
+      <a class="foot-social" href="https://www.linkedin.com/in/boris-markosian" target="_blank" rel="noopener">LinkedIn ↗</a>
     </div>
     <div class="foot-fine">Public, non-confidential information. Platform and program descriptions concern technologies in development and are not claims of clinical efficacy, regulatory approval, or medical advice.</div>
   </div>

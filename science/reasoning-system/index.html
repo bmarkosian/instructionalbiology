@@ -26,20 +26,102 @@
   <div class="wrap headbar">
     <a href="/" class="mark"><img src="/assets/img/logo-mark.jpg" alt="Instructional Biology mark">Instructional Biology</a>
     <nav class="primary-nav" aria-label="Primary">
-      <a href="/about">About Us</a>
-      <a href="/technologies">Our Technologies</a>
-      <a href="/science">The Science</a>
-      <a href="/insights">News</a>
+      <div class="nav-item">
+        <a href="/about">About Us</a>
+        <div class="nav-dropdown">
+          <a href="/about">Overview</a>
+          <a href="/about/founder">Founder's Story</a>
+          <a href="/about/contact/">Contact Us</a>
+          <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/technologies">Our Technologies</a>
+        <div class="nav-dropdown">
+          <a href="/technologies">Overview</a>
+          <a href="/technologies/poincare/">Poincaré Explorer</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/science">The Science</a>
+        <div class="nav-dropdown">
+          <a href="/science">Overview</a>
+          <a href="/science/bio-manufacturing/">MHFBP</a>
+          <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+          <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+          <a href="/science/reasoning-system/">Reasoning System</a>
+          <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/insights">Insights</a>
+        <div class="nav-dropdown">
+          <a href="/insights">Overview</a>
+          <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+          <a href="/insights/digital-twins/">Digital Twins</a>
+          <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+          <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+          <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+          <a href="/insights/in-silico/">In Silico</a>
+          <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+          <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+          <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+          <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+        </div>
+      </div>
+      <a href="/press">Press</a>
+      <a href="/faq">FAQ</a>
     </nav>
     <a href="mailto:instructionalbiologyinc@gmail.com" class="head-cta">Start a conversation</a>
     <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">☰</button>
   </div>
 </header>
 <nav class="mobile-nav" id="mobileNav" aria-label="Mobile" hidden>
-  <a href="/about">About Us</a>
-  <a href="/technologies">Our Technologies</a>
-  <a href="/science">The Science</a>
-  <a href="/insights">News</a>
+  <details class="mobile-nav-group">
+    <summary>About Us<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/about">Overview</a>
+      <a href="/about/founder">Founder's Story</a>
+      <a href="/about/contact/">Contact Us</a>
+      <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>Our Technologies<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/technologies">Overview</a>
+      <a href="/technologies/poincare/">Poincaré Explorer</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>The Science<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/science">Overview</a>
+      <a href="/science/bio-manufacturing/">MHFBP</a>
+      <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+      <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+      <a href="/science/reasoning-system/">Reasoning System</a>
+      <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>Insights<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/insights">Overview</a>
+      <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+      <a href="/insights/digital-twins/">Digital Twins</a>
+      <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+      <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+      <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+      <a href="/insights/in-silico/">In Silico</a>
+      <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+      <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+      <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+      <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+    </div>
+  </details>
+  <a href="/press">Press</a>
+  <a href="/faq">FAQ</a>
   <a href="mailto:instructionalbiologyinc@gmail.com" class="mobile-cta">Start a conversation</a>
 </nav>
 
@@ -57,7 +139,7 @@
 <section class="article-body" style="padding-top:0;">
   <div class="wrap article-body">
     <h2>What this system actually does</h2>
-    <p>The reasoning system is the part of our platform that takes a large, messy body of biological evidence — peptides, receptors, signaling cascades, master regulators, disease states, outcomes, and the directional, typed relationships between them — and organizes it into a structure a computational model can reason over explicitly, rather than holding it informally in one researcher's working memory.</p>
+    <p>The reasoning system is the part of <a href="/technologies" style="color:var(--gold);">our platform</a> that takes a large, messy body of biological evidence — peptides, receptors, signaling cascades, master regulators, disease states, outcomes, and the directional, typed relationships between them — and organizes it into a structure a computational model can reason over explicitly, rather than holding it informally in one researcher's working memory.</p>
 
     <p>Two design choices make this possible. First, the underlying graph is embedded in a hyperbolic space rather than a flat, Euclidean one — a geometry that naturally accommodates the exponential branching of a real biological hierarchy without running out of representational room at the periphery, the way flat layouts do. Second, the reasoning layer on top of that embedding uses graph neural network message-passing that explicitly tracks relationship polarity — the difference between a peptide that activates a pathway and one that suppresses it — so that an activating relationship and an inhibiting one between the same two biological entities are never collapsed into a single, ambiguous signal.</p>
 
@@ -75,7 +157,7 @@
     <h2>What the reasoning system outputs, and what it doesn't</h2>
     <p>Given a candidate biological question, the reasoning system produces a ranked set of hypotheses — connections between a signaling molecule and a possible outcome, weighted by how well-supported the connecting evidence is and how central the intermediate biology is to the broader signaling network. It does not produce a diagnosis, a treatment decision, or a claim of efficacy. Every output is designed to be traceable back to the evidence that supports it, reviewed by a human before it goes anywhere near a laboratory bench, let alone a patient.</p>
 
-    <p>This is the layer every other system in our stack ultimately depends on. The carrier (exosome) manufacturing and therapeutic-regulation systems both take their individualized configuration from what this system maps; the bio-processing and pathogen-reduction systems exist to make sure the physical evidence feeding it hasn't already been degraded before it arrives.</p>
+    <p>This is the layer every other system in our stack ultimately depends on. The <a href="/science/carrier-manufacturing/" style="color:var(--gold);">carrier (exosome) manufacturing</a> and <a href="/science/therapeutic-regulation/" style="color:var(--gold);">therapeutic-regulation</a> systems both take their individualized configuration from what this system maps; the <a href="/science/bio-manufacturing/" style="color:var(--gold);">bio-processing</a> and <a href="/science/pathogen-reduction/" style="color:var(--gold);">pathogen-reduction</a> systems exist to make sure the physical evidence feeding it hasn't already been degraded before it arrives.</p>
 
     <div class="article-disclaimer" style="max-width:none;">This page describes a research thesis and technology under development, in general terms, for a public and non-confidential audience. It does not disclose proprietary process parameters and is not a claim that any Instructional Biology product treats, cures, or prevents any disease. Instructional Biology's platform and programs are research-stage and have not completed clinical development.</div>
   </div>
@@ -95,6 +177,8 @@
         <a href="/about/founder">Founder's Story</a>
         <a href="/about/contact/">Contact Us</a>
         <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+        <a href="/press">Press</a>
+        <a href="/faq">FAQ</a>
       </div>
       <div class="foot-col">
         <h5>Technologies</h5>
@@ -108,7 +192,7 @@
         <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
       </div>
       <div class="foot-col">
-        <h5>News</h5>
+        <h5>Insights</h5>
         <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
         <a href="/insights/digital-twins/">Digital Twins</a>
         <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
@@ -123,6 +207,7 @@
     </div>
     <div class="foot-row">
       <span>© 2026 Instructional Biology Inc. All rights reserved.</span>
+      <a class="foot-social" href="https://www.linkedin.com/in/boris-markosian" target="_blank" rel="noopener">LinkedIn ↗</a>
     </div>
     <div class="foot-fine">Public, non-confidential information. Platform and program descriptions concern technologies in development and are not claims of clinical efficacy, regulatory approval, or medical advice.</div>
   </div>

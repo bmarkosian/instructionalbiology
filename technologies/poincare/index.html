@@ -26,20 +26,102 @@
   <div class="wrap headbar">
     <a href="/" class="mark"><img src="/assets/img/logo-mark.jpg" alt="Instructional Biology mark">Instructional Biology</a>
     <nav class="primary-nav" aria-label="Primary">
-      <a href="/about">About Us</a>
-      <a href="/technologies">Our Technologies</a>
-      <a href="/science">The Science</a>
-      <a href="/insights">News</a>
+      <div class="nav-item">
+        <a href="/about">About Us</a>
+        <div class="nav-dropdown">
+          <a href="/about">Overview</a>
+          <a href="/about/founder">Founder's Story</a>
+          <a href="/about/contact/">Contact Us</a>
+          <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/technologies">Our Technologies</a>
+        <div class="nav-dropdown">
+          <a href="/technologies">Overview</a>
+          <a href="/technologies/poincare/">Poincaré Explorer</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/science">The Science</a>
+        <div class="nav-dropdown">
+          <a href="/science">Overview</a>
+          <a href="/science/bio-manufacturing/">MHFBP</a>
+          <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+          <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+          <a href="/science/reasoning-system/">Reasoning System</a>
+          <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/insights">Insights</a>
+        <div class="nav-dropdown">
+          <a href="/insights">Overview</a>
+          <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+          <a href="/insights/digital-twins/">Digital Twins</a>
+          <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+          <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+          <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+          <a href="/insights/in-silico/">In Silico</a>
+          <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+          <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+          <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+          <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+        </div>
+      </div>
+      <a href="/press">Press</a>
+      <a href="/faq">FAQ</a>
     </nav>
     <a href="mailto:instructionalbiologyinc@gmail.com" class="head-cta">Start a conversation</a>
     <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">☰</button>
   </div>
 </header>
 <nav class="mobile-nav" id="mobileNav" aria-label="Mobile" hidden>
-  <a href="/about">About Us</a>
-  <a href="/technologies">Our Technologies</a>
-  <a href="/science">The Science</a>
-  <a href="/insights">News</a>
+  <details class="mobile-nav-group">
+    <summary>About Us<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/about">Overview</a>
+      <a href="/about/founder">Founder's Story</a>
+      <a href="/about/contact/">Contact Us</a>
+      <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>Our Technologies<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/technologies">Overview</a>
+      <a href="/technologies/poincare/">Poincaré Explorer</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>The Science<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/science">Overview</a>
+      <a href="/science/bio-manufacturing/">MHFBP</a>
+      <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+      <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+      <a href="/science/reasoning-system/">Reasoning System</a>
+      <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>Insights<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/insights">Overview</a>
+      <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+      <a href="/insights/digital-twins/">Digital Twins</a>
+      <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+      <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+      <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+      <a href="/insights/in-silico/">In Silico</a>
+      <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+      <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+      <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+      <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+    </div>
+  </details>
+  <a href="/press">Press</a>
+  <a href="/faq">FAQ</a>
   <a href="mailto:instructionalbiologyinc@gmail.com" class="mobile-cta">Start a conversation</a>
 </nav>
 
@@ -58,7 +140,7 @@
   <div class="wrap">
     <div class="exp-card" style="text-align:center;padding:40px 32px;">
       <h6>Live demo</h6>
-      <p style="max-width:640px;margin:8px auto 20px;">The full interactive version of this map — drag to rotate, click any node to trace its labeled connections, and watch master regulators emerge from cross-talk density — now lives on the homepage.</p>
+      <p style="max-width:640px;margin:8px auto 20px;">The full interactive version of this map — drag to rotate, click any node to trace its labeled connections, and watch master regulators emerge from cross-talk density — now lives on <a href="/" style="color:var(--gold);">the homepage</a>.</p>
       <a href="/#poincare-explorer" class="btn-primary">Open the live explorer →</a>
     </div>
 
@@ -143,6 +225,8 @@
         <a href="/about/founder">Founder's Story</a>
         <a href="/about/contact/">Contact Us</a>
         <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+        <a href="/press">Press</a>
+        <a href="/faq">FAQ</a>
       </div>
       <div class="foot-col">
         <h5>Technologies</h5>
@@ -156,7 +240,7 @@
         <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
       </div>
       <div class="foot-col">
-        <h5>News</h5>
+        <h5>Insights</h5>
         <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
         <a href="/insights/digital-twins/">Digital Twins</a>
         <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
@@ -171,6 +255,7 @@
     </div>
     <div class="foot-row">
       <span>© 2026 Instructional Biology Inc. All rights reserved.</span>
+      <a class="foot-social" href="https://www.linkedin.com/in/boris-markosian" target="_blank" rel="noopener">LinkedIn ↗</a>
     </div>
     <div class="foot-fine">Public, non-confidential information. Platform and program descriptions concern technologies in development and are not claims of clinical efficacy, regulatory approval, or medical advice.</div>
   </div>
