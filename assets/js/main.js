@@ -198,20 +198,13 @@
   });
 })();
 
-// ---- Mailto-based forms: newsletter + contact ----
-// Static site, no backend — these open the visitor's email client with a
-// prefilled draft rather than silently storing submissions anywhere.
+// ---- Newsletter (MailerLite) + mailto-based contact form ----
+// The newsletter form posts directly to MailerLite (no JS needed for the
+// submission itself); this just pings their "form viewed" tracking endpoint.
 (function () {
   var newsletterForm = document.getElementById('newsletterForm');
-  if (newsletterForm) {
-    newsletterForm.addEventListener('submit', function (ev) {
-      ev.preventDefault();
-      var email = document.getElementById('newsletterEmail').value.trim();
-      if (!email) return;
-      var subject = encodeURIComponent('Newsletter signup');
-      var body = encodeURIComponent('Please add me to the Instructional Biology mailing list.\n\nEmail: ' + email);
-      window.location.href = 'mailto:instructionalbiologyinc@gmail.com?subject=' + subject + '&body=' + body;
-    });
+  if (newsletterForm && window.fetch) {
+    fetch('https://assets.mailerlite.com/jsonp/2626401/forms/198176186437731915/takel').catch(function () {});
   }
 
   var contactForm = document.getElementById('contactForm');
@@ -226,3 +219,4 @@
       window.location.href = 'mailto:instructionalbiologyinc@gmail.com?subject=' + subject + '&body=' + body;
     });
   }
+})();
