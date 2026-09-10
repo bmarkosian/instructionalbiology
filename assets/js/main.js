@@ -226,4 +226,3 @@
       window.location.href = 'mailto:instructionalbiologyinc@gmail.com?subject=' + subject + '&body=' + body;
     });
   }
-})();
