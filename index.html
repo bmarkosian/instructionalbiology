@@ -393,11 +393,13 @@
       <div class="eyebrow eyebrow-light" style="color:var(--muted-on-dark);">Stay close to the signal</div>
       <h2>Follow the evolution of Instructional Biology.</h2>
       <p>Occasional company perspectives, platform explainers, and public milestones — written for scientists, partners, and curious readers.</p>
-      <form id="newsletterForm" class="form-row" style="margin-top:28px;">
-        <input type="email" id="newsletterEmail" placeholder="Email address" required aria-label="Email address">
+      <form id="newsletterForm" class="form-row" style="margin-top:28px;" action="https://assets.mailerlite.com/jsonp/2626401/forms/198176186437731915/subscribe" method="post" target="_blank">
+        <input type="email" id="newsletterEmail" name="fields[email]" placeholder="Email address" required aria-label="Email address" autocomplete="email">
         <button type="submit">Stay informed</button>
+        <input type="hidden" name="ml-submit" value="1">
+        <input type="hidden" name="anticsrf" value="true">
       </form>
-      <p class="form-note">This opens a pre-filled email to instructionalbiologyinc@gmail.com — we'll add you to the list from there. A one-click signup is coming once we connect a mailing list provider.</p>
+      <p class="form-note">One click, no email client involved. We use double opt-in, so you'll get one confirmation email to verify before you're added to the list.</p>
     </div>
     <div>
       <div class="eyebrow eyebrow-light" style="color:var(--muted-on-dark);">Get in touch</div>
