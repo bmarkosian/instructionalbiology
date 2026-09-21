@@ -18,7 +18,7 @@
 <link rel="icon" href="/assets/img/favicon.png">
 <link rel="stylesheet" href="/assets/css/styles.css">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Organization","name":"Instructional Biology Inc.","alternateName":"iBIO","url":"https://www.instructionalbiology.com/","logo":"https://www.instructionalbiology.com/assets/img/logo-mark.jpg","foundingDate":"2026-02-05","founder":{"@type":"Person","name":"Boris Markosian","jobTitle":"Founder, CEO and sole inventor","sameAs":"https://www.linkedin.com/in/borismarkosian"},"address":{"@type":"PostalAddress","addressLocality":"Oceanside","addressRegion":"CA","addressCountry":"US"},"email":"instructionalbiologyinc@gmail.com","sameAs":["https://www.linkedin.com/company/instructional-biology/","https://www.linkedin.com/in/borismarkosian"],"description":"Biotechnology company developing an integrated platform spanning computational biology, artificial intelligence, high-fidelity bioprocessing, biological delivery systems, and patient-specific therapeutic regulation."}
+{"@context":"https://schema.org","@type":"Organization","name":"Instructional Biology Inc.","alternateName":"iBIO","url":"https://www.instructionalbiology.com/","logo":"https://www.instructionalbiology.com/assets/img/logo-mark.jpg","foundingDate":"2026-02-05","founder":{"@type":"Person","name":"Boris Markosian","jobTitle":"Founder, CEO and sole inventor","sameAs":"https://www.linkedin.com/in/borismarkosian"},"address":{"@type":"PostalAddress","addressLocality":"Oceanside","addressRegion":"CA","addressCountry":"US"},"email":"boris@instructionalbiology.com","sameAs":["https://www.linkedin.com/company/instructional-biology/","https://www.linkedin.com/in/borismarkosian"],"description":"Biotechnology company developing an integrated platform spanning computational biology, artificial intelligence, high-fidelity bioprocessing, biological delivery systems, and patient-specific therapeutic regulation."}
 </script>
 </head>
 <body>
@@ -75,7 +75,7 @@
       <a href="/press">Press</a>
       <a href="/faq">FAQ</a>
     </nav>
-    <a href="mailto:instructionalbiologyinc@gmail.com" class="head-cta">Start a conversation</a>
+    <a href="mailto:boris@instructionalbiology.com" class="head-cta">Start a conversation</a>
     <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">☰</button>
   </div>
 </header>
@@ -125,7 +125,7 @@
   </details>
   <a href="/press">Press</a>
   <a href="/faq">FAQ</a>
-  <a href="mailto:instructionalbiologyinc@gmail.com" class="mobile-cta">Start a conversation</a>
+  <a href="mailto:boris@instructionalbiology.com" class="mobile-cta">Start a conversation</a>
 </nav>
 
 <main id="main-content">
@@ -136,65 +136,24 @@
       <div class="doc-tag">Instructional Biology Inc. — <b>Advancing the future of medicine</b></div>
       <h1>Biology is not a list of parts. It is a language of instructions.</h1>
       <p class="hero-sub">We're building a connected way to reason about biological signaling — combining an evidence-aware AI architecture, native-state biological processing, and disciplined translation from computational hypothesis to laboratory validation.</p>
+      <div class="hero-film" style="margin:1.8rem 0;max-width:760px;">
+        <div style="position:relative;width:100%;padding-top:56.25%;background:#000;border-radius:6px;overflow:hidden;">
+          <iframe src="https://www.youtube-nocookie.com/embed/bFhmSKGn9xo?rel=0"
+                title="Instructional Biology — Instructional Medicine, in 60 seconds"
+                loading="eager" allowfullscreen
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+        </div>
+        <p class="exp-note" style="margin-top:.7rem;">Instructional Medicine in 60 seconds. <a href="https://youtu.be/bFhmSKGn9xo" style="color:var(--gold);">Watch on YouTube</a></p>
+      </div>
       <div class="hero-ctas">
         <a href="/technologies" class="btn-primary">Explore the platform</a>
-        <a href="mailto:instructionalbiologyinc@gmail.com" class="btn-ghost">Start a conversation</a>
+        <a href="mailto:boris@instructionalbiology.com" class="btn-ghost">Start a conversation</a>
       </div>
     </div>
   </div>
 </section>
-
-<section class="poincare-feature" id="poincare-explorer" style="padding-top:0;">
-  <div class="wrap exp-wrap" id="exp3d">
-    <div>
-      <div class="exp-stage">
-        <div class="exp-toggle" role="group" aria-label="Layout comparison">
-          <button id="expBHier" aria-pressed="true">Hierarchical layout</button>
-          <button id="expBUn" aria-pressed="false">Unordered comparison</button>
-        </div>
-        <canvas class="exp-canvas" width="900" height="620"></canvas>
-        <div class="exp-caption">Drag to rotate. Click any node — or the line connecting two nodes — and it rotates to the center, tracing its labeled connections. Regulators with the most cross-talk render larger and outlined in gold. Illustrative synthetic data — six tiers, seven nodes each.</div>
-      </div>
-      <div class="exp-card" style="margin-top:14px;">
-        <h6>Polarity under message passing</h6>
-        <div class="exp-polar">
-          <div class="exp-pcell">
-            <canvas id="expPA" width="220" height="130"></canvas>
-            <div class="lab">Attenuation toward zero</div>
-          </div>
-          <div class="exp-pcell">
-            <canvas id="expPB" width="220" height="130"></canvas>
-            <div class="lab">Norm-preserving rotation</div>
-          </div>
-        </div>
-        <p class="exp-note">Modeling an inhibitory relationship as attenuation drives its signal toward zero, where it becomes indistinguishable from no relationship at all. Modeling it as a rotation that preserves magnitude keeps a strong inhibitory signal distinguishable from an absent one — the difference between predicting a relationship is actively suppressed versus predicting it was never there. <a href="/technologies/poincare/" style="color:var(--gold);">Why we use hyperbolic geometry for this →</a></p>
-      </div>
-    </div>
-
-    <aside>
-      <div class="exp-card">
-        <h6>Selected node</h6>
-        <div id="expSel"><div class="ph">Click a node or a connecting line to trace it.</div></div>
-      </div>
-      <div class="exp-card">
-        <h6>Master regulators</h6>
-        <div class="exp-legend" id="expHubs"></div>
-        <p class="exp-note">Ranked by cross-talk connection count within the regulator tier — modeling how a handful of hub regulators (illustratively, the AKT/mTOR pattern) end up with disproportionately more pathway connections than the rest, rather than every regulator being equally connected.</p>
-      </div>
-      <div class="exp-card">
-        <h6>Layout diagnostics</h6>
-        <div class="exp-metric"><span class="k">Outer ÷ inner tier radius</span><span class="v" id="expSep">—</span></div>
-        <div class="exp-metric"><span class="k">Unconnected ÷ connected distance</span><span class="v" id="expEnc">—</span></div>
-        <div class="exp-metric"><span class="k">Max radius</span><span class="v" id="expRad">—</span></div>
-      </div>
-      <div class="exp-card">
-        <h6>Tiers</h6>
-        <div class="exp-legend" id="expLeg"></div>
-      </div>
-    </aside>
-  </div>
-</section>
-
 
 <section class="steps-section" id="company">
   <div class="wrap">
@@ -283,7 +242,7 @@
     <div class="sckg-text" style="max-width:640px;">
       <div class="eyebrow">The intelligence layer</div>
       <h2>ASAP: mapping biology as data.</h2>
-      <p>The Advanced Science AI Platform (ASAP) is built around the Signaling Cascade Knowledge Graph — a tiered, evidence-weighted representation of peptides, receptors, cascades, master regulators, disease states, and outcomes, embedded in a 16-dimensional Poincaré ball designed for hierarchy rather than a flat grid. The animated map above is a simplified, illustrative projection of that same graph, live — click any node to open the full explorer.</p>
+      <p>The Advanced Science AI Platform (ASAP) is built around the Signaling Cascade Knowledge Graph — a tiered, evidence-weighted representation of peptides, receptors, cascades, master regulators, disease states, and outcomes, embedded in a 16-dimensional Poincaré ball designed for hierarchy rather than a flat grid. An interactive projection of that graph — drag it, click through its connections — lives on the <a href="/technologies/poincare/" style="color:var(--gold);">Poincaré Explorer</a> page.</p>
       <ul>
         <li>Evidence-linked hypotheses, not black-box scores</li>
         <li>Hierarchy-aware relationship mapping across signaling tiers</li>
@@ -419,7 +378,7 @@
         </div>
         <button type="submit">Send message</button>
       </form>
-      <p class="form-note">Sends via your email client to instructionalbiologyinc@gmail.com. Direct: <a href="mailto:instructionalbiologyinc@gmail.com" style="color:var(--gold);">instructionalbiologyinc@gmail.com</a></p>
+      <p class="form-note">Sends via your email client to boris@instructionalbiology.com. Direct: <a href="mailto:boris@instructionalbiology.com" style="color:var(--gold);">boris@instructionalbiology.com</a></p>
     </div>
   </div>
 </section>
@@ -429,7 +388,7 @@
     <svg class="vault-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="1"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><circle cx="12" cy="15" r="1.4" fill="currentColor" stroke="none"/></svg>
     <h2>Investor reference room</h2>
     <p>Our public site explains the vision without exposing protected work. Qualified reviewers may request access to a controlled virtual data room after an introductory conversation.</p>
-    <a href="mailto:instructionalbiologyinc@gmail.com?subject=Investor%20introduction" class="btn-ghost">Approach the vault</a>
+    <a href="mailto:boris@instructionalbiology.com?subject=Investor%20introduction" class="btn-ghost">Approach the vault</a>
   </div>
 </section>
 
@@ -437,7 +396,7 @@
   <div class="wrap">
     <h2>Bring a difficult biological question.</h2>
     <p>Briefings for research, clinical, and investment partners.</p>
-    <a href="mailto:instructionalbiologyinc@gmail.com" class="btn-primary">Start a conversation</a>
+    <a href="mailto:boris@instructionalbiology.com" class="btn-primary">Start a conversation</a>
   </div>
 </section>
 
@@ -493,6 +452,5 @@
 </footer>
 
 <script src="/assets/js/main.js"></script>
-<script src="/assets/js/explorer3d.js"></script>
 </body>
 </html>

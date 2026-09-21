@@ -72,7 +72,7 @@
       <a href="/press">Press</a>
       <a href="/faq">FAQ</a>
     </nav>
-    <a href="mailto:instructionalbiologyinc@gmail.com" class="head-cta">Start a conversation</a>
+    <a href="mailto:boris@instructionalbiology.com" class="head-cta">Start a conversation</a>
     <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">☰</button>
   </div>
 </header>
@@ -122,7 +122,7 @@
   </details>
   <a href="/press">Press</a>
   <a href="/faq">FAQ</a>
-  <a href="mailto:instructionalbiologyinc@gmail.com" class="mobile-cta">Start a conversation</a>
+  <a href="mailto:boris@instructionalbiology.com" class="mobile-cta">Start a conversation</a>
 </nav>
 
 <main id="main-content">
@@ -136,55 +136,63 @@
   </div>
 </section>
 
-<section class="poincare-feature" style="padding-top:0;">
-  <div class="wrap">
-    <div class="exp-card" style="text-align:center;padding:40px 32px;">
-      <h6>Live demo</h6>
-      <p style="max-width:640px;margin:8px auto 20px;">The full interactive version of this map — drag to rotate, click any node to trace its labeled connections, and watch master regulators emerge from cross-talk density — now lives on <a href="/" style="color:var(--gold);">the homepage</a>.</p>
-      <a href="/#poincare-explorer" class="btn-primary">Open the live explorer →</a>
+<section style="padding:0 0 8px;">
+  <div class="wrap" style="max-width:720px;">
+    <h2 style="margin-bottom:.6rem;">What you are looking at</h2>
+    <p>Each dot is one biological entity — a peptide, a receptor, a signaling cascade, a master regulator, a disease state, or an outcome. Each line is a relationship between two of them.</p>
+    <p>What makes it a Poincaré ball rather than an ordinary three-dimensional scatter is the geometry. The space expands as you move outward, so a deep hierarchy has somewhere to go: broad regulators settle near the center, and increasingly specific entities push toward the boundary, without the lower tiers crowding into one another the way they do on a flat grid.</p>
+    <p>This is a simplified, illustrative projection of the Signaling Cascade Knowledge Graph that the Advanced Science AI Platform is built around — synthetic data, six tiers, seven nodes each. It is not live platform output.</p>
+  </div>
+</section>
+
+<section class="poincare-feature" id="poincare-explorer" style="padding-top:0;">
+  <div class="wrap exp-wrap" id="exp3d">
+    <div>
+      <div class="exp-stage">
+        <div class="exp-toggle" role="group" aria-label="Layout comparison">
+          <button id="expBHier" aria-pressed="true">Hierarchical layout</button>
+          <button id="expBUn" aria-pressed="false">Unordered comparison</button>
+        </div>
+        <canvas class="exp-canvas" width="900" height="620"></canvas>
+        <div class="exp-caption">Drag to rotate. Click any node — or the line connecting two nodes — and it rotates to the center, tracing its labeled connections. Regulators with the most cross-talk render larger and outlined in gold. Illustrative synthetic data — six tiers, seven nodes each.</div>
+      </div>
+      <div class="exp-card" style="margin-top:14px;">
+        <h6>Polarity under message passing</h6>
+        <div class="exp-polar">
+          <div class="exp-pcell">
+            <canvas id="expPA" width="220" height="130"></canvas>
+            <div class="lab">Attenuation toward zero</div>
+          </div>
+          <div class="exp-pcell">
+            <canvas id="expPB" width="220" height="130"></canvas>
+            <div class="lab">Norm-preserving rotation</div>
+          </div>
+        </div>
+        <p class="exp-note">Modeling an inhibitory relationship as attenuation drives its signal toward zero, where it becomes indistinguishable from no relationship at all. Modeling it as a rotation that preserves magnitude keeps a strong inhibitory signal distinguishable from an absent one — the difference between predicting a relationship is actively suppressed versus predicting it was never there. <a href="/technologies/poincare/" style="color:var(--gold);">Why we use hyperbolic geometry for this →</a></p>
+      </div>
     </div>
 
-    <div class="exp-card" style="margin-top:24px;">
-      <h6>Polarity under message passing</h6>
-      <div class="exp-polar">
-        <div class="exp-pcell">
-          <svg viewBox="0 0 220 130" width="220" height="130" role="img" aria-label="Diagram of attenuation: five arrows of shrinking length converging toward zero.">
-            <line x1="20" y1="65" x2="80" y2="65" stroke="#8b80e8" stroke-width="2"/>
-            <line x1="20" y1="65" x2="70" y2="53" stroke="#8b80e8" stroke-width="2" opacity="0.85"/>
-            <line x1="20" y1="65" x2="60" y2="41" stroke="#8b80e8" stroke-width="2" opacity="0.7"/>
-            <line x1="20" y1="65" x2="50" y2="29" stroke="#8b80e8" stroke-width="2" opacity="0.55"/>
-            <line x1="20" y1="65" x2="40" y2="17" stroke="#8b80e8" stroke-width="2" opacity="0.4"/>
-            <text x="90" y="69" fill="rgba(233,230,218,.5)" font-family="IBM Plex Mono, monospace" font-size="10">→ 0</text>
-          </svg>
-          <div class="lab">Attenuation toward zero</div>
-        </div>
-        <div class="exp-pcell">
-          <svg viewBox="0 0 220 130" width="220" height="130" role="img" aria-label="Diagram of norm-preserving rotation: five arrows of equal length sweeping through an angle.">
-            <line x1="110" y1="65" x2="172" y2="18" stroke="#d9b878" stroke-width="2" opacity="0.48"/>
-            <line x1="110" y1="65" x2="172" y2="38" stroke="#d9b878" stroke-width="2" opacity="0.61"/>
-            <line x1="110" y1="65" x2="172" y2="65" stroke="#d9b878" stroke-width="2" opacity="0.74"/>
-            <line x1="110" y1="65" x2="172" y2="92" stroke="#d9b878" stroke-width="2" opacity="0.87"/>
-            <line x1="110" y1="65" x2="172" y2="112" stroke="#d9b878" stroke-width="2"/>
-            <text x="70" y="122" fill="rgba(233,230,218,.5)" font-family="IBM Plex Mono, monospace" font-size="10">‖·‖ constant</text>
-          </svg>
-          <div class="lab">Norm-preserving rotation</div>
-        </div>
+    <aside>
+      <div class="exp-card">
+        <h6>Selected node</h6>
+        <div id="expSel"><div class="ph">Click a node or a connecting line to trace it.</div></div>
       </div>
-      <p class="exp-note">Modeling an inhibitory relationship as attenuation drives its signal toward zero, where it becomes indistinguishable from no relationship at all. Modeling it as a rotation that preserves magnitude keeps a strong inhibitory signal distinguishable from an absent one — the difference between predicting a relationship is actively suppressed versus predicting it was never there.</p>
-    </div>
-
-    <div class="exp-card" style="margin-top:24px;">
-      <h6>Tiers, center to boundary</h6>
-      <div class="exp-legend">
-        <div class="exp-lg"><span class="exp-dot" style="background:#b5654a"></span>Regulator</div>
-        <div class="exp-lg"><span class="exp-dot" style="background:#8b80e8"></span>Cascade</div>
-        <div class="exp-lg"><span class="exp-dot" style="background:#5b7a8c"></span>Receptor</div>
-        <div class="exp-lg"><span class="exp-dot" style="background:#4a5168"></span>Peptide</div>
-        <div class="exp-lg"><span class="exp-dot" style="background:#9a8f78"></span>Disease</div>
-        <div class="exp-lg"><span class="exp-dot" style="background:#d9b878"></span>Outcome</div>
+      <div class="exp-card">
+        <h6>Master regulators</h6>
+        <div class="exp-legend" id="expHubs"></div>
+        <p class="exp-note">Ranked by cross-talk connection count within the regulator tier — modeling how a handful of hub regulators (illustratively, the AKT/mTOR pattern) end up with disproportionately more pathway connections than the rest, rather than every regulator being equally connected.</p>
       </div>
-      <p class="exp-note">In the live explorer, regulators with the most cross-talk connections — the master regulators — render larger and outlined in gold, and tiers separate cleanly by radius: connected nodes sit closer together than unconnected ones, the way a hierarchy should.</p>
-    </div>
+      <div class="exp-card">
+        <h6>Layout diagnostics</h6>
+        <div class="exp-metric"><span class="k">Outer ÷ inner tier radius</span><span class="v" id="expSep">—</span></div>
+        <div class="exp-metric"><span class="k">Unconnected ÷ connected distance</span><span class="v" id="expEnc">—</span></div>
+        <div class="exp-metric"><span class="k">Max radius</span><span class="v" id="expRad">—</span></div>
+      </div>
+      <div class="exp-card">
+        <h6>Tiers</h6>
+        <div class="exp-legend" id="expLeg"></div>
+      </div>
+    </aside>
   </div>
 </section>
 
@@ -262,5 +270,6 @@
 </footer>
 
 <script src="/assets/js/main.js"></script>
+<script src="/assets/js/explorer3d.js"></script>
 </body>
 </html>
