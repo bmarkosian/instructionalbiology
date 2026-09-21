@@ -475,18 +475,3 @@ svg.is-animating .p-node{pointer-events:none;}
 .exp-pcell{text-align:center;}
 .exp-pcell canvas{border:1px solid var(--hair-dark);border-radius:2px;background:var(--ink);width:100%;height:auto;}
 .exp-pcell .lab{font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted-on-dark);margin-top:7px;font-family:'IBM Plex Mono',monospace;}
-
-/* ===== CENTERING PASS — 21 Sept 2026 =====
-   Section heads and heroes previously sat left while body content ran centred.
-   Delete this whole block to revert. Grid layouts (.thesis, .newsletter,
-   .insights-head) are deliberately two-column and are left untouched. */
-.hero-top{margin-inline:auto;text-align:center;}
-.hero-sub{margin-inline:auto;}
-.hero-ctas{justify-content:center;}
-
-.steps-head,.compare-head,.stack-head{margin-inline:auto;text-align:center;}
-.steps-head p,.compare-head p,.stack-head p{margin-inline:auto;}
-
-.hub-hero{text-align:center;}
-.hub-hero h1,.hub-hero p,.hub-hero .doc-tag{margin-inline:auto;}
-/* ===== END CENTERING PASS ===== */
