@@ -155,6 +155,125 @@
   </div>
 </section>
 
+<section class="chain" id="chain" aria-labelledby="chain-h">
+  <style>
+    .chain{padding:76px 0 8px;}
+    .chain .chain-head{max-width:660px;margin-bottom:34px;}
+    .chain h2{font-size:clamp(1.5rem,3.4vw,2.1rem);line-height:1.2;text-wrap:balance;margin-bottom:12px;}
+    .chain .chain-lede{color:var(--muted-on-dark);}
+    .chain-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(186px,1fr));gap:14px;}
+    .chain-card{display:flex;flex-direction:column;gap:10px;padding:22px 18px 20px;
+      border:1px solid var(--hair-dark);border-radius:var(--radius);background:var(--ink-2);
+      color:var(--cream-text);transition:border-color .2s,background .2s,transform .2s;}
+    .chain-card:hover,.chain-card:focus-visible{border-color:var(--gold);background:var(--ink-3);transform:translateY(-2px);}
+    .chain-card:focus-visible{outline:2px solid var(--gold);outline-offset:2px;}
+    .chain-num{font-size:.72rem;letter-spacing:.14em;color:var(--muted-on-dark);font-variant-numeric:tabular-nums;}
+    .chain-ico{width:44px;height:44px;color:var(--gold);}
+    .chain-card h3{font-size:1rem;line-height:1.25;}
+    .chain-card p{font-size:.85rem;line-height:1.5;color:var(--muted-on-dark);}
+    .chain-loop{display:flex;align-items:center;gap:12px;margin-top:20px;padding-top:18px;
+      border-top:1px solid var(--hair-dark);color:var(--muted-on-dark);font-size:.88rem;}
+    .chain-loop svg{flex:0 0 auto;width:26px;height:26px;color:var(--violet-bright);}
+    @media (max-width:640px){ .chain{padding-top:54px;} .chain-grid{gap:10px;} }
+  </style>
+  <div class="wrap">
+    <div class="chain-head">
+      <h2 id="chain-h">Five stages, run in order — and the chain closes.</h2>
+      <p class="chain-lede">Most platform companies own one layer and hand off to the next. A native signalling ensemble breaks that handoff, so every layer had to be built here.</p>
+    </div>
+    <div class="chain-grid">
+      <a class="chain-card" href="/science/reasoning-system/">
+        <span class="chain-num">01</span>
+        <svg class="chain-ico" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="19"/><path d="M6.5 16.5A24 24 0 0 1 36 39"/><path d="M16.5 6.5A24 24 0 0 0 39 36"/><path d="M5 24h38"/><circle cx="24" cy="24" r="2.2" fill="currentColor" stroke="none"/><circle cx="33" cy="15" r="1.7" fill="currentColor" stroke="none"/><circle cx="15" cy="33" r="1.7" fill="currentColor" stroke="none"/></svg>
+        <h3>Discovery</h3>
+        <p>ASAP maps signalling relationships in hyperbolic space, and asks which conditions are worth testing first.</p>
+      </a>
+      <a class="chain-card" href="/science/bio-manufacturing/">
+        <span class="chain-num">02</span>
+        <svg class="chain-ico" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17h30" stroke-dasharray="3 3" opacity=".8"/><path d="M24 7v23"/><circle cx="24" cy="36" r="6"/><path d="M24 22v10" stroke-width="3.2" stroke-linecap="round"/><circle cx="24" cy="36" r="2.6" fill="currentColor" stroke="none"/></svg>
+        <h3>Manufacture</h3>
+        <p>A non-denaturing extraction held inside two thermal limits for the whole run, with the telemetry to prove it.</p>
+      </a>
+      <a class="chain-card" href="/science/pathogen-reduction/">
+        <span class="chain-num">03</span>
+        <svg class="chain-ico" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 24h4l3-7 4 14 4-11 3 4h3"/><path d="M31 13.5l7.5 4.3v8.4L31 30.5l-7.5-4.3v-8.4z"/><path d="M27.5 24l3 3 5.5-6"/></svg>
+        <h3>Pathogen reduction</h3>
+        <p>An optical method that targets a pathogen's mechanical resonances while holding bulk temperature down.</p>
+      </a>
+      <a class="chain-card" href="/science/carrier-manufacturing/">
+        <span class="chain-num">04</span>
+        <svg class="chain-ico" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="16"/><circle cx="24" cy="24" r="11.5" stroke-dasharray="2.5 2.5"/><circle cx="21" cy="22" r="2" fill="currentColor" stroke="none"/><circle cx="27.5" cy="26" r="1.6" fill="currentColor" stroke="none"/><path d="M24 8V4M24 44v-4M8 24H4M44 24h-4M13 13l-3-3M35 35l3 3M35 13l3-3M13 35l-3 3"/></svg>
+        <h3>Carrier</h3>
+        <p>A payload-agnostic exosome carrier — the vesicle and its targeting architecture, independent of what is loaded.</p>
+      </a>
+      <a class="chain-card" href="/science/therapeutic-regulation/">
+        <span class="chain-num">05</span>
+        <svg class="chain-ico" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 28c5-13 9-13 14 0s9 13 14 0 8-9 12-4"/><path d="M11 40v-6M21 40v-9M31 40v-4M41 40v-8"/><path d="M4 40h40" opacity=".5"/></svg>
+        <h3>Dosing</h3>
+        <p>A digital twin reading continuous wearable data, because one time-point cannot characterise a varying signal.</p>
+      </a>
+    </div>
+    <p class="chain-loop">
+      <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 4v7h-7"/></svg>
+      <span>What the last stage measures in a patient returns to the model that selected the target.</span>
+    </p>
+  </div>
+</section>
+
+<section class="siteindex" aria-labelledby="idx-h">
+  <style>
+    .siteindex{padding:56px 0 8px;}
+    .siteindex h2{font-size:clamp(1.35rem,3vw,1.8rem);margin-bottom:8px;text-wrap:balance;}
+    .siteindex .idx-lede{color:var(--muted-on-dark);max-width:620px;margin-bottom:30px;}
+    .idx-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;
+      border:1px solid var(--hair-dark);background:var(--hair-dark);}
+    @media (max-width:980px){ .idx-grid{grid-template-columns:repeat(2,1fr);} }
+    @media (max-width:620px){ .idx-grid{grid-template-columns:1fr;} }
+    .idx-tile{display:flex;gap:16px;align-items:flex-start;padding:24px 22px;background:var(--ink);
+      color:var(--cream-text);transition:background .2s;}
+    .idx-tile:hover,.idx-tile:focus-visible{background:var(--ink-3);}
+    .idx-tile:focus-visible{outline:2px solid var(--gold);outline-offset:-2px;}
+    .idx-ico{flex:0 0 auto;width:34px;height:34px;color:var(--violet-bright);margin-top:2px;}
+    .idx-tile h3{font-size:1.02rem;margin-bottom:5px;}
+    .idx-arrow{color:var(--gold);opacity:0;transition:opacity .2s,transform .2s;display:inline-block;}
+    .idx-tile:hover .idx-arrow,.idx-tile:focus-visible .idx-arrow{opacity:1;transform:translateX(3px);}
+    .idx-tile p{font-size:.85rem;line-height:1.5;color:var(--muted-on-dark);}
+    @media (max-width:640px){ .siteindex{padding-top:42px;} .idx-tile{padding:20px 18px;gap:13px;} }
+  </style>
+  <div class="wrap">
+    <h2 id="idx-h">Where to go next.</h2>
+    <p class="idx-lede">The platform is easier to follow one layer at a time.</p>
+    <div class="idx-grid">
+      <a class="idx-tile" href="/science/">
+        <svg class="idx-ico" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6v12L8 36a4 4 0 0 0 3.5 6h25A4 4 0 0 0 40 36L30 18V6"/><path d="M15 6h18"/><path d="M13.5 28h21"/></svg>
+        <div><h3>Science <span class="idx-arrow" aria-hidden="true">&#8594;</span></h3><p>The five technologies, each on its own page, written to be read rather than decoded.</p></div>
+      </a>
+      <a class="idx-tile" href="/technologies/">
+        <svg class="idx-ico" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="9" width="34" height="30" rx="3"/><path d="M7 18h34"/><path d="M15 26h8M15 32h14"/><circle cx="12" cy="13.5" r="1.4" fill="currentColor" stroke="none"/></svg>
+        <div><h3>Technologies <span class="idx-arrow" aria-hidden="true">&#8594;</span></h3><p>What is claimed, what is filed, and where each family sits in the chain.</p></div>
+      </a>
+      <a class="idx-tile" href="/insights/">
+        <svg class="idx-ico" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M24 5a13 13 0 0 0-7.6 23.5c1.4 1 2.1 2.5 2.1 4.1V34h11v-1.4c0-1.6.7-3.1 2.1-4.1A13 13 0 0 0 24 5z"/><path d="M19.5 38.5h9M21.5 42.5h5"/><path d="M24 20v9" opacity=".55"/></svg>
+        <div><h3>Insights <span class="idx-arrow" aria-hidden="true">&#8594;</span></h3><p>Longer pieces on the patent cliff, bespoke dosing, and why nobody crossed this line.</p></div>
+      </a>
+      <a class="idx-tile" href="/press/">
+        <svg class="idx-ico" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="11" width="30" height="26" rx="2"/><path d="M36 18h6v15a4 4 0 0 1-8 0"/><path d="M11 17h20M11 23h20M11 29h12"/></svg>
+        <div><h3>Press <span class="idx-arrow" aria-hidden="true">&#8594;</span></h3><p>Filings, announcements and the material a reporter can verify in thirty seconds.</p></div>
+      </a>
+      <a class="idx-tile" href="/about/founder/">
+        <svg class="idx-ico" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="17" r="7"/><path d="M10 40a14 14 0 0 1 28 0"/></svg>
+        <div><h3>Founder <span class="idx-arrow" aria-hidden="true">&#8594;</span></h3><p>Fifteen years, one inventor, and the reason the work looks the way it does.</p></div>
+      </a>
+      <a class="idx-tile" href="/about/contact/">
+        <svg class="idx-ico" viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="11" width="36" height="26" rx="3"/><path d="M6.5 13.5L24 26l17.5-12.5"/></svg>
+        <div><h3>Contact <span class="idx-arrow" aria-hidden="true">&#8594;</span></h3><p>Replication partners, licensing conversations, and anything difficult.</p></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
 <section class="steps-section" id="company">
   <div class="wrap">
     <div class="steps-head">
