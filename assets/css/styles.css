@@ -490,3 +490,6 @@ svg.is-animating .p-node{pointer-events:none;}
 .hub-hero{text-align:center;}
 .hub-hero h1,.hub-hero p,.hub-hero .doc-tag{margin-inline:auto;}
 /* ===== END CENTERING PASS ===== */
+
+/* Every title centered, on every page (Boris, 24 Oct 2026) */
+h1,h2,h3{text-align:center;margin-left:auto;margin-right:auto;}
