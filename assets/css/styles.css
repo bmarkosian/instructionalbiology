@@ -510,3 +510,11 @@ h1,h2,h3{text-align:center;margin-left:auto;margin-right:auto;}
 .embed-code{margin-top:10px;font-size:.8rem;color:var(--muted-on-dark);}
 .embed-code summary{cursor:pointer;color:var(--gold);}
 .embed-code textarea{width:100%;margin-top:8px;background:#0f121b;color:#c3c0b3;border:1px solid var(--hair-dark);border-radius:4px;padding:10px;font-family:'IBM Plex Mono',monospace;font-size:.75rem;}
+
+.glossary-index{line-height:2;font-size:.95rem;}
+.glossary-term{padding:28px 0;border-top:1px solid var(--hair-dark);scroll-margin-top:90px;}
+.glossary-term h2{margin-top:0;font-size:1.4rem;}
+.glossary-link{font-size:.9rem;}
+
+.wrap.article-body{padding:64px 32px;}
+@media (max-width:640px){ .wrap.article-body{padding:48px 22px;} }

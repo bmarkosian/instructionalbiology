@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ME38LW4JC8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ME38LW4JC8');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biotech Glossary in Plain Language | Instructional Biology</title>
+<meta name="description" content="A plain-language biotech glossary: Instructional Medicine, ASAP, the Signaling Cascade Knowledge Graph, Poincaré ball, MHFBP, exosomes and digital twins.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Instructional Biology">
+<meta property="og:title" content="Biotech Glossary in Plain Language | Instructional Biology">
+<meta property="og:description" content="A plain-language biotech glossary: Instructional Medicine, ASAP, the Signaling Cascade Knowledge Graph, Poincaré ball, MHFBP, exosomes and digital twins.">
+<meta property="og:url" content="https://www.instructionalbiology.com/glossary/">
+<meta property="og:image" content="https://www.instructionalbiology.com/assets/img/share/glossary.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Biotech Glossary in Plain Language | Instructional Biology">
+<meta name="twitter:description" content="A plain-language biotech glossary: Instructional Medicine, ASAP, the Signaling Cascade Knowledge Graph, Poincaré ball, MHFBP, exosomes and digital twins.">
+<meta name="twitter:image" content="https://www.instructionalbiology.com/assets/img/share/glossary.jpg">
+<link rel="canonical" href="https://www.instructionalbiology.com/glossary/">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Plain-Language Biotech Glossary">
+<link rel="icon" href="/assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Inter:wght@400;500;600;700&amp;display=swap">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<!-- seo-jsonld -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.instructionalbiology.com/"}, {"@type": "ListItem", "position": 2, "name": "Glossary", "item": "https://www.instructionalbiology.com/glossary/"}]}, {"@type": "DefinedTermSet", "name": "Instructional Biology Glossary", "url": "https://www.instructionalbiology.com/glossary/", "hasDefinedTerm": [{"@type": "DefinedTerm", "name": "Instructional Medicine", "description": "Instructional Medicine is Instructional Biology's research thesis for a more context-aware approach to biology. It means identifying how biological signals relate to one another, preserving what they mean, and building around what the system is communicating, rather than forcing a single receptor and waiting to see what breaks elsewhere. The company uses the term for its five technology systems run as one integrated program.", "url": "https://www.instructionalbiology.com/glossary/#instructional-medicine"}, {"@type": "DefinedTerm", "name": "Network pharmacology", "description": "Network pharmacology is the study of drugs and biology as networks of interacting signals rather than isolated targets. Together with systems biology, it has been an active academic field for well over a decade. Instructional Biology's platform is built to supply the tooling that makes this kind of reasoning workable at the scale a real research program needs.", "url": "https://www.instructionalbiology.com/glossary/#network-pharmacology"}, {"@type": "DefinedTerm", "name": "ASAP (Advanced Science AI Platform)", "description": "ASAP is Instructional Biology's biology-native AI platform. It organizes biological evidence into the Signaling Cascade Knowledge Graph so that relationships between signals, receptors, cascades and outcomes can be reasoned about explicitly instead of inferred from a flat list. It is the discovery stage of the platform: it maps signaling relationships and ranks which questions are worth testing first, with human review at every gate.", "url": "https://www.instructionalbiology.com/glossary/#asap"}, {"@type": "DefinedTerm", "name": "Signaling Cascade Knowledge Graph (SCKG)", "description": "The SCKG is a tiered, evidence-weighted map of peptides, receptors, signaling cascades, master regulators, disease states and outcomes, plus the typed, directional relationships between them. It lets a network-level hypothesis be reasoned about explicitly, and each relationship is meant to be traceable back to the evidence that supports it. ASAP is built around it.", "url": "https://www.instructionalbiology.com/glossary/#signaling-cascade-knowledge-graph"}, {"@type": "DefinedTerm", "name": "Poincaré ball", "description": "A Poincaré ball is a model of hyperbolic space: a bounded ball in which distance compresses as you move outward, so an entire branching hierarchy fits inside without flattening its structure. Instructional Biology embeds the full Signaling Cascade Knowledge Graph in a 16-dimensional Poincaré ball; the Poincaré Explorer page shows a simplified two-dimensional disk projection.", "url": "https://www.instructionalbiology.com/glossary/#poincare-ball"}, {"@type": "DefinedTerm", "name": "Hyperbolic space", "description": "Hyperbolic space is a non-Euclidean geometry in which available room grows exponentially as you move away from the center, while flat Euclidean space grows only polynomially. Because a biological hierarchy also branches exponentially, it fits naturally in hyperbolic space without nodes crowding together. Hyperbolic embeddings for hierarchical data were formalized by Nickel and Kiela in 2017.", "url": "https://www.instructionalbiology.com/glossary/#hyperbolic-space"}, {"@type": "DefinedTerm", "name": "Master regulator", "description": "A master regulator is a broadly influential signaling hub that affects many downstream cascades at once. In the Signaling Cascade Knowledge Graph, master regulators sit near the center of the Poincaré disk, while more specific entities such as receptors, peptides and outcomes sit further out. A handful of hub regulators, illustratively the AKT/mTOR pattern, end up with disproportionately more pathway connections than the rest.", "url": "https://www.instructionalbiology.com/glossary/#master-regulator"}, {"@type": "DefinedTerm", "name": "Graph neural network (GNN)", "description": "A graph neural network is a machine-learning model that learns by passing messages along the connections of a graph. Instructional Biology's reasoning system uses GNN message-passing that tracks relationship polarity, so an activating relationship and an inhibiting one between the same two entities are never collapsed into a single signal. Its output is a ranked set of evidence-linked hypotheses, reviewed by a human.", "url": "https://www.instructionalbiology.com/glossary/#graph-neural-network"}, {"@type": "DefinedTerm", "name": "Agonist and antagonist", "description": "An agonist activates a receptor or pathway; an antagonist blocks or suppresses it. Telling the two apart is a core design choice in Instructional Biology's reasoning system. Modeling inhibition as a magnitude-preserving rotation keeps a strong inhibitory signal distinguishable from no relationship at all.", "url": "https://www.instructionalbiology.com/glossary/#agonist-and-antagonist"}, {"@type": "DefinedTerm", "name": "In silico", "description": "In silico, literally \"in silicon\", means running a first pass of testing inside a computational model instead of a physical experiment. It does not replace the lab; it filters a large space of plausible ideas down to the handful worth spending real material and time on. This discipline is at the core of ASAP.", "url": "https://www.instructionalbiology.com/glossary/#in-silico"}, {"@type": "DefinedTerm", "name": "MHFBP (Markosian High-Fidelity Bio-Processing Protocol)", "description": "MHFBP is Instructional Biology's controlled, lower-temperature processing protocol. It uses carefully regulated temperatures to protect the structure of fragile proteins and peptides, and relies on non-thermal methods rather than heat to manage pathogen safety. The patent filing describes automated temperature controls, monitoring, structural integrity sensing, rapid cooling and defined process limits.", "url": "https://www.instructionalbiology.com/glossary/#mhfbp"}, {"@type": "DefinedTerm", "name": "Thermosensitive Peptidome (TSP)", "description": "The Thermosensitive Peptidome, or TSP, is Instructional Biology's term for the collection of temperature-sensitive signaling peptides and proteins it seeks to protect during processing. These molecules carry their function in their three-dimensional fold, which heat can undo even without breaking a chemical bond. The site describes the band most at risk as roughly a few thousand to around a hundred thousand daltons.", "url": "https://www.instructionalbiology.com/glossary/#thermosensitive-peptidome"}, {"@type": "DefinedTerm", "name": "Native state", "description": "A protein's native state is its working three-dimensional shape, the fold its amino acid sequence guides it into. That shape is what lets an enzyme grip its target or a hormone fit its receptor. Preserving native structure through processing is the goal of Instructional Biology's bio-processing work.", "url": "https://www.instructionalbiology.com/glossary/#native-state"}, {"@type": "DefinedTerm", "name": "Protein denaturation", "description": "Denaturation is the loss of a protein's native three-dimensional shape, caused by heat, extreme pH, mechanical shear or other stresses. A denatured protein can still be chemically present but no longer able to do its job, and unfolded proteins tend to clump together, a process called aggregation. A cooked egg white turning solid is a familiar example.", "url": "https://www.instructionalbiology.com/glossary/#protein-denaturation"}, {"@type": "DefinedTerm", "name": "Peptide", "description": "Peptides and proteins are both chains of amino acids; peptides are the shorter chains, and proteins are longer ones that fold into compact, specific structures. Many of the body's signaling molecules are peptides. Many of the temperature-sensitive signaling molecules Instructional Biology seeks to protect are peptides.", "url": "https://www.instructionalbiology.com/glossary/#peptide"}, {"@type": "DefinedTerm", "name": "Biologic", "description": "A biologic is a medicine made from proteins, such as antibodies, hormones and enzymes, rather than a small synthetic chemical. Because biologics depend on a precise shape, their structural sensitivity shapes how they are made, stored and given. Instructional Biology's platform is built on natural, native biologics.", "url": "https://www.instructionalbiology.com/glossary/#biologic"}, {"@type": "DefinedTerm", "name": "Specific-pathogen-free sourcing", "description": "Specific-pathogen-free (SPF) sourcing means starting from source material raised or collected to be free of defined pathogens. It reduces the bioburden a process has to guard against in the first place. In MHFBP, that changes how much thermal or chemical force is actually needed to reach an acceptable safety margin.", "url": "https://www.instructionalbiology.com/glossary/#specific-pathogen-free-sourcing"}, {"@type": "DefinedTerm", "name": "Pathogen reduction", "description": "Pathogen reduction is any step that lowers the load of viruses and other pathogens in biological material so it is safe to use. The traditional method is heat, which also damages fragile proteins. Instructional Biology's pathogen-reduction system is non-thermal: ultrashort-pulse optical clearance tuned below the threshold that damages protein structure.", "url": "https://www.instructionalbiology.com/glossary/#pathogen-reduction"}, {"@type": "DefinedTerm", "name": "ISRS (impulsive stimulated Raman scattering)", "description": "ISRS is a physical process in which an extremely short laser pulse drives large vibrations in a molecule. Tuned to a viral capsid's own vibrational mode, it can weaken the bonds holding the capsid together without heating the surrounding material. It was first shown to inactivate viruses in 2007, and it is the published basis for Instructional Biology's pathogen-reduction system, listed on the site as ISRS-ML.", "url": "https://www.instructionalbiology.com/glossary/#isrs"}, {"@type": "DefinedTerm", "name": "Exosome (extracellular vesicle)", "description": "Exosomes are nanoscale, membrane-wrapped particles released by cells, roughly 40 to 160 nanometres across, that carry proteins, lipids, nucleic acids and metabolites. They belong to the larger family of extracellular vesicles (EVs), which cells use to exchange molecules. Researchers study them as natural drug-delivery carriers.", "url": "https://www.instructionalbiology.com/glossary/#exosome"}, {"@type": "DefinedTerm", "name": "Exosome carrier (MET-APFS)", "description": "Instructional Biology's carrier (exosome) manufacturing system, listed on the site as MET-APFS, builds engineered delivery vesicles modeled on the body's own extracellular vesicle transport. The carrier protects a payload in circulation, and its configuration is informed by the reasoning system for each individual. It is designed to be payload-agnostic, potentially including proteins, peptides and nucleic acid-based cargo.", "url": "https://www.instructionalbiology.com/glossary/#exosome-carrier"}, {"@type": "DefinedTerm", "name": "Digital twin", "description": "In medicine, a digital twin is a computational model of one person's biological signaling, built from their own data, that updates as new signals arrive. It is not a duplicate of a person or a crystal ball; it is a model bounded by the evidence that built it. For Instructional Biology it is a multi-year research direction, not a current product.", "url": "https://www.instructionalbiology.com/glossary/#digital-twin"}, {"@type": "DefinedTerm", "name": "Digital biomarker", "description": "A biomarker is a measured characteristic that indicates normal biology, disease, or a response to treatment. A digital biomarker is the same idea collected with sensors and software, often outside the clinic through wearable, implantable or ingestible devices. Continuous glucose monitors and smartwatch readings are common sources.", "url": "https://www.instructionalbiology.com/glossary/#digital-biomarker"}, {"@type": "DefinedTerm", "name": "Closed-loop dosing", "description": "Closed-loop dosing revises a treatment plan based on measured individual response instead of leaving a fixed dose in place. In Instructional Biology's therapeutic-regulation system, the loop closes only within boundaries a clinician has set in advance, the clinician-authorized envelope. Any signal outside that envelope escalates to a human reviewer; it is never an autonomous device decision.", "url": "https://www.instructionalbiology.com/glossary/#closed-loop-dosing"}, {"@type": "DefinedTerm", "name": "Patent cliff", "description": "A patent cliff is a period when many branded drugs lose patent exclusivity at once, opening them to generic competition. Between 2025 and 2030, close to 200 branded drugs are set to lose exclusivity, which Instructional Biology calls Patent Cliff 2.0. Its thesis is that the durable opportunity is a reusable way of reasoning about biological signaling, which does not expire the way a single-molecule patent does.", "url": "https://www.instructionalbiology.com/glossary/#patent-cliff"}]}]}
+</script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="top-line"></div>
+
+<header>
+  <div class="wrap headbar">
+    <a href="/" class="mark"><img src="/assets/img/logo-mark.jpg" alt="Instructional Biology mark">Instructional Biology</a>
+    <nav class="primary-nav" aria-label="Primary">
+      <div class="nav-item">
+        <a href="/about/">About Us</a>
+        <div class="nav-dropdown">
+          <a href="/about/">Overview</a>
+          <a href="/about/founder/">Founder's Story</a>
+          <a href="/about/contact/">Contact Us</a>
+          <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/technologies/">Our Technologies</a>
+        <div class="nav-dropdown">
+          <a href="/technologies/">Overview</a>
+          <a href="/technologies/poincare/">Poincaré Explorer</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/science/">The Science</a>
+        <div class="nav-dropdown">
+          <a href="/science/">Overview</a>
+          <a href="/science/bio-manufacturing/">MHFBP</a>
+          <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+          <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+          <a href="/science/reasoning-system/">Reasoning System</a>
+          <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/insights/">Insights</a>
+        <div class="nav-dropdown">
+          <a href="/insights/">Overview</a>
+          <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+          <a href="/insights/digital-twins/">Digital Twins</a>
+          <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+          <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+          <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+          <a href="/insights/in-silico/">In Silico</a>
+          <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+          <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+          <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+          <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+          <a href="/insights/what-are-exosomes/">What Are Exosomes</a>
+          <a href="/insights/why-heat-denatures-proteins/">Heat and Proteins</a>
+          <a href="/insights/wearable-health-monitoring/">Wearable Monitoring</a>
+          <a href="/insights/why-drugs-fail-clinical-trials/">Why Drugs Fail</a>
+        </div>
+      </div>
+      <a href="/press/">Press</a>
+      <a href="/faq/">FAQ</a>
+    </nav>
+    <a href="mailto:boris@instructionalbiology.com" class="head-cta">Start a conversation</a>
+    <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">☰</button>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile" hidden>
+  <details class="mobile-nav-group">
+    <summary>About Us<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/about/">Overview</a>
+      <a href="/about/founder/">Founder's Story</a>
+      <a href="/about/contact/">Contact Us</a>
+      <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>Our Technologies<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/technologies/">Overview</a>
+      <a href="/technologies/poincare/">Poincaré Explorer</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>The Science<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/science/">Overview</a>
+      <a href="/science/bio-manufacturing/">MHFBP</a>
+      <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+      <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+      <a href="/science/reasoning-system/">Reasoning System</a>
+      <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>Insights<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/insights/">Overview</a>
+      <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+      <a href="/insights/digital-twins/">Digital Twins</a>
+      <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+      <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+      <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+      <a href="/insights/in-silico/">In Silico</a>
+      <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+      <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+      <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+      <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+      <a href="/insights/what-are-exosomes/">What Are Exosomes</a>
+      <a href="/insights/why-heat-denatures-proteins/">Heat and Proteins</a>
+      <a href="/insights/wearable-health-monitoring/">Wearable Monitoring</a>
+      <a href="/insights/why-drugs-fail-clinical-trials/">Why Drugs Fail</a>
+    </div>
+  </details>
+  <a href="/press/">Press</a>
+  <a href="/faq/">FAQ</a>
+  <a href="mailto:boris@instructionalbiology.com" class="mobile-cta">Start a conversation</a>
+</nav>
+
+<main id="main-content">
+<section class="hub-hero">
+  <div class="wrap">
+    <div class="hero-top">
+      <div class="doc-tag">Instructional Biology Inc. — <b>Glossary</b></div>
+      <h1>Glossary</h1>
+      <p class="hero-sub">Instructional Biology works where biology, manufacturing and AI meet, and each field brings its own vocabulary. This glossary explains the terms used across www.instructionalbiology.com in plain language: our own names, such as Instructional Medicine, ASAP and MHFBP, alongside the general science terms they build on, such as peptides, exosomes and hyperbolic space. Each entry links to the page that explains it in depth. Instructional Biology's platform and programs are research-stage and have not completed clinical development.</p>
+    </div>
+  </div>
+</section>
+
+<section style="padding:0 0 64px;">
+  <div class="wrap article-body">
+    <p class="glossary-index"><a href="#instructional-medicine" style="color:var(--gold);">Instructional Medicine</a> · <a href="#network-pharmacology" style="color:var(--gold);">Network pharmacology</a> · <a href="#asap" style="color:var(--gold);">ASAP (Advanced Science AI Platform)</a> · <a href="#signaling-cascade-knowledge-graph" style="color:var(--gold);">Signaling Cascade Knowledge Graph (SCKG)</a> · <a href="#poincare-ball" style="color:var(--gold);">Poincaré ball</a> · <a href="#hyperbolic-space" style="color:var(--gold);">Hyperbolic space</a> · <a href="#master-regulator" style="color:var(--gold);">Master regulator</a> · <a href="#graph-neural-network" style="color:var(--gold);">Graph neural network (GNN)</a> · <a href="#agonist-and-antagonist" style="color:var(--gold);">Agonist and antagonist</a> · <a href="#in-silico" style="color:var(--gold);">In silico</a> · <a href="#mhfbp" style="color:var(--gold);">MHFBP (Markosian High-Fidelity Bio-Processing Protocol)</a> · <a href="#thermosensitive-peptidome" style="color:var(--gold);">Thermosensitive Peptidome (TSP)</a> · <a href="#native-state" style="color:var(--gold);">Native state</a> · <a href="#protein-denaturation" style="color:var(--gold);">Protein denaturation</a> · <a href="#peptide" style="color:var(--gold);">Peptide</a> · <a href="#biologic" style="color:var(--gold);">Biologic</a> · <a href="#specific-pathogen-free-sourcing" style="color:var(--gold);">Specific-pathogen-free sourcing</a> · <a href="#pathogen-reduction" style="color:var(--gold);">Pathogen reduction</a> · <a href="#isrs" style="color:var(--gold);">ISRS (impulsive stimulated Raman scattering)</a> · <a href="#exosome" style="color:var(--gold);">Exosome (extracellular vesicle)</a> · <a href="#exosome-carrier" style="color:var(--gold);">Exosome carrier (MET-APFS)</a> · <a href="#digital-twin" style="color:var(--gold);">Digital twin</a> · <a href="#digital-biomarker" style="color:var(--gold);">Digital biomarker</a> · <a href="#closed-loop-dosing" style="color:var(--gold);">Closed-loop dosing</a> · <a href="#patent-cliff" style="color:var(--gold);">Patent cliff</a></p>
+    <div class="glossary-term" id="instructional-medicine">
+      <h2>Instructional Medicine</h2>
+      <p>Instructional Medicine is Instructional Biology's research thesis for a more context-aware approach to biology. It means identifying how biological signals relate to one another, preserving what they mean, and building around what the system is communicating, rather than forcing a single receptor and waiting to see what breaks elsewhere. The company uses the term for its five technology systems run as one integrated program.</p>
+      <p class="glossary-link"><a href="/science/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="network-pharmacology">
+      <h2>Network pharmacology</h2>
+      <p>Network pharmacology is the study of drugs and biology as networks of interacting signals rather than isolated targets. Together with systems biology, it has been an active academic field for well over a decade. Instructional Biology's platform is built to supply the tooling that makes this kind of reasoning workable at the scale a real research program needs.</p>
+      <p class="glossary-link"><a href="/science/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="asap">
+      <h2>ASAP (Advanced Science AI Platform)</h2>
+      <p>ASAP is Instructional Biology's biology-native AI platform. It organizes biological evidence into the Signaling Cascade Knowledge Graph so that relationships between signals, receptors, cascades and outcomes can be reasoned about explicitly instead of inferred from a flat list. It is the discovery stage of the platform: it maps signaling relationships and ranks which questions are worth testing first, with human review at every gate.</p>
+      <p class="glossary-link"><a href="/technologies/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="signaling-cascade-knowledge-graph">
+      <h2>Signaling Cascade Knowledge Graph (SCKG)</h2>
+      <p>The SCKG is a tiered, evidence-weighted map of peptides, receptors, signaling cascades, master regulators, disease states and outcomes, plus the typed, directional relationships between them. It lets a network-level hypothesis be reasoned about explicitly, and each relationship is meant to be traceable back to the evidence that supports it. ASAP is built around it.</p>
+      <p class="glossary-link"><a href="/science/reasoning-system/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="poincare-ball">
+      <h2>Poincaré ball</h2>
+      <p>A Poincaré ball is a model of hyperbolic space: a bounded ball in which distance compresses as you move outward, so an entire branching hierarchy fits inside without flattening its structure. Instructional Biology embeds the full Signaling Cascade Knowledge Graph in a 16-dimensional Poincaré ball; the Poincaré Explorer page shows a simplified two-dimensional disk projection.</p>
+      <p class="glossary-link"><a href="/technologies/poincare/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="hyperbolic-space">
+      <h2>Hyperbolic space</h2>
+      <p>Hyperbolic space is a non-Euclidean geometry in which available room grows exponentially as you move away from the center, while flat Euclidean space grows only polynomially. Because a biological hierarchy also branches exponentially, it fits naturally in hyperbolic space without nodes crowding together. Hyperbolic embeddings for hierarchical data were formalized by Nickel and Kiela in 2017.</p>
+      <p class="glossary-link"><a href="/technologies/poincare/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="master-regulator">
+      <h2>Master regulator</h2>
+      <p>A master regulator is a broadly influential signaling hub that affects many downstream cascades at once. In the Signaling Cascade Knowledge Graph, master regulators sit near the center of the Poincaré disk, while more specific entities such as receptors, peptides and outcomes sit further out. A handful of hub regulators, illustratively the AKT/mTOR pattern, end up with disproportionately more pathway connections than the rest.</p>
+      <p class="glossary-link"><a href="/technologies/poincare/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="graph-neural-network">
+      <h2>Graph neural network (GNN)</h2>
+      <p>A graph neural network is a machine-learning model that learns by passing messages along the connections of a graph. Instructional Biology's reasoning system uses GNN message-passing that tracks relationship polarity, so an activating relationship and an inhibiting one between the same two entities are never collapsed into a single signal. Its output is a ranked set of evidence-linked hypotheses, reviewed by a human.</p>
+      <p class="glossary-link"><a href="/science/reasoning-system/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="agonist-and-antagonist">
+      <h2>Agonist and antagonist</h2>
+      <p>An agonist activates a receptor or pathway; an antagonist blocks or suppresses it. Telling the two apart is a core design choice in Instructional Biology's reasoning system. Modeling inhibition as a magnitude-preserving rotation keeps a strong inhibitory signal distinguishable from no relationship at all.</p>
+      <p class="glossary-link"><a href="/science/reasoning-system/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="in-silico">
+      <h2>In silico</h2>
+      <p>In silico, literally "in silicon", means running a first pass of testing inside a computational model instead of a physical experiment. It does not replace the lab; it filters a large space of plausible ideas down to the handful worth spending real material and time on. This discipline is at the core of ASAP.</p>
+      <p class="glossary-link"><a href="/insights/in-silico/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="mhfbp">
+      <h2>MHFBP (Markosian High-Fidelity Bio-Processing Protocol)</h2>
+      <p>MHFBP is Instructional Biology's controlled, lower-temperature processing protocol. It uses carefully regulated temperatures to protect the structure of fragile proteins and peptides, and relies on non-thermal methods rather than heat to manage pathogen safety. The patent filing describes automated temperature controls, monitoring, structural integrity sensing, rapid cooling and defined process limits.</p>
+      <p class="glossary-link"><a href="/science/bio-manufacturing/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="thermosensitive-peptidome">
+      <h2>Thermosensitive Peptidome (TSP)</h2>
+      <p>The Thermosensitive Peptidome, or TSP, is Instructional Biology's term for the collection of temperature-sensitive signaling peptides and proteins it seeks to protect during processing. These molecules carry their function in their three-dimensional fold, which heat can undo even without breaking a chemical bond. The site describes the band most at risk as roughly a few thousand to around a hundred thousand daltons.</p>
+      <p class="glossary-link"><a href="/insights/thermosensitive-peptidome/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="native-state">
+      <h2>Native state</h2>
+      <p>A protein's native state is its working three-dimensional shape, the fold its amino acid sequence guides it into. That shape is what lets an enzyme grip its target or a hormone fit its receptor. Preserving native structure through processing is the goal of Instructional Biology's bio-processing work.</p>
+      <p class="glossary-link"><a href="/insights/why-heat-denatures-proteins/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="protein-denaturation">
+      <h2>Protein denaturation</h2>
+      <p>Denaturation is the loss of a protein's native three-dimensional shape, caused by heat, extreme pH, mechanical shear or other stresses. A denatured protein can still be chemically present but no longer able to do its job, and unfolded proteins tend to clump together, a process called aggregation. A cooked egg white turning solid is a familiar example.</p>
+      <p class="glossary-link"><a href="/insights/why-heat-denatures-proteins/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="peptide">
+      <h2>Peptide</h2>
+      <p>Peptides and proteins are both chains of amino acids; peptides are the shorter chains, and proteins are longer ones that fold into compact, specific structures. Many of the body's signaling molecules are peptides. Many of the temperature-sensitive signaling molecules Instructional Biology seeks to protect are peptides.</p>
+      <p class="glossary-link"><a href="/insights/why-heat-denatures-proteins/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="biologic">
+      <h2>Biologic</h2>
+      <p>A biologic is a medicine made from proteins, such as antibodies, hormones and enzymes, rather than a small synthetic chemical. Because biologics depend on a precise shape, their structural sensitivity shapes how they are made, stored and given. Instructional Biology's platform is built on natural, native biologics.</p>
+      <p class="glossary-link"><a href="/insights/why-heat-denatures-proteins/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="specific-pathogen-free-sourcing">
+      <h2>Specific-pathogen-free sourcing</h2>
+      <p>Specific-pathogen-free (SPF) sourcing means starting from source material raised or collected to be free of defined pathogens. It reduces the bioburden a process has to guard against in the first place. In MHFBP, that changes how much thermal or chemical force is actually needed to reach an acceptable safety margin.</p>
+      <p class="glossary-link"><a href="/science/bio-manufacturing/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="pathogen-reduction">
+      <h2>Pathogen reduction</h2>
+      <p>Pathogen reduction is any step that lowers the load of viruses and other pathogens in biological material so it is safe to use. The traditional method is heat, which also damages fragile proteins. Instructional Biology's pathogen-reduction system is non-thermal: ultrashort-pulse optical clearance tuned below the threshold that damages protein structure.</p>
+      <p class="glossary-link"><a href="/science/pathogen-reduction/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="isrs">
+      <h2>ISRS (impulsive stimulated Raman scattering)</h2>
+      <p>ISRS is a physical process in which an extremely short laser pulse drives large vibrations in a molecule. Tuned to a viral capsid's own vibrational mode, it can weaken the bonds holding the capsid together without heating the surrounding material. It was first shown to inactivate viruses in 2007, and it is the published basis for Instructional Biology's pathogen-reduction system, listed on the site as ISRS-ML.</p>
+      <p class="glossary-link"><a href="/insights/how-lasers-kill-viruses/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="exosome">
+      <h2>Exosome (extracellular vesicle)</h2>
+      <p>Exosomes are nanoscale, membrane-wrapped particles released by cells, roughly 40 to 160 nanometres across, that carry proteins, lipids, nucleic acids and metabolites. They belong to the larger family of extracellular vesicles (EVs), which cells use to exchange molecules. Researchers study them as natural drug-delivery carriers.</p>
+      <p class="glossary-link"><a href="/insights/what-are-exosomes/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="exosome-carrier">
+      <h2>Exosome carrier (MET-APFS)</h2>
+      <p>Instructional Biology's carrier (exosome) manufacturing system, listed on the site as MET-APFS, builds engineered delivery vesicles modeled on the body's own extracellular vesicle transport. The carrier protects a payload in circulation, and its configuration is informed by the reasoning system for each individual. It is designed to be payload-agnostic, potentially including proteins, peptides and nucleic acid-based cargo.</p>
+      <p class="glossary-link"><a href="/science/carrier-manufacturing/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="digital-twin">
+      <h2>Digital twin</h2>
+      <p>In medicine, a digital twin is a computational model of one person's biological signaling, built from their own data, that updates as new signals arrive. It is not a duplicate of a person or a crystal ball; it is a model bounded by the evidence that built it. For Instructional Biology it is a multi-year research direction, not a current product.</p>
+      <p class="glossary-link"><a href="/insights/digital-twins/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="digital-biomarker">
+      <h2>Digital biomarker</h2>
+      <p>A biomarker is a measured characteristic that indicates normal biology, disease, or a response to treatment. A digital biomarker is the same idea collected with sensors and software, often outside the clinic through wearable, implantable or ingestible devices. Continuous glucose monitors and smartwatch readings are common sources.</p>
+      <p class="glossary-link"><a href="/insights/wearable-health-monitoring/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="closed-loop-dosing">
+      <h2>Closed-loop dosing</h2>
+      <p>Closed-loop dosing revises a treatment plan based on measured individual response instead of leaving a fixed dose in place. In Instructional Biology's therapeutic-regulation system, the loop closes only within boundaries a clinician has set in advance, the clinician-authorized envelope. Any signal outside that envelope escalates to a human reviewer; it is never an autonomous device decision.</p>
+      <p class="glossary-link"><a href="/science/therapeutic-regulation/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+    <div class="glossary-term" id="patent-cliff">
+      <h2>Patent cliff</h2>
+      <p>A patent cliff is a period when many branded drugs lose patent exclusivity at once, opening them to generic competition. Between 2025 and 2030, close to 200 branded drugs are set to lose exclusivity, which Instructional Biology calls Patent Cliff 2.0. Its thesis is that the durable opportunity is a reusable way of reasoning about biological signaling, which does not expire the way a single-molecule patent does.</p>
+      <p class="glossary-link"><a href="/insights/patent-cliff-2/" style="color:var(--gold);">Read more →</a></p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top sitemap">
+      <div class="foot-brand">
+        <a href="/" class="mark"><img src="/assets/img/logo-mark.jpg" alt="Instructional Biology mark">Instructional Biology</a>
+        <p>Building an evidence-aware bridge between biological complexity, computational reasoning, and disciplined translation.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <a href="/about/">About Us</a>
+        <a href="/about/founder/">Founder's Story</a>
+        <a href="/about/contact/">Contact Us</a>
+        <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+        <a href="/press/">Press</a>
+        <a href="/faq/">FAQ</a>
+        <a href="/glossary/">Glossary</a>
+        <a href="/investors/">Investors</a>
+      </div>
+      <div class="foot-col">
+        <h5>Technologies</h5>
+        <a href="/technologies/">Our Technologies</a>
+        <a href="/technologies/poincare/">Poincaré Explorer</a>
+        <a href="/science/">The Science</a>
+        <a href="/science/bio-manufacturing/">MHFBP</a>
+        <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+        <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+        <a href="/science/reasoning-system/">Reasoning System</a>
+        <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+      </div>
+      <div class="foot-col">
+        <h5>Insights</h5>
+        <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+        <a href="/insights/digital-twins/">Digital Twins</a>
+        <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+        <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+        <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+        <a href="/insights/in-silico/">In Silico</a>
+        <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+        <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+        <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+        <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+        <a href="/insights/what-are-exosomes/">What Are Exosomes</a>
+        <a href="/insights/why-heat-denatures-proteins/">Heat and Proteins</a>
+        <a href="/insights/wearable-health-monitoring/">Wearable Monitoring</a>
+        <a href="/insights/why-drugs-fail-clinical-trials/">Why Drugs Fail</a>
+      </div>
+    </div>
+    <div class="foot-row">
+      <span>© 2026 Instructional Biology Inc. All rights reserved.</span>
+      <span style="display:flex;gap:14px;flex-wrap:wrap;"><a class="foot-social" href="https://www.linkedin.com/company/instructional-biology/" target="_blank" rel="noopener">Company LinkedIn ↗</a><a class="foot-social" href="https://www.linkedin.com/in/borismarkosian" target="_blank" rel="noopener">Founder LinkedIn ↗</a></span>
+    </div>
+    <div class="foot-fine">Public, non-confidential information. Platform and program descriptions concern technologies in development and are not claims of clinical efficacy, regulatory approval, or medical advice. This site uses Google Analytics to measure visits.</div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
