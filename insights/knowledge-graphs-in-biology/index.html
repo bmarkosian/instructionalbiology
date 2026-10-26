@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ME38LW4JC8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ME38LW4JC8');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Knowledge Graphs in Drug Discovery | Instructional Biology</title>
+<meta name="description" content="Knowledge graph drug discovery explained: how genes, drugs and diseases become a connected map, with Hetionet, PrimeKG and repurposing results.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Instructional Biology">
+<meta property="og:title" content="Knowledge Graphs in Drug Discovery | Instructional Biology">
+<meta property="og:description" content="Knowledge graph drug discovery explained: how genes, drugs and diseases become a connected map, with Hetionet, PrimeKG and repurposing results.">
+<meta property="og:url" content="https://www.instructionalbiology.com/insights/knowledge-graphs-in-biology/">
+<meta property="og:image" content="https://www.instructionalbiology.com/assets/img/share/insights-knowledge-graphs-in-biology.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Knowledge Graphs in Drug Discovery | Instructional Biology">
+<meta name="twitter:description" content="Knowledge graph drug discovery explained: how genes, drugs and diseases become a connected map, with Hetionet, PrimeKG and repurposing results.">
+<meta name="twitter:image" content="https://www.instructionalbiology.com/assets/img/share/insights-knowledge-graphs-in-biology.jpg">
+<link rel="canonical" href="https://www.instructionalbiology.com/insights/knowledge-graphs-in-biology/">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="What Is a Knowledge Graph in Drug Discovery?">
+<link rel="icon" href="/assets/img/favicon.png">
+<link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/styles.css">
+<!-- seo-jsonld -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.instructionalbiology.com/"}, {"@type": "ListItem", "position": 2, "name": "Insights", "item": "https://www.instructionalbiology.com/insights/"}, {"@type": "ListItem", "position": 3, "name": "What Is a Knowledge Graph in Drug Discovery?", "item": "https://www.instructionalbiology.com/insights/knowledge-graphs-in-biology/"}]}, {"@type": "Article", "headline": "What Is a Knowledge Graph in Drug Discovery?", "description": "Knowledge graph drug discovery explained: how genes, drugs and diseases become a connected map, with Hetionet, PrimeKG and repurposing results.", "image": ["https://www.instructionalbiology.com/assets/img/share/insights-knowledge-graphs-in-biology.jpg", {"@type": "ImageObject", "url": "https://www.instructionalbiology.com/assets/img/infographics/infographic-knowledge-graphs-in-biology.png", "width": 1200, "height": 1633, "caption": "Knowledge graph scale and repurposing results, from Himmelstein et al. (2017), Chandak et al. (2023) and Zitnik et al. (2018)."}], "datePublished": "2026-10-25", "dateModified": "2026-10-25", "mainEntityOfPage": "https://www.instructionalbiology.com/insights/knowledge-graphs-in-biology/", "author": {"@type": "Person", "@id": "https://www.instructionalbiology.com/about/founder/#person", "name": "Boris Markosian", "url": "https://www.instructionalbiology.com/about/founder/"}, "publisher": {"@type": "Organization", "@id": "https://www.instructionalbiology.com/#organization", "name": "Instructional Biology Inc.", "logo": {"@type": "ImageObject", "url": "https://www.instructionalbiology.com/assets/img/logo-mark.jpg"}}, "citation": ["https://doi.org/10.1016/j.csbj.2020.05.017", "https://doi.org/10.7554/eLife.26726", "https://doi.org/10.1038/s41597-023-01960-3", "https://doi.org/10.1093/bib/bbac404", "https://doi.org/10.1093/bioinformatics/bty294", "https://doi.org/10.1038/nrd.2018.168"]}]}
+</script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="top-line"></div>
+
+<header>
+  <div class="wrap headbar">
+    <a href="/" class="mark"><img src="/assets/img/logo-mark-112.webp" alt="Instructional Biology mark" width="56" height="56">Instructional Biology</a>
+    <nav class="primary-nav" aria-label="Primary">
+      <div class="nav-item">
+        <a href="/about/">About Us</a>
+        <div class="nav-dropdown">
+          <a href="/about/">Overview</a>
+          <a href="/about/founder/">Founder's Story</a>
+          <a href="/about/contact/">Contact Us</a>
+          <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/technologies/">Our Technologies</a>
+        <div class="nav-dropdown">
+          <a href="/technologies/">Overview</a>
+          <a href="/technologies/poincare/">Poincaré Explorer</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/science/">The Science</a>
+        <div class="nav-dropdown">
+          <a href="/science/">Overview</a>
+          <a href="/science/bio-manufacturing/">MHFBP</a>
+          <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+          <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+          <a href="/science/reasoning-system/">Reasoning System</a>
+          <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/insights/">Insights</a>
+        <div class="nav-dropdown">
+          <a href="/insights/">Overview</a>
+          <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+          <a href="/insights/digital-twins/">Digital Twins</a>
+          <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+          <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+          <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+          <a href="/insights/in-silico/">In Silico</a>
+          <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+          <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+          <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+          <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+          <a href="/insights/knowledge-graphs-in-biology/">Knowledge Graphs</a>
+          <a href="/insights/what-are-exosomes/">What Are Exosomes</a>
+          <a href="/insights/why-heat-denatures-proteins/">Heat and Proteins</a>
+          <a href="/insights/wearable-health-monitoring/">Wearable Monitoring</a>
+          <a href="/insights/why-drugs-fail-clinical-trials/">Why Drugs Fail</a>
+        </div>
+      </div>
+      <a href="/press/">Press</a>
+      <a href="/faq/">FAQ</a>
+    </nav>
+    <a href="mailto:boris@instructionalbiology.com" class="head-cta">Start a conversation</a>
+    <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">☰</button>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile" hidden>
+  <details class="mobile-nav-group">
+    <summary>About Us<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/about/">Overview</a>
+      <a href="/about/founder/">Founder's Story</a>
+      <a href="/about/contact/">Contact Us</a>
+      <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>Our Technologies<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/technologies/">Overview</a>
+      <a href="/technologies/poincare/">Poincaré Explorer</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>The Science<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/science/">Overview</a>
+      <a href="/science/bio-manufacturing/">MHFBP</a>
+      <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+      <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+      <a href="/science/reasoning-system/">Reasoning System</a>
+      <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>Insights<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/insights/">Overview</a>
+      <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+      <a href="/insights/digital-twins/">Digital Twins</a>
+      <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+      <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+      <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+      <a href="/insights/in-silico/">In Silico</a>
+      <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+      <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+      <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+      <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+      <a href="/insights/knowledge-graphs-in-biology/">Knowledge Graphs</a>
+      <a href="/insights/what-are-exosomes/">What Are Exosomes</a>
+      <a href="/insights/why-heat-denatures-proteins/">Heat and Proteins</a>
+      <a href="/insights/wearable-health-monitoring/">Wearable Monitoring</a>
+      <a href="/insights/why-drugs-fail-clinical-trials/">Why Drugs Fail</a>
+    </div>
+  </details>
+  <a href="/press/">Press</a>
+  <a href="/faq/">FAQ</a>
+  <a href="mailto:boris@instructionalbiology.com" class="mobile-cta">Start a conversation</a>
+</nav>
+
+<main id="main-content">
+<section class="article-hero">
+  <div class="wrap">
+    <div class="post-meta">Explainer · 5 min read · Boris Markosian · Published <time datetime="2026-10-25">October 25, 2026</time></div>
+    <h1>What Is a Knowledge Graph in Drug Discovery?</h1>
+    <div class="byline">Instructional Biology Inc.</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap article-body">
+<p>A knowledge graph in drug discovery is a map of biology that a computer can read. Instead of storing facts as separate lists, it links them: this drug binds that protein, that protein is made from a gene, the gene is associated with a disease. Researchers use these connected maps to ask questions no single database can answer on its own, such as which existing medicine might work for a different illness.<sup><a href="#ref-1" style="color:var(--gold);">[1]</a></sup> This article explains how a knowledge graph for drug discovery is built, what public examples look like, and what the published results show.</p>
+
+<h2>What is a knowledge graph?</h2>
+<p>A knowledge graph represents biomedical concepts as <strong>nodes</strong> and the relationships between them as <strong>edges</strong>.<sup><a href="#ref-1" style="color:var(--gold);">[1]</a></sup> A node can be a gene, a protein, a drug, a disease, a symptom or a biological pathway. An edge says how two nodes relate: a drug <em>binds</em> a protein, a gene is <em>associated with</em> a disease, a drug <em>causes</em> a side effect.</p>
+<p>The value is in the connections. A spreadsheet of drugs and a spreadsheet of diseases sit side by side without speaking to each other. Once both are joined through genes, proteins and pathways, a computer can follow chains of relationships from one end of biology to the other.</p>
+
+<h3>Where the facts come from</h3>
+<p>Most biomedical knowledge graphs are assembled from existing databases. Experts populate those databases in two main ways: manual curation, where trained curators read papers and record each relationship, and automated methods such as text mining, where software pulls relationships out of the literature.<sup><a href="#ref-1" style="color:var(--gold);">[1]</a></sup> Manual curation is precise but slow. Text mining is fast but needs careful checking. Many projects combine both.<sup><a href="#ref-1" style="color:var(--gold);">[1]</a></sup></p>
+<p>Choosing the right sources matters. A review led by researchers at AstraZeneca catalogued the public datasets suitable for building drug discovery knowledge graphs, sorted them by the kind of information they hold, and compared existing public drug discovery graphs.<sup><a href="#ref-4" style="color:var(--gold);">[4]</a></sup></p>
+
+    <figure class="infographic">
+      <a href="/assets/img/infographics/infographic-knowledge-graphs-in-biology.png"><img loading="lazy" decoding="async" src="/assets/img/infographics/infographic-knowledge-graphs-in-biology-800.webp" srcset="/assets/img/infographics/infographic-knowledge-graphs-in-biology-800.webp 800w, /assets/img/infographics/infographic-knowledge-graphs-in-biology-1200.webp 1200w" sizes="(max-width: 900px) 100vw, 880px" alt="Infographic: how a biomedical knowledge graph links drugs, proteins, genes and diseases, the size of Hetionet and PrimeKG, and Project Rephetio drug repurposing results" width="1200" height="1633"></a>
+      <figcaption>Knowledge graph scale and repurposing results, from Himmelstein et al. (2017), Chandak et al. (2023) and Zitnik et al. (2018).</figcaption>
+      <details class="embed-code"><summary>Share this infographic on your site</summary><textarea readonly rows="4" onclick="this.select()">&lt;a href="https://www.instructionalbiology.com/insights/knowledge-graphs-in-biology/"&gt;&lt;img src="https://www.instructionalbiology.com/assets/img/infographics/infographic-knowledge-graphs-in-biology.png" alt="Infographic: how a biomedical knowledge graph links drugs, proteins, genes and diseases, the size of Hetionet and PrimeKG, and Project Rephetio drug repurposing results" width="1200"&gt;&lt;/a&gt;&lt;br&gt;Infographic by &lt;a href="https://www.instructionalbiology.com/"&gt;Instructional Biology&lt;/a&gt;</textarea></details>
+    </figure>
+
+<h2>How big are public knowledge graphs for drug discovery?</h2>
+<p>Two openly published graphs show the scale involved.</p>
+<ul>
+<li><strong>Hetionet</strong> (2017) integrated 29 public resources into 47,031 nodes of 11 types, joined by 2,250,197 relationships of 24 types. Its nodes include 1,552 small-molecule compounds and 137 complex diseases, along with genes, anatomy, pathways, side effects and symptoms.<sup><a href="#ref-2" style="color:var(--gold);">[2]</a></sup></li>
+<li><strong>PrimeKG</strong> (2023) integrated 20 resources into 129,375 nodes of 10 types and 4,050,249 relationships of 30 types, describing 17,080 diseases.<sup><a href="#ref-3" style="color:var(--gold);">[3]</a></sup> It was built for precision medicine and adds drug-disease edges for indications, contraindications and off-label use, which the authors note are often missing or sparse in other graphs.<sup><a href="#ref-3" style="color:var(--gold);">[3]</a></sup></li>
+</ul>
+<p>Millions of edges are far more than any person could hold in mind. That is exactly why these maps are built for computers to explore.</p>
+
+<h2>Knowledge graph drug discovery in practice: repurposing</h2>
+<p>Drug repurposing means finding a new use for a medicine that already exists. It is attractive because the compound is already de-risked, which can lower development costs and shorten timelines compared with starting from scratch.<sup><a href="#ref-6" style="color:var(--gold);">[6]</a></sup> The same review notes that repurposing still faces real technological and regulatory challenges.<sup><a href="#ref-6" style="color:var(--gold);">[6]</a></sup></p>
+<p>Knowledge graphs suit this problem because a good repurposing idea is usually a chain of connections. If a drug binds a protein, and the gene for that protein is involved in a disease, the path from drug to disease hints at a mechanism.<sup><a href="#ref-2" style="color:var(--gold);">[2]</a></sup></p>
+
+<h3>The Hetionet experiment</h3>
+<p>Project Rephetio, the study that introduced Hetionet, put this idea to a systematic test. The team started from a gold standard of 755 known disease-modifying treatments. They then asked which types of paths through the graph appeared more often between real treatments than between drug-disease pairs that are not treatments.<sup><a href="#ref-2" style="color:var(--gold);">[2]</a></sup> Of the 1,206 path types they evaluated, 709 were significantly informative.<sup><a href="#ref-2" style="color:var(--gold);">[2]</a></sup></p>
+<p>Using those patterns, the model scored 209,168 compound-disease pairs.<sup><a href="#ref-2" style="color:var(--gold);">[2]</a></sup> The results were encouraging:</p>
+<ul>
+<li>Known treatments ranked highly, with an AUROC of 97.4%. AUROC is a standard accuracy score in which 50% means random guessing and 100% means perfect ranking.<sup><a href="#ref-2" style="color:var(--gold);">[2]</a></sup></li>
+<li>On two external checks the model had not been trained on, it reached 85.5% for newer indications listed in the DrugCentral database and 70.0% for indications being tested in clinical trials.<sup><a href="#ref-2" style="color:var(--gold);">[2]</a></sup></li>
+<li>For nicotine dependence, the model ranked bupropion ninth of all compounds. Bupropion was first approved for depression in 1985 and, after a chance observation that patients taking it smoked less, was approved for smoking cessation in 1997.<sup><a href="#ref-2" style="color:var(--gold);">[2]</a></sup> The graph recovered a repurposing that had originally happened by chance.</li>
+<li>For epilepsy, 77 of the top 100 predicted compounds were known to suppress seizures, 15 were known to provoke them, and 8 had no established effect, making those 8 candidates for further study.<sup><a href="#ref-2" style="color:var(--gold);">[2]</a></sup></li>
+</ul>
+<p>The epilepsy result is a useful reminder: a prediction is a hypothesis, not a treatment. Some top-ranked compounds were known to make seizures more likely, which is exactly why laboratory and clinical testing come next.</p>
+
+<h2>Beyond repurposing: side effects of drug combinations</h2>
+<p>Taking several medicines at once is common, and combinations carry a higher risk of side effects through drug-drug interactions.<sup><a href="#ref-5" style="color:var(--gold);">[5]</a></sup> These interactions are hard to study because they are rare and often not seen in relatively small clinical trials.<sup><a href="#ref-5" style="color:var(--gold);">[5]</a></sup></p>
+<p>The Decagon model, published in 2018, tackled this with a graph of 645 drugs and 19,085 proteins linked by 715,612 protein-protein edges, 18,596 drug-protein edges and 4,651,131 drug-drug edges, with each of 964 common side effects treated as its own edge type.<sup><a href="#ref-5" style="color:var(--gold);">[5]</a></sup> A graph neural network learned to predict which specific side effect a given drug pair might produce, and outperformed baseline methods by up to 69%.<sup><a href="#ref-5" style="color:var(--gold);">[5]</a></sup> The authors framed the output as a way to flag and prioritize drug combinations for follow-up pharmacological studies.<sup><a href="#ref-5" style="color:var(--gold);">[5]</a></sup></p>
+<p>This kind of computer-based screening is an example of <a href="/insights/in-silico/" style="color:var(--gold);">in silico drug development</a>, where experiments are planned and prioritized with models before they reach the lab.</p>
+
+<h2>How machines reason over the graph</h2>
+<p>A raw graph is too large to search by hand, so researchers turn it into numbers. Machine learning methods compress each node into a compact list of numbers, called an embedding, that preserves the graph's local and/or global structure.<sup><a href="#ref-1" style="color:var(--gold);">[1]</a></sup> Further models then use those embeddings to make predictions across genomic, pharmaceutical and clinical questions.<sup><a href="#ref-1" style="color:var(--gold);">[1]</a></sup></p>
+<p>Methods that capture a graph's structure in this compressed form are an active area of research.<sup><a href="#ref-1" style="color:var(--gold);">[1]</a></sup> The <a href="/technologies/poincare/" style="color:var(--gold);">Poincaré disk explorer</a> on this site shows one alternative geometry for such maps interactively.</p>
+
+<h2>What knowledge graphs cannot do yet</h2>
+<p>A knowledge graph is only as good as the facts that go into it. Building one means selecting suitable data sources<sup><a href="#ref-4" style="color:var(--gold);">[4]</a></sup> and reconciling databases that describe the same diseases in inconsistent ways.<sup><a href="#ref-3" style="color:var(--gold);">[3]</a></sup> Reviewers also highlight open challenges specific to drug discovery data.<sup><a href="#ref-4" style="color:var(--gold);">[4]</a></sup> Predictions still need experimental and clinical confirmation before they mean anything for patients.<sup><a href="#ref-2" style="color:var(--gold);">[2,5]</a></sup></p>
+<p>Used well, a graph narrows thousands of possibilities to a short list worth testing. That focus is the practical payoff.</p>
+
+<h2>Our research direction</h2>
+<p>At Instructional Biology, we are researching a <a href="/science/reasoning-system/" style="color:var(--gold);">Signaling Cascade Knowledge Graph</a> that organizes signaling pathways in hyperbolic space. Our thesis is that a map built around how cells pass signals can help prioritize which biological questions are worth testing first. This work is research-stage.</p>
+
+    <div class="article-sources">
+    <h2>Sources</h2>
+    <ol>
+      <li id="ref-1">Nicholson DN, Greene CS. Constructing knowledge graphs and their biomedical applications. Comput Struct Biotechnol J. 2020;18:1414-1428. <a href="https://doi.org/10.1016/j.csbj.2020.05.017" rel="noopener" target="_blank" style="color:var(--gold);">doi:10.1016/j.csbj.2020.05.017</a> · PMID <a href="https://pubmed.ncbi.nlm.nih.gov/32637040/" rel="noopener" target="_blank" style="color:var(--gold);">32637040</a></li>
+      <li id="ref-2">Himmelstein DS, Lizee A, Hessler C, et al. Systematic integration of biomedical knowledge prioritizes drugs for repurposing. eLife. 2017;6:e26726. <a href="https://doi.org/10.7554/eLife.26726" rel="noopener" target="_blank" style="color:var(--gold);">doi:10.7554/eLife.26726</a> · PMID <a href="https://pubmed.ncbi.nlm.nih.gov/28936969/" rel="noopener" target="_blank" style="color:var(--gold);">28936969</a></li>
+      <li id="ref-3">Chandak P, Huang K, Zitnik M. Building a knowledge graph to enable precision medicine. Sci Data. 2023;10(1):67. <a href="https://doi.org/10.1038/s41597-023-01960-3" rel="noopener" target="_blank" style="color:var(--gold);">doi:10.1038/s41597-023-01960-3</a> · PMID <a href="https://pubmed.ncbi.nlm.nih.gov/36732524/" rel="noopener" target="_blank" style="color:var(--gold);">36732524</a></li>
+      <li id="ref-4">Bonner S, Barrett IP, Ye C, et al. A review of biomedical datasets relating to drug discovery: a knowledge graph perspective. Brief Bioinform. 2022;23(6):bbac404. <a href="https://doi.org/10.1093/bib/bbac404" rel="noopener" target="_blank" style="color:var(--gold);">doi:10.1093/bib/bbac404</a> · PMID <a href="https://pubmed.ncbi.nlm.nih.gov/36151740/" rel="noopener" target="_blank" style="color:var(--gold);">36151740</a></li>
+      <li id="ref-5">Zitnik M, Agrawal M, Leskovec J. Modeling polypharmacy side effects with graph convolutional networks. Bioinformatics. 2018;34(13):i457-i466. <a href="https://doi.org/10.1093/bioinformatics/bty294" rel="noopener" target="_blank" style="color:var(--gold);">doi:10.1093/bioinformatics/bty294</a> · PMID <a href="https://pubmed.ncbi.nlm.nih.gov/29949996/" rel="noopener" target="_blank" style="color:var(--gold);">29949996</a></li>
+      <li id="ref-6">Pushpakom S, Iorio F, Eyers PA, et al. Drug repurposing: progress, challenges and recommendations. Nat Rev Drug Discov. 2019;18(1):41-58. <a href="https://doi.org/10.1038/nrd.2018.168" rel="noopener" target="_blank" style="color:var(--gold);">doi:10.1038/nrd.2018.168</a> · PMID <a href="https://pubmed.ncbi.nlm.nih.gov/30310233/" rel="noopener" target="_blank" style="color:var(--gold);">30310233</a></li>
+    </ol>
+    </div>
+
+    <div class="related-reading">
+    <h2>Related reading</h2>
+    <ul>
+      <li><a href="/insights/in-silico/" style="color:var(--gold);">In Silico: Testing Biology Before You Touch It</a></li>
+      <li><a href="/insights/why-drugs-fail-clinical-trials/" style="color:var(--gold);">Why Do Drugs Fail Clinical Trials? What the Data Show</a></li>
+      <li><a href="/insights/personalized-medicine/" style="color:var(--gold);">Medicine, Made For You</a></li>
+    </ul>
+    </div>
+
+    <div class="article-disclaimer">This article summarizes published research on biomedical knowledge graphs for general education. Computational predictions are hypotheses that require laboratory and clinical testing, and Instructional Biology's knowledge-graph work is research-stage. Nothing in this article is medical advice. Instructional Biology's platform and programs are research-stage and have not completed clinical development.</div>
+
+    <a href="/insights/" class="article-back">← Back to Insights</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top sitemap">
+      <div class="foot-brand">
+        <a href="/" class="mark"><img src="/assets/img/logo-mark-112.webp" alt="Instructional Biology mark" width="56" height="56">Instructional Biology</a>
+        <p>Building an evidence-aware bridge between biological complexity, computational reasoning, and disciplined translation.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <a href="/about/">About Us</a>
+        <a href="/about/founder/">Founder's Story</a>
+        <a href="/about/contact/">Contact Us</a>
+        <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+        <a href="/press/">Press</a>
+        <a href="/faq/">FAQ</a>
+        <a href="/glossary/">Glossary</a>
+        <a href="/investors/">Investors</a>
+      </div>
+      <div class="foot-col">
+        <h5>Technologies</h5>
+        <a href="/technologies/">Our Technologies</a>
+        <a href="/technologies/poincare/">Poincaré Explorer</a>
+        <a href="/science/">The Science</a>
+        <a href="/science/bio-manufacturing/">MHFBP</a>
+        <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+        <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+        <a href="/science/reasoning-system/">Reasoning System</a>
+        <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+      </div>
+      <div class="foot-col">
+        <h5>Insights</h5>
+        <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+        <a href="/insights/digital-twins/">Digital Twins</a>
+        <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+        <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+        <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+        <a href="/insights/in-silico/">In Silico</a>
+        <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+        <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+        <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+        <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+        <a href="/insights/knowledge-graphs-in-biology/">Knowledge Graphs</a>
+        <a href="/insights/what-are-exosomes/">What Are Exosomes</a>
+        <a href="/insights/why-heat-denatures-proteins/">Heat and Proteins</a>
+        <a href="/insights/wearable-health-monitoring/">Wearable Monitoring</a>
+        <a href="/insights/why-drugs-fail-clinical-trials/">Why Drugs Fail</a>
+      </div>
+    </div>
+    <div class="foot-row">
+      <span>© 2026 Instructional Biology Inc. All rights reserved.</span>
+      <span style="display:flex;gap:14px;flex-wrap:wrap;"><a class="foot-social" href="https://www.linkedin.com/company/instructional-biology/" target="_blank" rel="noopener">Company LinkedIn ↗</a><a class="foot-social" href="https://www.linkedin.com/in/borismarkosian" target="_blank" rel="noopener">Founder LinkedIn ↗</a></span>
+    </div>
+    <div class="foot-fine">Public, non-confidential information. Platform and program descriptions concern technologies in development and are not claims of clinical efficacy, regulatory approval, or medical advice. This site uses Google Analytics to measure visits.</div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>
