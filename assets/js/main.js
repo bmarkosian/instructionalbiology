@@ -220,3 +220,18 @@
     });
   }
 })();
+
+// ---- YouTube facade: load the player only when the visitor taps play (faster page load) ----
+(function () {
+  document.querySelectorAll('.yt-facade').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var f = document.createElement('iframe');
+      f.src = 'https://www.youtube-nocookie.com/embed/' + b.dataset.yt + '?rel=0&autoplay=1';
+      f.title = 'Instructional Biology — Instructional Medicine, in 60 seconds';
+      f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      f.allowFullscreen = true; f.referrerPolicy = 'strict-origin-when-cross-origin';
+      f.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;border:0;';
+      b.replaceWith(f);
+    });
+  });
+})();

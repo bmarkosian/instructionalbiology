@@ -28,9 +28,8 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="MHFBP: preserving the signal, not just the substance.">
 <link rel="icon" href="/assets/img/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Inter:wght@400;500;600;700&amp;display=swap">
+<link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/css/styles.css">
 <!-- seo-jsonld -->
 <script type="application/ld+json">
@@ -43,7 +42,7 @@
 
 <header>
   <div class="wrap headbar">
-    <a href="/" class="mark"><img src="/assets/img/logo-mark.jpg" alt="Instructional Biology mark">Instructional Biology</a>
+    <a href="/" class="mark"><img src="/assets/img/logo-mark-112.webp" alt="Instructional Biology mark" width="56" height="56">Instructional Biology</a>
     <nav class="primary-nav" aria-label="Primary">
       <div class="nav-item">
         <a href="/about/">About Us</a>
@@ -170,7 +169,7 @@
 
     <p>Historically, biopharmaceutical processing has optimized hard for one variable — pathogen safety — using tools, chiefly high-heat sterilization, that are excellent at that one job and indifferent to structural preservation as a side effect. That trade-off made sense when there wasn't a practical alternative. It's made less sense as sourcing standards and non-thermal safety technologies have matured, because the two goals were never actually in permanent conflict — they were just usually pursued with tools that forced a conflict between them.</p>
   <figure class="infographic">
-    <a href="/assets/img/infographics/infographic-science-bio-manufacturing.png"><img loading="lazy" decoding="async" src="/assets/img/infographics/infographic-science-bio-manufacturing.png" alt="Infographic: how the MHFBP bio-manufacturing protocol separates pathogen safety from structural preservation — specific-pathogen-free sourcing, carefully regulated processing and non-thermal safety methods to keep a protein's native fold intact" width="1200" height="1706"></a>
+    <a href="/assets/img/infographics/infographic-science-bio-manufacturing.png"><img loading="lazy" decoding="async" src="/assets/img/infographics/infographic-science-bio-manufacturing-800.webp" srcset="/assets/img/infographics/infographic-science-bio-manufacturing-800.webp 800w, /assets/img/infographics/infographic-science-bio-manufacturing-1200.webp 1200w" sizes="(max-width: 900px) 100vw, 880px" alt="Infographic: how the MHFBP bio-manufacturing protocol separates pathogen safety from structural preservation — specific-pathogen-free sourcing, carefully regulated processing and non-thermal safety methods to keep a protein's native fold intact" width="1200" height="1706"></a>
     <figcaption>MHFBP treats pathogen safety and structural integrity as two goals, each handled by its own tool, so the protein's functional fold is preserved.</figcaption>
   </figure>
 
@@ -194,7 +193,7 @@
   <div class="wrap">
     <div class="foot-top sitemap">
       <div class="foot-brand">
-        <a href="/" class="mark"><img src="/assets/img/logo-mark.jpg" alt="Instructional Biology mark">Instructional Biology</a>
+        <a href="/" class="mark"><img src="/assets/img/logo-mark-112.webp" alt="Instructional Biology mark" width="56" height="56">Instructional Biology</a>
         <p>Building an evidence-aware bridge between biological complexity, computational reasoning, and disciplined translation.</p>
       </div>
       <div class="foot-col">
@@ -245,6 +244,6 @@
   </div>
 </footer>
 
-<script src="/assets/js/main.js"></script>
+<script src="/assets/js/main.js" defer></script>
 </body>
 </html>

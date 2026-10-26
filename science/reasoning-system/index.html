@@ -28,9 +28,8 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="The reasoning system.">
 <link rel="icon" href="/assets/img/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Inter:wght@400;500;600;700&amp;display=swap">
+<link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/css/styles.css">
 <!-- seo-jsonld -->
 <script type="application/ld+json">
@@ -43,7 +42,7 @@
 
 <header>
   <div class="wrap headbar">
-    <a href="/" class="mark"><img src="/assets/img/logo-mark.jpg" alt="Instructional Biology mark">Instructional Biology</a>
+    <a href="/" class="mark"><img src="/assets/img/logo-mark-112.webp" alt="Instructional Biology mark" width="56" height="56">Instructional Biology</a>
     <nav class="primary-nav" aria-label="Primary">
       <div class="nav-item">
         <a href="/about/">About Us</a>
@@ -170,7 +169,7 @@
 
     <p>Two design choices make this possible. First, the underlying graph is embedded in a hyperbolic space rather than a flat, Euclidean one — a geometry that naturally accommodates the exponential branching of a real biological hierarchy without running out of representational room at the periphery, the way flat layouts do. Second, the reasoning layer on top of that embedding uses graph neural network message-passing that explicitly tracks relationship polarity — the difference between a peptide that activates a pathway and one that suppresses it — so that an activating relationship and an inhibiting one between the same two biological entities are never collapsed into a single, ambiguous signal.</p>
   <figure class="infographic">
-    <a href="/assets/img/infographics/infographic-science-reasoning-system.png"><img loading="lazy" decoding="async" src="/assets/img/infographics/infographic-science-reasoning-system.png" alt="Infographic: the reasoning system — a hyperbolic knowledge graph of peptides, receptors, signaling cascades, master regulators, disease states and outcomes, reasoned over by a polarity-aware graph neural network to rank evidence-traceable hypotheses" width="1200" height="1624"></a>
+    <a href="/assets/img/infographics/infographic-science-reasoning-system.png"><img loading="lazy" decoding="async" src="/assets/img/infographics/infographic-science-reasoning-system-800.webp" srcset="/assets/img/infographics/infographic-science-reasoning-system-800.webp 800w, /assets/img/infographics/infographic-science-reasoning-system-1200.webp 1200w" sizes="(max-width: 900px) 100vw, 880px" alt="Infographic: the reasoning system — a hyperbolic knowledge graph of peptides, receptors, signaling cascades, master regulators, disease states and outcomes, reasoned over by a polarity-aware graph neural network to rank evidence-traceable hypotheses" width="1200" height="1624"></a>
     <figcaption>The reasoning system organizes biological evidence in hyperbolic space and ranks traceable, human-reviewed hypotheses linking signaling biology to individual outcome.</figcaption>
   </figure>
 
@@ -200,7 +199,7 @@
   <div class="wrap">
     <div class="foot-top sitemap">
       <div class="foot-brand">
-        <a href="/" class="mark"><img src="/assets/img/logo-mark.jpg" alt="Instructional Biology mark">Instructional Biology</a>
+        <a href="/" class="mark"><img src="/assets/img/logo-mark-112.webp" alt="Instructional Biology mark" width="56" height="56">Instructional Biology</a>
         <p>Building an evidence-aware bridge between biological complexity, computational reasoning, and disciplined translation.</p>
       </div>
       <div class="foot-col">
@@ -251,6 +250,6 @@
   </div>
 </footer>
 
-<script src="/assets/js/main.js"></script>
+<script src="/assets/js/main.js" defer></script>
 </body>
 </html>

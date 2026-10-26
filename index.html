@@ -28,9 +28,8 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Biology is not a list of parts. It is a language of instructions.">
 <link rel="icon" href="/assets/img/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Inter:wght@400;500;600;700&amp;display=swap">
+<link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/css/styles.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Organization","@id":"https://www.instructionalbiology.com/#organization","name":"Instructional Biology Inc.","alternateName":"iBIO","url":"https://www.instructionalbiology.com/","logo":"https://www.instructionalbiology.com/assets/img/logo-mark.jpg","foundingDate":"2026-02-05","founder":{"@type":"Person","name":"Boris Markosian","jobTitle":"Founder, CEO and sole inventor","sameAs":"https://www.linkedin.com/in/borismarkosian"},"address":{"@type":"PostalAddress","addressLocality":"Oceanside","addressRegion":"CA","addressCountry":"US"},"email":"boris@instructionalbiology.com","sameAs":["https://www.linkedin.com/company/instructional-biology/","https://www.linkedin.com/in/borismarkosian"],"description":"Biotechnology company developing an integrated platform spanning computational biology, artificial intelligence, high-fidelity bioprocessing, biological delivery systems, and patient-specific therapeutic regulation."}
@@ -46,7 +45,7 @@
 
 <header>
   <div class="wrap headbar">
-    <a href="/" class="mark"><img src="/assets/img/logo-mark.jpg" alt="Instructional Biology mark">Instructional Biology</a>
+    <a href="/" class="mark"><img src="/assets/img/logo-mark-112.webp" alt="Instructional Biology mark" width="56" height="56">Instructional Biology</a>
     <nav class="primary-nav" aria-label="Primary">
       <div class="nav-item">
         <a href="/about/">About Us</a>
@@ -165,12 +164,10 @@
       <p class="hero-sub">We're building a connected way to reason about biological signaling — combining an evidence-aware AI architecture, native-state biological processing, and disciplined translation from computational hypothesis to laboratory validation.</p>
       <div class="hero-film" style="margin:1.8rem auto;max-width:660px;">
         <div style="position:relative;width:100%;padding-top:56.25%;background:#000;border-radius:6px;overflow:hidden;">
-          <iframe src="https://www.youtube-nocookie.com/embed/bFhmSKGn9xo?rel=0"
-                title="Instructional Biology — Instructional Medicine, in 60 seconds"
-                loading="eager" allowfullscreen
-                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+          <button type="button" class="yt-facade" data-yt="bFhmSKGn9xo" aria-label="Play video: Instructional Medicine in 60 seconds" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;padding:0;cursor:pointer;background:#000;">
+            <img src="https://i.ytimg.com/vi/bFhmSKGn9xo/hqdefault.jpg" alt="Instructional Medicine in 60 seconds — video thumbnail" width="480" height="360" decoding="async" style="width:100%;height:100%;object-fit:cover;display:block;opacity:.85;">
+            <span aria-hidden="true" style="position:absolute;top:50%;left:50%;width:72px;height:50px;margin:-25px 0 0 -36px;border-radius:12px;background:rgba(8,9,15,.85);border:1px solid var(--gold);display:flex;align-items:center;justify-content:center;"><span style="width:0;height:0;border-left:18px solid var(--gold);border-top:11px solid transparent;border-bottom:11px solid transparent;margin-left:4px;"></span></span>
+          </button>
         </div>
         <p class="exp-note" style="margin-top:.7rem;">Instructional Medicine in 60 seconds. <a href="https://youtu.be/bFhmSKGn9xo" style="color:var(--gold);">Watch on YouTube</a></p>
       </div>
@@ -248,7 +245,7 @@
 </section>
 <section style="padding:24px 0 8px;"><div class="wrap" style="max-width:920px;">
   <figure class="infographic">
-    <a href="/assets/img/infographics/infographic-home.png"><img loading="lazy" decoding="async" src="/assets/img/infographics/infographic-home.png" alt="Infographic: Instructional Biology's five-stage platform chain — Discovery, Manufacture, Pathogen reduction, Carrier and Dosing — with the bio-processing protocol (MHFBP) and the ASAP reasoning platform shown as equal layers" width="1200" height="2009"></a>
+    <a href="/assets/img/infographics/infographic-home.png"><img loading="lazy" decoding="async" src="/assets/img/infographics/infographic-home-800.webp" srcset="/assets/img/infographics/infographic-home-800.webp 800w, /assets/img/infographics/infographic-home-1200.webp 1200w" sizes="(max-width: 900px) 100vw, 880px" alt="Infographic: Instructional Biology's five-stage platform chain — Discovery, Manufacture, Pathogen reduction, Carrier and Dosing — with the bio-processing protocol (MHFBP) and the ASAP reasoning platform shown as equal layers" width="1200" height="2009"></a>
     <figcaption>The five stages of the Instructional Biology platform run in order, and what the last stage measures returns to the model that selected the target.</figcaption>
   </figure>
 </div></section>
@@ -560,7 +557,7 @@
   <div class="wrap">
     <div class="foot-top sitemap">
       <div class="foot-brand">
-        <a href="/" class="mark"><img src="/assets/img/logo-mark.jpg" alt="Instructional Biology mark">Instructional Biology</a>
+        <a href="/" class="mark"><img src="/assets/img/logo-mark-112.webp" alt="Instructional Biology mark" width="56" height="56">Instructional Biology</a>
         <p>Building an evidence-aware bridge between biological complexity, computational reasoning, and disciplined translation.</p>
       </div>
       <div class="foot-col">
@@ -611,6 +608,6 @@
   </div>
 </footer>
 
-<script src="/assets/js/main.js"></script>
+<script src="/assets/js/main.js" defer></script>
 </body>
 </html>

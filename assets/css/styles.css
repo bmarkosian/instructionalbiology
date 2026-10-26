@@ -1,4 +1,12 @@
-/* Fonts load from <link> tags in each page head (faster than @import). */
+/* Self-hosted fonts (latin subset). */
+@font-face{font-family:'Instrument Serif';font-style:normal;font-weight:400;font-display:swap;src:url('/assets/fonts/instrument-serif-latin-400-normal.woff2') format('woff2');}
+@font-face{font-family:'Instrument Serif';font-style:italic;font-weight:400;font-display:swap;src:url('/assets/fonts/instrument-serif-latin-400-italic.woff2') format('woff2');}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url('/assets/fonts/ibm-plex-mono-latin-400-normal.woff2') format('woff2');}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url('/assets/fonts/ibm-plex-mono-latin-500-normal.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('/assets/fonts/inter-latin-400-normal.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;src:url('/assets/fonts/inter-latin-500-normal.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url('/assets/fonts/inter-latin-600-normal.woff2') format('woff2');}
+@font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('/assets/fonts/inter-latin-700-normal.woff2') format('woff2');}
 
 /* ================= DESIGN TOKENS ================= */
 :root{
@@ -518,3 +526,5 @@ h1,h2,h3{text-align:center;margin-left:auto;margin-right:auto;}
 
 .wrap.article-body{padding:64px 32px;}
 @media (max-width:640px){ .wrap.article-body{padding:48px 22px;} }
+
+.yt-facade:focus-visible{outline:2px solid var(--gold);outline-offset:2px;}
