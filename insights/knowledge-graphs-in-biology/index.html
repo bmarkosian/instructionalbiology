@@ -166,7 +166,7 @@
   <div class="wrap article-body">
 <p>A knowledge graph in drug discovery is a map of biology that a computer can read. Instead of storing facts as separate lists, it links them: this drug binds that protein, that protein is made from a gene, the gene is associated with a disease. Researchers use these connected maps to ask questions no single database can answer on its own, such as which existing medicine might work for a different illness.<sup><a href="#ref-1" style="color:var(--gold);">[1]</a></sup> This article explains how a knowledge graph for drug discovery is built, what public examples look like, and what the published results show.</p>
 
-<h2>What is a knowledge graph?</h2>
+    <h2>What is a knowledge graph?</h2>
 <p>A knowledge graph represents biomedical concepts as <strong>nodes</strong> and the relationships between them as <strong>edges</strong>.<sup><a href="#ref-1" style="color:var(--gold);">[1]</a></sup> A node can be a gene, a protein, a drug, a disease, a symptom or a biological pathway. An edge says how two nodes relate: a drug <em>binds</em> a protein, a gene is <em>associated with</em> a disease, a drug <em>causes</em> a side effect.</p>
 <p>The value is in the connections. A spreadsheet of drugs and a spreadsheet of diseases sit side by side without speaking to each other. Once both are joined through genes, proteins and pathways, a computer can follow chains of relationships from one end of biology to the other.</p>
 
@@ -180,7 +180,7 @@
       <details class="embed-code"><summary>Share this infographic on your site</summary><textarea readonly rows="4" onclick="this.select()">&lt;a href="https://www.instructionalbiology.com/insights/knowledge-graphs-in-biology/"&gt;&lt;img src="https://www.instructionalbiology.com/assets/img/infographics/infographic-knowledge-graphs-in-biology.png" alt="Infographic: how a biomedical knowledge graph links drugs, proteins, genes and diseases, the size of Hetionet and PrimeKG, and Project Rephetio drug repurposing results" width="1200"&gt;&lt;/a&gt;&lt;br&gt;Infographic by &lt;a href="https://www.instructionalbiology.com/"&gt;Instructional Biology&lt;/a&gt;</textarea></details>
     </figure>
 
-<h2>How big are public knowledge graphs for drug discovery?</h2>
+    <h2>How big are public knowledge graphs for drug discovery?</h2>
 <p>Two openly published graphs show the scale involved.</p>
 <ul>
 <li><strong>Hetionet</strong> (2017) integrated 29 public resources into 47,031 nodes of 11 types, joined by 2,250,197 relationships of 24 types. Its nodes include 1,552 small-molecule compounds and 137 complex diseases, along with genes, anatomy, pathways, side effects and symptoms.<sup><a href="#ref-2" style="color:var(--gold);">[2]</a></sup></li>
@@ -188,7 +188,7 @@
 </ul>
 <p>Millions of edges are far more than any person could hold in mind. That is exactly why these maps are built for computers to explore.</p>
 
-<h2>Knowledge graph drug discovery in practice: repurposing</h2>
+    <h2>Knowledge graph drug discovery in practice: repurposing</h2>
 <p>Drug repurposing means finding a new use for a medicine that already exists. It is attractive because the compound is already de-risked, which can lower development costs and shorten timelines compared with starting from scratch.<sup><a href="#ref-6" style="color:var(--gold);">[6]</a></sup> The same review notes that repurposing still faces real technological and regulatory challenges.<sup><a href="#ref-6" style="color:var(--gold);">[6]</a></sup></p>
 <p>Knowledge graphs suit this problem because a good repurposing idea is usually a chain of connections. If a drug binds a protein, and the gene for that protein is involved in a disease, the path from drug to disease hints at a mechanism.<sup><a href="#ref-2" style="color:var(--gold);">[2]</a></sup></p>
 
@@ -203,23 +203,24 @@
 </ul>
 <p>The epilepsy result is a useful reminder: a prediction is a hypothesis, not a treatment. Some top-ranked compounds were known to make seizures more likely, which is exactly why laboratory and clinical testing come next.</p>
 
-<h2>Beyond repurposing: side effects of drug combinations</h2>
+    <h2>Beyond repurposing: side effects of drug combinations</h2>
 <p>Taking several medicines at once is common, and combinations carry a higher risk of side effects through drug-drug interactions.<sup><a href="#ref-5" style="color:var(--gold);">[5]</a></sup> These interactions are hard to study because they are rare and often not seen in relatively small clinical trials.<sup><a href="#ref-5" style="color:var(--gold);">[5]</a></sup></p>
 <p>The Decagon model, published in 2018, tackled this with a graph of 645 drugs and 19,085 proteins linked by 715,612 protein-protein edges, 18,596 drug-protein edges and 4,651,131 drug-drug edges, with each of 964 common side effects treated as its own edge type.<sup><a href="#ref-5" style="color:var(--gold);">[5]</a></sup> A graph neural network learned to predict which specific side effect a given drug pair might produce, and outperformed baseline methods by up to 69%.<sup><a href="#ref-5" style="color:var(--gold);">[5]</a></sup> The authors framed the output as a way to flag and prioritize drug combinations for follow-up pharmacological studies.<sup><a href="#ref-5" style="color:var(--gold);">[5]</a></sup></p>
 <p>This kind of computer-based screening is an example of <a href="/insights/in-silico/" style="color:var(--gold);">in silico drug development</a>, where experiments are planned and prioritized with models before they reach the lab.</p>
 
-<h2>How machines reason over the graph</h2>
+    <h2>How machines reason over the graph</h2>
 <p>A raw graph is too large to search by hand, so researchers turn it into numbers. Machine learning methods compress each node into a compact list of numbers, called an embedding, that preserves the graph's local and/or global structure.<sup><a href="#ref-1" style="color:var(--gold);">[1]</a></sup> Further models then use those embeddings to make predictions across genomic, pharmaceutical and clinical questions.<sup><a href="#ref-1" style="color:var(--gold);">[1]</a></sup></p>
 <p>Methods that capture a graph's structure in this compressed form are an active area of research.<sup><a href="#ref-1" style="color:var(--gold);">[1]</a></sup> The <a href="/technologies/poincare/" style="color:var(--gold);">Poincaré disk explorer</a> on this site shows one alternative geometry for such maps interactively.</p>
 
-<h2>What knowledge graphs cannot do yet</h2>
+    <h2>What knowledge graphs cannot do yet</h2>
 <p>A knowledge graph is only as good as the facts that go into it. Building one means selecting suitable data sources<sup><a href="#ref-4" style="color:var(--gold);">[4]</a></sup> and reconciling databases that describe the same diseases in inconsistent ways.<sup><a href="#ref-3" style="color:var(--gold);">[3]</a></sup> Reviewers also highlight open challenges specific to drug discovery data.<sup><a href="#ref-4" style="color:var(--gold);">[4]</a></sup> Predictions still need experimental and clinical confirmation before they mean anything for patients.<sup><a href="#ref-2" style="color:var(--gold);">[2,5]</a></sup></p>
 <p>Used well, a graph narrows thousands of possibilities to a short list worth testing. That focus is the practical payoff.</p>
 
-<h2>Our research direction</h2>
+    <h2>Our research direction</h2>
 <p>At Instructional Biology, we are researching a <a href="/science/reasoning-system/" style="color:var(--gold);">Signaling Cascade Knowledge Graph</a> that organizes signaling pathways in hyperbolic space. Our thesis is that a map built around how cells pass signals can help prioritize which biological questions are worth testing first. This work is research-stage.</p>
 
     <div class="article-sources">
+
     <h2>Sources</h2>
     <ol>
       <li id="ref-1">Nicholson DN, Greene CS. Constructing knowledge graphs and their biomedical applications. Comput Struct Biotechnol J. 2020;18:1414-1428. <a href="https://doi.org/10.1016/j.csbj.2020.05.017" rel="noopener" target="_blank" style="color:var(--gold);">doi:10.1016/j.csbj.2020.05.017</a> · PMID <a href="https://pubmed.ncbi.nlm.nih.gov/32637040/" rel="noopener" target="_blank" style="color:var(--gold);">32637040</a></li>
