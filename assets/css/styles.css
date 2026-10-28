@@ -528,3 +528,7 @@ h1,h2,h3{text-align:center;margin-left:auto;margin-right:auto;}
 @media (max-width:640px){ .wrap.article-body{padding:48px 22px;} }
 
 .yt-facade:focus-visible{outline:2px solid var(--gold);outline-offset:2px;}
+
+/* a11y: in-text links */
+main p a:not([class]), main li a:not([class]), main figcaption a:not([class]){text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em;text-decoration-color:rgba(217,184,120,.6);}
+main p a:not([class]):hover, main li a:not([class]):hover{text-decoration-color:currentColor;}
