@@ -532,3 +532,12 @@ h1,h2,h3{text-align:center;margin-left:auto;margin-right:auto;}
 /* a11y: in-text links */
 main p a:not([class]), main li a:not([class]), main figcaption a:not([class]){text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em;text-decoration-color:rgba(217,184,120,.6);}
 main p a:not([class]):hover, main li a:not([class]):hover{text-decoration-color:currentColor;}
+
+/* page images (27 Oct 2026) */
+.page-figure-section{padding:8px 0 36px;}
+.page-figure{margin:0 auto;}
+.page-figure figcaption{text-align:center;}
+
+/* video transcript (28 Oct 2026) */
+.video-transcript{margin-top:10px;font-size:.92rem;line-height:1.7;color:#c3c0b3;}
+.video-transcript p{margin:0 0 10px;}
