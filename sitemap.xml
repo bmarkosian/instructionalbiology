@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.instructionalbiology.com/</loc><lastmod>2026-10-28</lastmod><priority>1.0</priority></url>
+  <url><loc>https://www.instructionalbiology.com/</loc><lastmod>2026-10-29</lastmod><priority>1.0</priority></url>
   <url><loc>https://www.instructionalbiology.com/about/</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority></url>
   <url><loc>https://www.instructionalbiology.com/about/contact/</loc><lastmod>2026-10-25</lastmod><priority>0.6</priority></url>
   <url><loc>https://www.instructionalbiology.com/about/founder/</loc><lastmod>2026-10-25</lastmod><priority>0.6</priority></url>
@@ -38,5 +38,15 @@
   <url><loc>https://www.instructionalbiology.com/insights/protein-aggregation-biologics/</loc><lastmod>2026-10-28</lastmod><priority>0.6</priority></url>
   <url><loc>https://www.instructionalbiology.com/technologies/vpe-3/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.instructionalbiology.com/about/pipeline/</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
-  <url><loc>https://www.instructionalbiology.com/about/revenue-streams/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.instructionalbiology.com/about/revenue-streams/</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.instructionalbiology.com/about/revenue-streams/asap/</loc><lastmod>2026-10-29</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.instructionalbiology.com/about/revenue-streams/isrs-ml/</loc><lastmod>2026-10-29</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.instructionalbiology.com/about/revenue-streams/thermodynamic-cold-stop/</loc><lastmod>2026-10-29</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.instructionalbiology.com/about/revenue-streams/bioreactor-retrofits/</loc><lastmod>2026-10-29</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.instructionalbiology.com/about/revenue-streams/otc-products/</loc><lastmod>2026-10-29</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.instructionalbiology.com/about/revenue-streams/cosmeceuticals/</loc><lastmod>2026-10-29</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.instructionalbiology.com/about/revenue-streams/in-silico-tox-clinical/</loc><lastmod>2026-10-29</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.instructionalbiology.com/about/revenue-streams/b2b-clinical/</loc><lastmod>2026-10-29</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.instructionalbiology.com/about/revenue-streams/b2c-wearables/</loc><lastmod>2026-10-29</lastmod><priority>0.6</priority></url>
+  <url><loc>https://www.instructionalbiology.com/about/revenue-streams/therapeutics-vanguard-assets/</loc><lastmod>2026-10-29</lastmod><priority>0.6</priority></url>
 </urlset>
