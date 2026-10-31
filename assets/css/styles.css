@@ -97,6 +97,10 @@ nav.primary-nav .nav-item > a::after{content:'';display:inline-block;margin-left
   .head-cta{display:none;}
   .menu-toggle{display:block;}
 }
+/* Patient Twin added to the nav (29 Oct 2026): keep the desktop nav on one line */
+nav.primary-nav > a,nav.primary-nav .nav-item > a{white-space:nowrap;}
+@media (max-width:1180px) and (min-width:861px){ .headbar{gap:16px;} nav.primary-nav{gap:15px;font-size:.77rem;} .head-cta{padding:9px 14px;font-size:.78rem;} }
+@media (max-width:1040px) and (min-width:861px){ .head-cta{display:none;} }
 
 /* ================= MOBILE NAV DRAWER ================= */
 .mobile-nav{

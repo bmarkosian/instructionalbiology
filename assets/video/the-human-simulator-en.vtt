@@ -1,0 +1,281 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.000
+Before a modern jet engine ever leaves the factory floor or takes to the sky,
+
+2
+00:00:05.000 --> 00:00:08.000
+it goes through thousands of hours of testing.
+
+3
+00:00:08.000 --> 00:00:11.000
+But that testing doesn't happen on a runway.
+
+4
+00:00:11.000 --> 00:00:13.000
+It happens inside a computer.
+
+5
+00:00:13.000 --> 00:00:16.000
+Engineers build what they call a digital twin,
+
+6
+00:00:16.000 --> 00:00:21.000
+a highly detailed living computational model of that exact engine.
+
+7
+00:00:21.000 --> 00:00:25.000
+As real-world data flows in, the digital model updates,
+
+8
+00:00:25.000 --> 00:00:29.000
+letting builders see exactly how the machine will perform under intense stress.
+
+9
+00:00:29.000 --> 00:00:32.000
+Now, think about the human body.
+
+10
+00:00:32.000 --> 00:00:37.000
+Our biological systems are vastly more complicated than any machine we have ever engineered.
+
+11
+00:00:37.000 --> 00:00:42.000
+Yet, when it comes to treating illness, we rely on a surprisingly outdated approach.
+
+12
+00:00:42.000 --> 00:00:46.000
+We give patients standard, average doses based on general guidelines,
+
+13
+00:00:46.000 --> 00:00:49.000
+and then we simply wait to see how they react.
+
+14
+00:00:49.000 --> 00:00:51.000
+Look at this visual comparison.
+
+15
+00:00:51.000 --> 00:00:56.000
+On the left, we map out every stress point of an engine before we push it to the limit.
+
+16
+00:00:56.000 --> 00:01:01.000
+On the right, we treat human patients using educated guesswork, hoping for the best.
+
+17
+00:01:01.000 --> 00:01:05.000
+A company called Instructional Biology is working to close that gap.
+
+18
+00:01:05.000 --> 00:01:09.000
+They are building the equivalent of a flight simulator, but for human medicine.
+
+19
+00:01:09.000 --> 00:01:14.000
+To get to a place where medical treatments are truly safe and customized for you,
+
+20
+00:01:14.000 --> 00:01:17.000
+we have to stop testing on the physical body first.
+
+21
+00:01:17.000 --> 00:01:21.000
+We need a way to test treatments on a digital model of the patient beforehand.
+
+22
+00:01:21.000 --> 00:01:24.000
+Creating that kind of simulator is a massive challenge.
+
+23
+00:01:24.000 --> 00:01:28.000
+Before you can predict how one specific person will react,
+
+24
+00:01:28.000 --> 00:01:32.000
+you first have to map out the entire biological system they belong to.
+
+25
+00:01:32.000 --> 00:01:37.000
+This is where the Advanced Science AI Platform, or ASAP, comes in.
+
+26
+00:01:37.000 --> 00:01:42.000
+Think of ASAP as a master blueprint of human biological signaling,
+
+27
+00:01:42.000 --> 00:01:45.000
+charting out how our cells communicate and function.
+
+28
+00:01:45.000 --> 00:01:50.000
+This dashboard displays the scale of information powering that blueprint.
+
+29
+00:01:50.000 --> 00:01:54.000
+Metrics on the right show findings synthesized from 6,000 published papers,
+
+30
+00:01:54.000 --> 00:01:57.000
+generating 50,000 mapped predictions.
+
+31
+00:01:57.000 --> 00:02:02.000
+On the left, a colorful circular map organizes this data into an interconnected web,
+
+32
+00:02:02.000 --> 00:02:06.000
+showing how disease and healing pathways interact.
+
+33
+00:02:06.000 --> 00:02:11.000
+As comprehensive as this master blueprint is, it still has one limitation.
+
+34
+00:02:11.000 --> 00:02:16.000
+It represents an average human baseline, pulling from broad population data.
+
+35
+00:02:16.000 --> 00:02:19.000
+Since no two patients share the exact same biology,
+
+36
+00:02:19.000 --> 00:02:24.000
+a static average blueprint is not enough to confidently cure a specific individual.
+
+37
+00:02:24.000 --> 00:02:27.000
+That broad map is just the starting point.
+
+38
+00:02:27.000 --> 00:02:32.000
+The next step is translating that general biology into a highly personalized model.
+
+39
+00:02:32.000 --> 00:02:35.000
+To do that, the system warps the baseline blueprint.
+
+40
+00:02:35.000 --> 00:02:40.000
+It pulls in your specific genetic profile, your metabolism and your medical history,
+
+41
+00:02:40.000 --> 00:02:44.000
+reshaping the standard model to match you perfectly.
+
+42
+00:02:44.000 --> 00:02:48.000
+A true digital twin is an active living model.
+
+43
+00:02:48.000 --> 00:02:51.000
+Instead of a static snapshot from your last doctor's visit,
+
+44
+00:02:51.000 --> 00:02:55.000
+it constantly updates to reflect changes in your body right now.
+
+45
+00:02:55.000 --> 00:02:58.000
+This diagram shows how that connection is made.
+
+46
+00:02:58.000 --> 00:03:02.000
+In the bottom right section, you see a wearable biosensor on the patient's arm.
+
+47
+00:03:02.000 --> 00:03:06.000
+That sensor acts as a bridge, feeding real-time data from the physical patient
+
+48
+00:03:06.000 --> 00:03:09.000
+straight back into their digital model.
+
+49
+00:03:09.000 --> 00:03:14.000
+With that live connection established, a doctor can now run a precise simulation.
+
+50
+00:03:14.000 --> 00:03:20.000
+They can test a specific dose on your digital twin and watch exactly how your unique biology will react.
+
+51
+00:03:20.000 --> 00:03:26.000
+And the most important part, all of this simulation happens before a single drop of medicine
+
+52
+00:03:26.000 --> 00:03:28.000
+ever enters your actual bloodstream.
+
+53
+00:03:28.000 --> 00:03:34.000
+By keeping the data looping between the patient and the twin, we can spot adverse reactions early.
+
+54
+00:03:34.000 --> 00:03:40.000
+We shift the entire trial and error process out of the hospital bed and into the digital realm.
+
+55
+00:03:40.000 --> 00:03:44.000
+Placing so much trust in a simulation requires strict safety boundaries.
+
+56
+00:03:44.000 --> 00:03:50.000
+The AI system maps the pathways and proposes treatments, but human physicians always review the evidence,
+
+57
+00:03:50.000 --> 00:03:53.000
+set the hard limits and make the final decisions.
+
+58
+00:03:53.000 --> 00:03:57.000
+There is also a physical fail-safe built directly into the delivery process.
+
+59
+00:03:57.000 --> 00:04:03.000
+If the wearable sensor detects your body reacting in a way that falls outside those doctor-approved limits,
+
+60
+00:04:03.000 --> 00:04:07.000
+the device immediately halts the flow of medicine.
+
+61
+00:04:07.000 --> 00:04:12.000
+Now imagine taking this level of individual precision and scaling it up.
+
+62
+00:04:12.000 --> 00:04:17.000
+What happens when you have thousands of these digital twins running at the same time?
+
+63
+00:04:17.000 --> 00:04:19.000
+You get virtual cohorts.
+
+64
+00:04:19.000 --> 00:04:25.000
+Instead of recruiting thousands of people for a physical clinical trial and waiting years for the results,
+
+65
+00:04:25.000 --> 00:04:33.000
+researchers can test a new drug across a massive grid of unique digital twins to predict its success almost instantly.
+
+66
+00:04:33.000 --> 00:04:36.000
+This workflow illustrates the complete loop.
+
+67
+00:04:36.000 --> 00:04:44.000
+The insights from those digital simulations guide how biological medicines are manufactured, made safe and finally delivered.
+
+68
+00:04:44.000 --> 00:04:52.000
+As shown by the dotted line at the bottom, the data from that delivery flows directly back to the beginning to inform the next round of discovery.
+
+69
+00:04:52.000 --> 00:05:02.000
+By mapping biological signals and pairing them with real-time digital testing, Instructional Biology replaces standard average doses with precise calculation.
+
+70
+00:05:02.000 --> 00:05:09.000
+We finally arrive at a point where medical treatment is built, tested and delivered exclusively for you.

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ME38LW4JC8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ME38LW4JC8');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patient Digital Twin Explained | Instructional Biology</title>
+<meta name="description" content="What is a patient digital twin? How a living model of one person tests a dose before it reaches the bloodstream, with clinician-set safety limits.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Instructional Biology">
+<meta property="og:title" content="Patient Digital Twin Explained | Instructional Biology">
+<meta property="og:description" content="What is a patient digital twin? How a living model of one person tests a dose before it reaches the bloodstream, with clinician-set safety limits.">
+<meta property="og:url" content="https://www.instructionalbiology.com/insights/patient-digital-twin/">
+<meta property="og:image" content="https://www.instructionalbiology.com/assets/img/share/insights-patient-digital-twin.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Patient Digital Twin Explained | Instructional Biology">
+<meta name="twitter:description" content="What is a patient digital twin? How a living model of one person tests a dose before it reaches the bloodstream, with clinician-set safety limits.">
+<meta name="twitter:image" content="https://www.instructionalbiology.com/assets/img/share/insights-patient-digital-twin.jpg">
+<link rel="canonical" href="https://www.instructionalbiology.com/insights/patient-digital-twin/">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Patient Digital Twin: A Flight Simulator for One Body">
+<link rel="icon" href="/assets/img/favicon.png">
+<link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/styles.css">
+<!-- seo-jsonld -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.instructionalbiology.com/"}, {"@type": "ListItem", "position": 2, "name": "Insights", "item": "https://www.instructionalbiology.com/insights/"}, {"@type": "ListItem", "position": 3, "name": "The Patient Digital Twin: A Flight Simulator for One Body", "item": "https://www.instructionalbiology.com/insights/patient-digital-twin/"}]}, {"@type": "Article", "headline": "The Patient Digital Twin: A Flight Simulator for One Body", "description": "What is a patient digital twin? How a living model of one person tests a dose before it reaches the bloodstream, with clinician-set safety limits.", "image": ["https://www.instructionalbiology.com/assets/img/share/insights-patient-digital-twin.jpg"], "datePublished": "2026-10-30", "dateModified": "2026-10-30", "mainEntityOfPage": "https://www.instructionalbiology.com/insights/patient-digital-twin/", "author": {"@type": "Person", "@id": "https://www.instructionalbiology.com/about/founder/#person", "name": "Boris Markosian", "url": "https://www.instructionalbiology.com/about/founder/"}, "publisher": {"@type": "Organization", "@id": "https://www.instructionalbiology.com/#organization", "name": "Instructional Biology Inc.", "logo": {"@type": "ImageObject", "url": "https://www.instructionalbiology.com/assets/img/logo-mark.jpg"}}, "citation": ["https://doi.org/10.1038/520609a", "https://doi.org/10.1038/s41746-022-00694-7", "https://doi.org/10.1073/pnas.1613458114"]}, {"@type": "VideoObject", "name": "The Human Simulator", "description": "The patient digital twin in five minutes: how a living model of one person tests a dose before it reaches the bloodstream.", "thumbnailUrl": "https://www.instructionalbiology.com/assets/video/the-human-simulator-poster.jpg", "uploadDate": "2026-10-30", "duration": "PT5M9S", "contentUrl": "https://www.instructionalbiology.com/assets/video/the-human-simulator.mp4"}]}
+</script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="top-line"></div>
+
+<header>
+  <div class="wrap headbar">
+    <a href="/" class="mark"><img src="/assets/img/logo-mark-112.webp" alt="Instructional Biology mark" width="56" height="56">Instructional Biology</a>
+    <nav class="primary-nav" aria-label="Primary">
+      <div class="nav-item">
+        <a href="/about/">About Us</a>
+        <div class="nav-dropdown">
+          <a href="/about/">Overview</a>
+          <a href="/about/founder/">Founder's Story</a>
+          <a href="/about/contact/">Contact Us</a>
+          <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+          <a href="/about/pipeline/">Our Pipeline</a>
+          <a href="/about/revenue-streams/">Revenue Streams</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/technologies/">Our Technologies</a>
+        <div class="nav-dropdown">
+          <a href="/technologies/">Overview</a>
+          <a href="/technologies/poincare/">Poincaré Explorer</a>
+          <a href="/technologies/vpe-3/">VPE-3 (POEF)</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/science/">The Science</a>
+        <div class="nav-dropdown">
+          <a href="/science/">Overview</a>
+          <a href="/science/bio-manufacturing/">MHFBP</a>
+          <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+          <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+          <a href="/science/reasoning-system/">Reasoning System</a>
+          <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/insights/">Insights</a>
+        <div class="nav-dropdown">
+          <a href="/insights/">Overview</a>
+          <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+          <a href="/insights/digital-twins/">Digital Twins</a>
+          <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+          <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+          <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+          <a href="/insights/in-silico/">In Silico</a>
+          <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+          <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+          <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+          <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+          <a href="/insights/patient-digital-twin/">Patient Twin Explained</a>
+          <a href="/insights/cost-to-develop-a-new-drug/">Cost of a New Drug</a>
+          <a href="/insights/protein-aggregation-biologics/">Protein Aggregation</a>
+          <a href="/insights/knowledge-graphs-in-biology/">Knowledge Graphs</a>
+          <a href="/insights/what-are-exosomes/">What Are Exosomes</a>
+          <a href="/insights/why-heat-denatures-proteins/">Heat and Proteins</a>
+          <a href="/insights/wearable-health-monitoring/">Wearable Monitoring</a>
+          <a href="/insights/why-drugs-fail-clinical-trials/">Why Drugs Fail</a>
+        </div>
+      </div>
+      <a href="/patient-twin/">Patient Twin</a>
+      <a href="/press/">Press</a>
+      <a href="/faq/">FAQ</a>
+    </nav>
+    <a href="mailto:boris@instructionalbiology.com" class="head-cta">Start a conversation</a>
+    <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">☰</button>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile" hidden>
+  <details class="mobile-nav-group">
+    <summary>About Us<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/about/">Overview</a>
+      <a href="/about/founder/">Founder's Story</a>
+      <a href="/about/contact/">Contact Us</a>
+      <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+      <a href="/about/pipeline/">Our Pipeline</a>
+      <a href="/about/revenue-streams/">Revenue Streams</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>Our Technologies<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/technologies/">Overview</a>
+      <a href="/technologies/poincare/">Poincaré Explorer</a>
+      <a href="/technologies/vpe-3/">VPE-3 (POEF)</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>The Science<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/science/">Overview</a>
+      <a href="/science/bio-manufacturing/">MHFBP</a>
+      <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+      <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+      <a href="/science/reasoning-system/">Reasoning System</a>
+      <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>Insights<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/insights/">Overview</a>
+      <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+      <a href="/insights/digital-twins/">Digital Twins</a>
+      <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+      <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+      <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+      <a href="/insights/in-silico/">In Silico</a>
+      <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+      <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+      <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+      <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+      <a href="/insights/patient-digital-twin/">Patient Twin Explained</a>
+      <a href="/insights/cost-to-develop-a-new-drug/">Cost of a New Drug</a>
+      <a href="/insights/protein-aggregation-biologics/">Protein Aggregation</a>
+      <a href="/insights/knowledge-graphs-in-biology/">Knowledge Graphs</a>
+      <a href="/insights/what-are-exosomes/">What Are Exosomes</a>
+      <a href="/insights/why-heat-denatures-proteins/">Heat and Proteins</a>
+      <a href="/insights/wearable-health-monitoring/">Wearable Monitoring</a>
+      <a href="/insights/why-drugs-fail-clinical-trials/">Why Drugs Fail</a>
+    </div>
+  </details>
+  <a href="/patient-twin/">Patient Twin</a>
+  <a href="/press/">Press</a>
+  <a href="/faq/">FAQ</a>
+  <a href="mailto:boris@instructionalbiology.com" class="mobile-cta">Start a conversation</a>
+</nav>
+
+<main id="main-content">
+<section class="article-hero">
+  <div class="wrap">
+    <div class="post-meta">Platform · 6 min read · Boris Markosian · Published <time datetime="2026-10-30">October 30, 2026</time></div>
+    <h1>The Patient Digital Twin: A Flight Simulator for One Body</h1>
+    <div class="byline">Instructional Biology Inc.</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap article-body">
+<p>Before a modern jet engine ever leaves the factory floor, it has already flown thousands of hours inside a computer. Engineers build a digital twin: a living model of that exact engine, updated as real-world data flows in, so they can see how it will behave under stress before they push the physical machine. The human body is far more complicated than any engine, yet medicine still doses it by the average and waits to see what happens. A <strong>patient digital twin</strong> is our answer: a flight simulator for one person's biology, where a dose can be tested before it reaches the bloodstream.</p>
+
+    <figure class="infographic">
+      <video controls preload="metadata" playsinline poster="/assets/video/the-human-simulator-poster.jpg" width="1280" height="720" style="width:100%;height:auto;display:block;border-radius:8px;" aria-label="Video: The Human Simulator, an introduction to the patient digital twin">
+        <source src="/assets/video/the-human-simulator.mp4" type="video/mp4">
+        <track kind="captions" src="/assets/video/the-human-simulator-en.vtt" srclang="en" label="English">
+        Your browser cannot play this video. <a href="/assets/video/the-human-simulator.mp4">Download it (MP4)</a>.
+      </video>
+      <figcaption>The Human Simulator (5:09): the patient digital twin in five minutes. The figures on the dashboard in the film come from an earlier October build of our knowledge graph. As of October 28, 2026, the graph holds 16,993 PubMed papers and 13,822 nodes.</figcaption>
+    </figure>
+
+<h2>The myth of the average patient</h2>
+
+<p>Today a dose is calculated once, from a population average and a single snapshot of the patient, as if the body's internal signaling stood still. The result is familiar to every physician: the top-grossing drugs in the United States help between 1 in 25 and 1 in 4 of the people who take them.<sup><a href="#ref-1" style="color:var(--gold);">[1]</a></sup></p>
+
+<p>A clinical trial tells us how a population responded. A patient is one person, and that person changes from day to day. Getting from the trial result to the individual is the missing step in medicine. The patient digital twin is built to take that step.</p>
+
+<h2>A living hypothesis, not a snapshot</h2>
+
+<p>A digital twin is not a static picture from your last appointment. It is a computational model of one person's signaling that keeps updating as new measurements arrive. Health digital twins are generally described as virtual representations of a patient, built from that patient's own data, population data and real-time updates, which can be tested to anticipate how the real person will respond.<sup><a href="#ref-2" style="color:var(--gold);">[2]</a></sup> Just as aerospace engineers stress a virtual turbine before they run the real one, the twin predicts a person's response before a medicine is given.</p>
+
+<h2>The map before the territory</h2>
+
+<p>To model one patient, you first need a map of human biology. Our Advanced Science AI Platform, ASAP, reads the published literature finding by finding and builds the Signaling Cascade Knowledge Graph: which molecule turns which pathway up, which turns it down, and the paper that says so. As of October 28, 2026 it holds 16,993 PubMed papers and 13,822 nodes.</p>
+
+<p>Biological signaling branches like a tree. A handful of master regulators fan out into thousands of downstream pathways and clinical outcomes. Flat space runs out of room for that kind of branching, so our map lives in hyperbolic space, a Poincaré ball, where room grows exponentially toward the edge, just as biology branches. Activation and inhibition are kept apart rather than averaged into nothing. You can explore a public view of the map in our <a href="/technologies/poincare/" style="color:var(--gold);">Poincaré Explorer</a>.</p>
+
+<h2>Warping the map to fit one person</h2>
+
+<p>That map describes an average human baseline, and no two patients share the same biology. So the next step is to reshape the map for one person. The twin takes the general signaling baseline and warps it with that patient's own data: their genetic variants, how their body metabolizes drugs, and their clinical history. Population data becomes n=1.</p>
+
+<h2>The operating loop: wearables and continuous measurement</h2>
+
+<p>A twin has to live in real life, not in a vacuum. Wearable sensors stream signals such as heart rate, temperature and sleep. Each person's readings are calibrated against clinical reference measurements, including electrochemical aptamer-based sensors, a technology that has tracked drug levels in the bloodstream of living animals continuously and in real time.<sup><a href="#ref-3" style="color:var(--gold);">[3]</a></sup> A transfer function fitted to that one person maps each signal onto their part of the map, so the twin knows what the body is doing now, not what it was doing at the last visit.</p>
+
+<h2>Comparing prediction with reality</h2>
+
+<p>The twin predicts each response in the same units the body is measured in, so prediction and measurement can be compared directly. When the measured response drifts away from the predicted one, the twin computes a revised plan, such as a different dose, a different combination or a different dosing interval, to bring the body back toward balance.</p>
+
+<h2>Safety: clinician-bounded and hardware-locked</h2>
+
+<p>The twin cannot invent a dose out of thin air. It can only propose changes inside limits the prescriber sets in advance: a maximum, a minimum and a safe fallback. Anything outside those limits is withheld and sent to the physician for review. The AI maps the pathways and proposes; physicians review the evidence, set the limits and make the final decisions.</p>
+
+<p>The limits are also enforced in the delivery device itself. If the wearable sees the body reacting outside the doctor-approved limits, or a software fault ever sends a command outside them, the device stops and returns to the prescriber's safe setting, and the event is recorded. Real-world data is noisy, so the twin is built to be cautious. It sets aside readings confounded by movement or poor skin contact, trusts old data less, and stops rather than guessing beyond the conditions it was qualified for.</p>
+
+<h2>Two twins: everyday and prescribed</h2>
+
+    <figure class="infographic">
+      <img loading="lazy" decoding="async" src="/assets/img/infographics/twin-architecture-dichotomy-800.webp" srcset="/assets/img/infographics/twin-architecture-dichotomy-800.webp 800w, /assets/img/infographics/twin-architecture-dichotomy-1200.webp 1200w, /assets/img/infographics/twin-architecture-dichotomy-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 880px" alt="Twin architecture dichotomy. Left, non-prescription wellness: the Instructional Twin on a phone, driven by consumer wearables, showing predicted versus measured trajectories for voluntary action, with no autonomous administration of therapeutics. Right, closed-loop clinical: the Therapeutic Twin dashboard under prescriber care, where clinician-ratified envelopes command hardware dosing" width="1858" height="974">
+      <figcaption>The same twin in two configurations: the Instructional Twin for everyday choices, and the Therapeutic Twin under a prescriber's care.</figcaption>
+    </figure>
+
+<p>The same twin runs in two configurations. The <strong>Instructional Twin</strong>, for everyday wellness, runs on the wearables people already own. It shows what the twin predicted next to what the body actually did, and it never administers anything. The <strong>Therapeutic Twin</strong> works under a prescriber's care: it computes dosing changes inside the prescriber's limits and can drive a dose-delivery device. If a person moves from one to the other, their calibration carries over, so they do not start again.</p>
+
+<h2>Virtual cohorts and trials of one</h2>
+
+<p>Run many individual twins at once and you get a virtual cohort: the spread of responses across many different biologies, computed before a physical trial begins. Trials can then be designed around the individual, and de-identified outcomes can be pooled to compare options without leaning on a single population average. We wrote more about this in <a href="/insights/in-silico/" style="color:var(--gold);">In Silico: Testing Biology Before You Touch It</a>.</p>
+
+<h2>The loop that keeps learning</h2>
+
+<p>The twin does not only use data; it creates it. Real-world dosing responses flow back into ASAP and the knowledge graph, so every patient makes the map more accurate for the next one. Discovery, manufacturing, making safe, delivery and dosing become one continuous loop, from the map to the patient and back again.</p>
+
+<p>Medicine made by the body, for the body, and now, medicine made for you.</p>
+
+    <div class="article-sources">
+    <h2>Sources</h2>
+    <ol>
+      <li id="ref-1">Schork NJ. Personalized medicine: Time for one-person trials. Nature. 2015;520(7549):609-611. <a href="https://doi.org/10.1038/520609a" rel="noopener" target="_blank" style="color:var(--gold);">doi:10.1038/520609a</a> · PMID <a href="https://pubmed.ncbi.nlm.nih.gov/25925459/" rel="noopener" target="_blank" style="color:var(--gold);">25925459</a></li>
+      <li id="ref-2">Venkatesh KP, Raza MM, Kvedar JC. Health digital twins as tools for precision medicine: Considerations for computation, implementation, and regulation. NPJ Digit Med. 2022;5(1):150. <a href="https://doi.org/10.1038/s41746-022-00694-7" rel="noopener" target="_blank" style="color:var(--gold);">doi:10.1038/s41746-022-00694-7</a> · PMID <a href="https://pubmed.ncbi.nlm.nih.gov/36138125/" rel="noopener" target="_blank" style="color:var(--gold);">36138125</a></li>
+      <li id="ref-3">Arroyo-Currás N, Somerson J, Vieira PA, et al. Real-time measurement of small molecules directly in awake, ambulatory animals. Proc Natl Acad Sci U S A. 2017;114(4):645-650. <a href="https://doi.org/10.1073/pnas.1613458114" rel="noopener" target="_blank" style="color:var(--gold);">doi:10.1073/pnas.1613458114</a> · PMID <a href="https://pubmed.ncbi.nlm.nih.gov/28069939/" rel="noopener" target="_blank" style="color:var(--gold);">28069939</a></li>
+    </ol>
+    </div>
+
+    <div class="related-reading">
+    <h2>Related reading</h2>
+    <ul>
+      <li><a href="/patient-twin/" style="color:var(--gold);">Patient Digital Twin: The End of Average</a></li>
+      <li><a href="/insights/digital-twins/" style="color:var(--gold);">Digital Twins: A Model That Learns With You</a></li>
+      <li><a href="/insights/wearable-health-monitoring/" style="color:var(--gold);">Wearable Health Monitoring and the Rise of Digital Biomarkers</a></li>
+      <li><a href="/science/therapeutic-regulation/" style="color:var(--gold);">Closed-Loop Dosing, Clinician-Led</a></li>
+    </ul>
+    </div>
+
+    <div class="article-disclaimer">This article describes a research thesis and technology under development, in general terms, for a public and non-confidential audience. The patient digital twin is research-stage and has not completed clinical development; it is not a claim that any Instructional Biology product treats, cures or prevents any disease. Nothing in this article is medical advice.</div>
+
+    <a href="/insights/" class="article-back">← Back to Insights</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top sitemap">
+      <div class="foot-brand">
+        <a href="/" class="mark"><img src="/assets/img/logo-mark-112.webp" alt="Instructional Biology mark" width="56" height="56">Instructional Biology</a>
+        <p>Building an evidence-aware bridge between biological complexity, computational reasoning, and disciplined translation.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <a href="/about/">About Us</a>
+        <a href="/about/founder/">Founder's Story</a>
+        <a href="/about/contact/">Contact Us</a>
+        <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+        <a href="/about/pipeline/">Our Pipeline</a>
+        <a href="/about/revenue-streams/">Revenue Streams</a>
+        <a href="/press/">Press</a>
+        <a href="/faq/">FAQ</a>
+        <a href="/glossary/">Glossary</a>
+        <a href="/investors/">Investors</a>
+      </div>
+      <div class="foot-col">
+        <h5>Technologies</h5>
+        <a href="/patient-twin/">Patient Twin</a>
+        <a href="/technologies/">Our Technologies</a>
+        <a href="/technologies/poincare/">Poincaré Explorer</a>
+        <a href="/technologies/vpe-3/">VPE-3 (POEF)</a>
+        <a href="/science/">The Science</a>
+        <a href="/science/bio-manufacturing/">MHFBP</a>
+        <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+        <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+        <a href="/science/reasoning-system/">Reasoning System</a>
+        <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+      </div>
+      <div class="foot-col">
+        <h5>Insights</h5>
+        <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+        <a href="/insights/digital-twins/">Digital Twins</a>
+        <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+        <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+        <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+        <a href="/insights/in-silico/">In Silico</a>
+        <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+        <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+        <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+        <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+        <a href="/insights/patient-digital-twin/">Patient Twin Explained</a>
+        <a href="/insights/cost-to-develop-a-new-drug/">Cost of a New Drug</a>
+        <a href="/insights/protein-aggregation-biologics/">Protein Aggregation</a>
+        <a href="/insights/knowledge-graphs-in-biology/">Knowledge Graphs</a>
+        <a href="/insights/what-are-exosomes/">What Are Exosomes</a>
+        <a href="/insights/why-heat-denatures-proteins/">Heat and Proteins</a>
+        <a href="/insights/wearable-health-monitoring/">Wearable Monitoring</a>
+        <a href="/insights/why-drugs-fail-clinical-trials/">Why Drugs Fail</a>
+      </div>
+    </div>
+    <div class="foot-row">
+      <span>© 2026 Instructional Biology Inc. All rights reserved.</span>
+      <span style="display:flex;gap:14px;flex-wrap:wrap;"><a class="foot-social" href="/sitemap/">Sitemap</a><a class="foot-social" href="https://www.linkedin.com/company/instructional-biology/" target="_blank" rel="noopener">Company LinkedIn ↗</a><a class="foot-social" href="https://www.linkedin.com/in/borismarkosian" target="_blank" rel="noopener">Founder LinkedIn ↗</a></span>
+    </div>
+    <div class="foot-fine">Public, non-confidential information. Platform and program descriptions concern technologies in development and are not claims of clinical efficacy, regulatory approval, or medical advice. This site uses Google Analytics to measure visits.</div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ME38LW4JC8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ME38LW4JC8');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patient Digital Twin: The End of Average | Instructional Biology</title>
+<meta name="description" content="Every medicine is approved on an average, and nobody is the average. Our patient digital twin reads the trials and asks one question for one person.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Instructional Biology">
+<meta property="og:title" content="Patient Digital Twin: The End of Average | Instructional Biology">
+<meta property="og:description" content="Every medicine is approved on an average, and nobody is the average. Our patient digital twin reads the trials and asks one question for one person.">
+<meta property="og:url" content="https://www.instructionalbiology.com/patient-twin/">
+<meta property="og:image" content="https://www.instructionalbiology.com/assets/img/share/insights-digital-twins.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Patient Digital Twin: The End of Average | Instructional Biology">
+<meta name="twitter:description" content="Every medicine is approved on an average, and nobody is the average. Our patient digital twin reads the trials and asks one question for one person.">
+<meta name="twitter:image" content="https://www.instructionalbiology.com/assets/img/share/insights-digital-twins.jpg">
+<link rel="canonical" href="https://www.instructionalbiology.com/patient-twin/">
+<link rel="icon" href="/assets/img/favicon.png">
+<link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/styles.css">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.instructionalbiology.com/"}, {"@type": "ListItem", "position": 2, "name": "Patient Twin", "item": "https://www.instructionalbiology.com/patient-twin/"}]}, {"@type": "WebPage", "name": "Patient Digital Twin: The End of Average | Instructional Biology", "url": "https://www.instructionalbiology.com/patient-twin/", "description": "Every medicine is approved on an average, and nobody is the average. Our patient digital twin reads the trials and asks one question for one person.", "publisher": {"@type": "Organization", "name": "Instructional Biology", "url": "https://www.instructionalbiology.com/"}}, {"@type": "VideoObject", "name": "Digital Twins: The End of Average Medicine", "description": "How a patient digital twin replaces one-size-fits-all dosing with a model of one person, updated from wearable data and kept inside clinician-set limits.", "thumbnailUrl": "https://www.instructionalbiology.com/assets/video/digital-twins-end-of-average-poster.jpg", "uploadDate": "2026-10-29", "duration": "PT4M40S", "contentUrl": "https://www.instructionalbiology.com/assets/video/digital-twins-end-of-average.mp4", "embedUrl": "https://www.instructionalbiology.com/insights/digital-twins/", "publisher": {"@type": "Organization", "name": "Instructional Biology Inc.", "url": "https://www.instructionalbiology.com/"}}]}
+</script>
+<style>
+/* Patient Twin page: scoped under .ptw so it cannot touch the site header or footer */
+.ptw{
+  --ink:#08090f; --ink-2:#0f121b; --ink-3:#151827;
+  --cream:#e9e6da; --muted:#8a8fa2; --hair:rgba(233,230,218,.12);
+  --violet:#8b80e8; --violet-deep:#524aa8; --gold:#d9b878; --amber:#c99a5b;
+  --good:#7fc8a9; --flat:#8a8fa2; --warn:#e08a6a;
+  --display:'Instrument Serif',Georgia,"Times New Roman",serif;
+  --body:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  color-scheme:dark;
+}
+.ptw{color:var(--cream);font-family:var(--body);font-size:16px;line-height:1.55;}
+.ptw .pw{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.ptw h1,.ptw h2,.ptw h3{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0}
+.ptw p{margin:0}
+.ptw .pe{font-family:var(--mono);font-size:.74rem;letter-spacing:.08em;color:var(--gold)}
+.ptw .lede{color:var(--muted);max-width:62ch;margin-inline:auto}
+.ptw a{color:var(--violet)}
+.ptw :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.ptw .ph{position:relative;overflow:hidden;border-bottom:1px solid var(--hair)}
+.ptw .ph canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+.ptw .ph .pw{position:relative;padding-block:72px 64px;display:grid;gap:18px;min-height:440px;align-content:end;justify-items:center;text-align:center}
+.ptw .ph h1{font-size:clamp(2.6rem,8vw,5.4rem);line-height:.95;letter-spacing:-.01em}
+.ptw .ph h1 em{color:var(--gold)}
+.ptw .ph .lede{color:#c9c6bb;font-size:1.06rem}
+.ptw .ptag{font-family:var(--display);font-style:italic;font-size:1.25rem;color:var(--gold)}
+.ptw section{padding-block:56px;border-bottom:1px solid var(--hair)}
+.ptw .head{display:grid;gap:10px;margin:0 auto 26px;max-width:760px;justify-items:center;text-align:center}
+.ptw .head h2{font-size:clamp(1.9rem,5vw,2.8rem);line-height:1.05}
+.ptw .split{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px;align-items:center;max-width:860px;margin-inline:auto}
+.ptw .tiles{display:grid;grid-template-columns:repeat(10,1fr);gap:5px;max-width:420px;margin-inline:auto}
+.ptw .tile{aspect-ratio:1;border-radius:3px;display:grid;place-items:center;font-family:var(--mono);font-size:.62rem;color:var(--ink);position:relative}
+.ptw .tile.vb{background:var(--gold)}
+.ptw .tile.vn{background:#3a3f52;color:var(--cream)}
+.ptw .tile.vh{background:var(--warn)}
+.ptw .legend{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:12px;font-size:.82rem;color:var(--muted)}
+.ptw .legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.ptw .big{text-align:center;font-family:var(--display);font-size:clamp(2.2rem,6vw,3.4rem);line-height:1;color:var(--cream)}
+.ptw .big small{font-family:var(--body);font-size:.95rem;color:var(--muted);display:block;margin-top:8px;line-height:1.45}
+.ptw .tabs{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-bottom:22px}
+.ptw .tabs button{font:500 .9rem var(--body);color:var(--cream);background:var(--ink-2);border:1px solid var(--hair);border-radius:999px;padding:9px 16px;cursor:pointer}
+.ptw .tabs button[aria-selected="true"]{background:var(--violet-deep);border-color:var(--violet)}
+.ptw .twin{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:22px}
+@media (max-width:760px){.ptw .twin{grid-template-columns:1fr}}
+.ptw .panel{background:var(--ink-2);border:1px solid var(--hair);border-radius:4px;padding:20px;min-width:0}
+.ptw .panel h3{font-size:1.5rem;margin-bottom:6px}
+.ptw .label{font-family:var(--mono);font-size:.7rem;letter-spacing:.07em;color:var(--muted);margin-bottom:8px;display:block}
+.ptw .person{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:center;margin-bottom:18px}
+.ptw .person svg{width:86px;height:86px}
+.ptw .person p{color:#c9c6bb;font-size:.95rem}
+.ptw .person h3{text-align:left;margin:0 0 6px}
+.ptw .gauge{margin-top:18px}
+.ptw .gauge .bar{height:8px;margin-top:34px;background:repeating-linear-gradient(90deg,transparent 0 calc(10% - 2px),var(--ink-2) calc(10% - 2px) 10%),linear-gradient(90deg,var(--good),#3a3f52 50%,var(--warn));position:relative;pointer-events:none}
+.ptw .gauge .needle{position:absolute;top:-14px;width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-top:10px solid var(--cream);transform:translateX(-50%);left:50%;transition:left 1.1s cubic-bezier(.2,.8,.2,1)}
+.ptw .gauge .needle::after{content:'today';position:absolute;bottom:14px;left:50%;transform:translateX(-50%);font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;color:var(--cream);white-space:nowrap}
+.ptw .gauge .ends{display:flex;justify-content:space-between;font-size:.76rem;color:var(--muted);margin-top:8px}
+.ptw .gauge p{font-size:.86rem;color:var(--muted);margin-top:10px}
+.ptw .trials{display:grid;gap:6px;margin:6px 0 16px}
+.ptw .trow{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;font-size:.84rem}
+.ptw .pdot{width:9px;height:9px;border-radius:50%}
+.ptw .trow .meta{font-family:var(--mono);font-size:.74rem;color:var(--muted);white-space:nowrap}
+.ptw .trow .name{min-width:0;overflow-wrap:anywhere}
+.ptw .avg{font-size:.95rem;border-left:2px solid var(--gold);padding-left:12px;margin-bottom:18px}
+.ptw .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.ptw .chip{font-size:.8rem;border:1px solid var(--hair);border-radius:3px;padding:6px 9px;background:var(--ink-3)}
+.ptw .chip b{font-family:var(--mono);font-weight:500;color:var(--gold);margin-right:6px}
+.ptw .chip.w{border-color:rgba(139,128,232,.5)}
+.ptw .harm{font-size:.86rem;color:#d9cfc8;background:rgba(224,138,106,.08);border:1px solid rgba(224,138,106,.35);border-radius:3px;padding:10px 12px}
+.ptw .twins2{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.ptw .twincard{display:grid;gap:8px;align-content:start;justify-items:center;text-align:center}
+.ptw .twincard svg{width:100%;max-width:300px;height:auto;margin-bottom:6px}
+.ptw .twincard p{color:#c9c6bb;font-size:.95rem}
+.ptw .twincard .rule{color:var(--gold);font-size:.9rem;border-top:1px solid var(--hair);padding-top:10px;margin-top:4px}
+.ptw .pipe{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--hair);border:1px solid var(--hair)}
+@media (min-width:700px){.ptw .pipe{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.ptw .pstep{background:var(--ink);padding:18px 16px;display:grid;gap:6px;align-content:start;justify-items:center;text-align:center}
+.ptw .pstep .pn{font-family:var(--display);font-size:2.2rem;line-height:1;color:var(--cream);font-variant-numeric:tabular-nums}
+.ptw .pstep .t{font-size:.84rem;color:var(--muted)}
+.ptw .pclose{padding-block:64px;text-align:center}
+.ptw .pclose h2{font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;max-width:18ch;margin-inline:auto}
+.ptw .pclose .ptag{margin-top:14px}
+.ptw .pnotes{padding-block:28px 40px;font-size:.78rem;color:var(--muted);text-align:center}
+.ptw .pnotes p{max-width:80ch;margin-inline:auto}
+.ptw .film .vid{margin:0 auto;max-width:960px}
+.ptw .film video{width:100%;height:auto;display:block;border:1px solid var(--hair);border-radius:6px;background:#000}
+.ptw .pnotes p+p{margin-top:8px}
+@media (prefers-reduced-motion:reduce){.ptw .gauge .needle{transition:none}}
+</style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="top-line"></div>
+
+<header>
+  <div class="wrap headbar">
+    <a href="/" class="mark"><img src="/assets/img/logo-mark-112.webp" alt="Instructional Biology mark" width="56" height="56">Instructional Biology</a>
+    <nav class="primary-nav" aria-label="Primary">
+      <div class="nav-item">
+        <a href="/about/">About Us</a>
+        <div class="nav-dropdown">
+          <a href="/about/">Overview</a>
+          <a href="/about/founder/">Founder's Story</a>
+          <a href="/about/contact/">Contact Us</a>
+          <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+          <a href="/about/pipeline/">Our Pipeline</a>
+          <a href="/about/revenue-streams/">Revenue Streams</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/technologies/">Our Technologies</a>
+        <div class="nav-dropdown">
+          <a href="/technologies/">Overview</a>
+          <a href="/technologies/poincare/">Poincaré Explorer</a>
+          <a href="/technologies/vpe-3/">VPE-3 (POEF)</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/science/">The Science</a>
+        <div class="nav-dropdown">
+          <a href="/science/">Overview</a>
+          <a href="/science/bio-manufacturing/">MHFBP</a>
+          <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+          <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+          <a href="/science/reasoning-system/">Reasoning System</a>
+          <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="/insights/">Insights</a>
+        <div class="nav-dropdown">
+          <a href="/insights/">Overview</a>
+          <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+          <a href="/insights/digital-twins/">Digital Twins</a>
+          <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+          <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+          <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+          <a href="/insights/in-silico/">In Silico</a>
+          <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+          <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+          <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+          <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+          <a href="/insights/patient-digital-twin/">Patient Twin Explained</a>
+          <a href="/insights/cost-to-develop-a-new-drug/">Cost of a New Drug</a>
+          <a href="/insights/protein-aggregation-biologics/">Protein Aggregation</a>
+          <a href="/insights/knowledge-graphs-in-biology/">Knowledge Graphs</a>
+          <a href="/insights/what-are-exosomes/">What Are Exosomes</a>
+          <a href="/insights/why-heat-denatures-proteins/">Heat and Proteins</a>
+          <a href="/insights/wearable-health-monitoring/">Wearable Monitoring</a>
+          <a href="/insights/why-drugs-fail-clinical-trials/">Why Drugs Fail</a>
+        </div>
+      </div>
+      <a href="/patient-twin/">Patient Twin</a>
+      <a href="/press/">Press</a>
+      <a href="/faq/">FAQ</a>
+    </nav>
+    <a href="mailto:boris@instructionalbiology.com" class="head-cta">Start a conversation</a>
+    <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">☰</button>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile" hidden>
+  <details class="mobile-nav-group">
+    <summary>About Us<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/about/">Overview</a>
+      <a href="/about/founder/">Founder's Story</a>
+      <a href="/about/contact/">Contact Us</a>
+      <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+      <a href="/about/pipeline/">Our Pipeline</a>
+      <a href="/about/revenue-streams/">Revenue Streams</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>Our Technologies<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/technologies/">Overview</a>
+      <a href="/technologies/poincare/">Poincaré Explorer</a>
+      <a href="/technologies/vpe-3/">VPE-3 (POEF)</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>The Science<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/science/">Overview</a>
+      <a href="/science/bio-manufacturing/">MHFBP</a>
+      <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+      <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+      <a href="/science/reasoning-system/">Reasoning System</a>
+      <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+    </div>
+  </details>
+  <details class="mobile-nav-group">
+    <summary>Insights<span class="mn-caret">+</span></summary>
+    <div class="mobile-sub">
+      <a href="/insights/">Overview</a>
+      <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+      <a href="/insights/digital-twins/">Digital Twins</a>
+      <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+      <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+      <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+      <a href="/insights/in-silico/">In Silico</a>
+      <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+      <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+      <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+      <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+      <a href="/insights/patient-digital-twin/">Patient Twin Explained</a>
+      <a href="/insights/cost-to-develop-a-new-drug/">Cost of a New Drug</a>
+      <a href="/insights/protein-aggregation-biologics/">Protein Aggregation</a>
+      <a href="/insights/knowledge-graphs-in-biology/">Knowledge Graphs</a>
+      <a href="/insights/what-are-exosomes/">What Are Exosomes</a>
+      <a href="/insights/why-heat-denatures-proteins/">Heat and Proteins</a>
+      <a href="/insights/wearable-health-monitoring/">Wearable Monitoring</a>
+      <a href="/insights/why-drugs-fail-clinical-trials/">Why Drugs Fail</a>
+    </div>
+  </details>
+  <a href="/patient-twin/">Patient Twin</a>
+  <a href="/press/">Press</a>
+  <a href="/faq/">FAQ</a>
+  <a href="mailto:boris@instructionalbiology.com" class="mobile-cta">Start a conversation</a>
+</nav>
+
+<main id="main-content" class="ptw">
+<div class="ph">
+  <canvas id="crowd" aria-hidden="true"></canvas>
+  <div class="pw">
+    <span class="pe">INSTRUCTIONAL BIOLOGY · PATIENT DIGITAL TWIN</span>
+    <h1>The end of <em>average</em>.</h1>
+    <p class="lede">Every medicine is approved on an average. Nobody is the average. The patient digital twin reads what the trials measured and asks one question for one person: will this settle my body, or stress it?</p>
+    <p class="ptag">Medicine made by the body, for the body.</p>
+  </div>
+</div>
+
+<section class="film">
+  <div class="pw">
+    <div class="head">
+      <span class="pe">WATCH · 4:40</span>
+      <h2>Digital twins: the end of average medicine.</h2>
+    </div>
+    <figure class="vid">
+      <video controls preload="metadata" playsinline poster="/assets/video/digital-twins-end-of-average-poster.jpg" width="1280" height="692" aria-label="Video: Digital twins, the end of average medicine">
+        <source src="/assets/video/digital-twins-end-of-average.mp4" type="video/mp4">
+        <track kind="captions" src="/assets/video/digital-twins-end-of-average-en.vtt" srclang="en" label="English">
+        Your browser cannot play this video. <a href="/assets/video/digital-twins-end-of-average.mp4">Download it (MP4)</a>.
+      </video>
+    </figure>
+  </div>
+</section>
+
+<section class="film">
+  <div class="pw">
+    <div class="head">
+      <span class="pe">WATCH · 5:09</span>
+      <h2>The human simulator: test the dose before it reaches you.</h2>
+    </div>
+    <figure class="vid">
+      <video controls preload="metadata" playsinline poster="/assets/video/the-human-simulator-poster.jpg" width="1280" height="720" aria-label="Video: The Human Simulator, the patient digital twin in five minutes">
+        <source src="/assets/video/the-human-simulator.mp4" type="video/mp4">
+        <track kind="captions" src="/assets/video/the-human-simulator-en.vtt" srclang="en" label="English">
+        Your browser cannot play this video. <a href="/assets/video/the-human-simulator.mp4">Download it (MP4)</a>.
+      </video>
+    </figure>
+    <p class="lede" style="margin-top:14px;">The dashboard in this film shows an earlier October build of the knowledge graph; the current counts are below. <a href="/insights/patient-digital-twin/" style="color:var(--gold);">Read the article that goes with it →</a></p>
+  </div>
+</section>
+
+<section>
+  <div class="pw">
+    <div class="head">
+      <span class="pe">THE AVERAGE FAILS TWICE</span>
+      <h2>Most drugs never reach patients. The ones that do help few of the people who take them.</h2>
+      <p class="lede">About 7 in 100 drugs that enter human trials are approved (6.7%, 2014–2023). And some of the best-selling drugs in America help between 1 in 25 and 1 in 4 of the people who take them. Medicine built on the average fails most people twice: in the trial, and in the clinic.</p>
+    </div>
+    <div class="split">
+      <div>
+        <div class="tiles" id="kneeTiles" role="img" aria-label="100 drugs entering human trials: about 7 approved"></div>
+        <div class="legend"><span><i style="background:var(--gold)"></i>Approved</span><span><i style="background:#3a3f52"></i>Did not reach approval</span></div>
+      </div>
+      <p class="big">6.7%<small>of drugs entering Phase 1 reach approval (Citeline, 2014–2023). Biologics have historically done about twice as well.</small></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="pw">
+    <div class="head">
+      <span class="pe">MEET THE TWIN</span>
+      <h2>One person, read against every trial.</h2>
+      <p class="lede">Pick a patient. The trial results are real; the patients are illustrative.</p>
+    </div>
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <div class="twin" id="twin"></div>
+  </div>
+</section>
+
+<section>
+  <div class="pw">
+    <div class="head">
+      <span class="pe">TWO TWINS WE WILL OFFER</span>
+      <h2>One for everyday choices. One for prescribed care.</h2>
+      <p class="lede">Both are built on the same trial evidence and the same body-stress signal. They differ in who acts on what the twin sees.</p>
+    </div>
+    <div class="twins2">
+      <article class="panel twincard">
+        <svg viewBox="0 0 240 150" aria-hidden="true">
+          <rect x="78" y="6" width="84" height="138" rx="14" fill="none" stroke="#e9e6da" stroke-opacity=".5" stroke-width="2"/>
+          <path d="M90 108 C104 84,116 96,128 70 S150 44,152 40" fill="none" stroke="#8b80e8" stroke-width="2.5"/>
+          <path d="M90 112 C104 96,116 104,128 84 S150 62,152 58" fill="none" stroke="#7fc8a9" stroke-width="2.5"/>
+          <circle cx="152" cy="40" r="3.5" fill="#8b80e8"/><circle cx="152" cy="58" r="3.5" fill="#7fc8a9"/>
+          <text x="90" y="30" fill="#8a8fa2" font-size="9" font-family="IBM Plex Mono,monospace">predicted · measured</text>
+        </svg>
+        <span class="label">NON-PRESCRIPTION · WELLNESS</span>
+        <h3>Instructional Twin</h3>
+        <p>Runs on the wearables people already own. It shows what the twin predicted next to what the body actually did, so a person can choose what to do about sleep, activity and the everyday factors that move their stress signal.</p>
+        <p class="rule">It never administers anything.</p>
+      </article>
+      <article class="panel twincard">
+        <svg viewBox="0 0 240 150" aria-hidden="true">
+          <rect x="22" y="10" width="196" height="112" rx="8" fill="none" stroke="#e9e6da" stroke-opacity=".5" stroke-width="2"/>
+          <line x1="40" y1="40" x2="200" y2="40" stroke="#d9b878" stroke-dasharray="5 4" stroke-width="1.5"/>
+          <line x1="40" y1="96" x2="200" y2="96" stroke="#d9b878" stroke-dasharray="5 4" stroke-width="1.5"/>
+          <path d="M40 80 C70 62,90 72,110 58 S160 66,200 54" fill="none" stroke="#8b80e8" stroke-width="2.5"/>
+          <text x="40" y="34" fill="#d9b878" font-size="9" font-family="IBM Plex Mono,monospace">doctor's max</text>
+          <text x="40" y="110" fill="#d9b878" font-size="9" font-family="IBM Plex Mono,monospace">doctor's min</text>
+          <rect x="100" y="126" width="40" height="10" rx="2" fill="#e9e6da" fill-opacity=".35"/>
+        </svg>
+        <span class="label">PRESCRIBED · CLOSED LOOP</span>
+        <h3>Therapeutic Twin</h3>
+        <p>Works under a prescriber's care. The doctor sets the minimum and maximum dose, and the twin adjusts dosing only inside those limits as the body's signals change. Every decision is recorded.</p>
+        <p class="rule">It doses only inside the limits a prescriber has approved.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="pw">
+    <div class="head">
+      <span class="pe">WHAT THE TWIN LEARNS FROM</span>
+      <h2>The hardest science to get, read trial by trial.</h2>
+      <p class="lede">Registry results and published papers for the signalling proteins in our platform, scored on each trial's primary outcome against its control, on top of the SCKG, our knowledge graph of the published literature.</p>
+    </div>
+    <div class="pipe">
+      <div class="pstep"><span class="pn">566</span><span class="t">clinical trials reviewed</span></div>
+      <div class="pstep"><span class="pn">13,641</span><span class="t">patient measurements read from the trial results</span></div>
+      <div class="pstep"><span class="pn">3,040</span><span class="t">different things the trials measured in patients</span></div>
+      <div class="pstep"><span class="pn">104</span><span class="t">of them a wearable can track every day</span></div>
+      <div class="pstep"><span class="pn">388</span><span class="t">body-stress signals: inflammation, pain, sleep, heart rate, mood</span></div>
+      <div class="pstep"><span class="pn">1,005</span><span class="t">side-effect comparisons, treatment against control</span></div>
+      <div class="pstep"><span class="pn">16,993</span><span class="t">PubMed papers (PMIDs) in the SCKG</span></div>
+      <div class="pstep"><span class="pn">13,822</span><span class="t">nodes in the SCKG knowledge graph</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="pclose">
+  <div class="pw">
+    <h2>From average medicine to n=1 therapeutics.</h2>
+    <p class="lede" style="margin-top:14px">Bespoke treatments, matched to one body, built from the proteins the body already uses to heal.</p>
+    <p class="ptag">Medicine made by the body, for the body.</p>
+  </div>
+</section>
+
+<div class="pnotes">
+  <div class="pw">
+    <p>Trial results from ClinicalTrials.gov and PubMed, reviewed 29 October 2026. Each trial is scored benefit, no difference or harm on its own primary outcome against its control. Side-effect figures are raw rates pooled across trials, not a statistical test. Approval rate: Citeline (Norstella), Biomedtracker data 2014–2023; BIO, Informa and QLS report 7.9% for 2011–2020. Biologics: BIO and Biomedtracker, 2003–2010. Responders: Schork, Nature 2015. PMID and node counts are distinct PMIDs and distinct nodes in the SCKG graph record of 28 October 2026.</p>
+    <p>Patients on this page are illustrative. This page shows the evidence the twin learns from. It is not medical advice.</p>
+    <p>Instructional Biology Inc. · www.instructionalbiology.com</p>
+  </div>
+</div>
+
+</main>
+
+<script>
+/* ---------- Data (from DT_THR_Trials_Full_Scope_Master_10.29.2026-18.41.xlsx) ---------- */
+const KNEE=[['NCT03200288','b',692],['NCT00131352','b',253],['NCT00669032','b',446],['NCT02495857','b',599],['NCT00379236','b',588],
+            ['NCT03191903','n',576],['NCT03390036','n',526],['NCT03190369','n',440],['NCT01806207','n',218],['NCT01934218','n',814],['NCT00653432','n',369]];
+const P={
+ knee:{tab:'Knee pain',title:'58, knee osteoarthritis',about:'Walks with pain, stiff in the morning, sleeps badly on bad days.',
+  mark:.62, markText:'Today: pain and poor sleep push the stress signal up.',
+  avg:'Hyaluronic acid knee injections: controlled trials of the same injection disagree on whether it beats a placebo (11 trials, 5,521 people).',
+  trials:KNEE.map(([id,v,n])=>[id,v,n,'Hyaluronic acid']),
+  watch:[['Pain',44,0],['Mood, sleep and quality of life',25,0],['Function and mobility',23,0],['Steps and walking pace',null,1],['Sleep',null,1]],
+  harm:null},
+ heart:{tab:'Heart failure',title:'71, acute heart failure',about:'Admitted short of breath; blood pressure runs high.',
+  mark:.74, markText:'Today: breathlessness and strain keep the stress signal high.',
+  avg:'Serelaxin improved breathlessness in 1,161 patients (RELAX-AHF), then showed no difference in 6,600 (RELAX-AHF-2).',
+  trials:[['NCT00520806','b',1161,'Serelaxin · RELAX-AHF'],['NCT01870778','n',6600,'Serelaxin · RELAX-AHF-2'],['NCT02064868','b',2666,'Serelaxin'],['NCT01543854','b',71,'Serelaxin'],['NCT01546532','b',118,'Serelaxin'],['NCT01982292','n',321,'Serelaxin'],['NCT01179061','b',24,'Apelin'],['ChiCTR-TRC-00000414','n',44,'Neuregulin-1']],
+  watch:[['Heart and blood pressure',13,0],['Kidney',7,0],['Breathing',5,0],['Hospital course',5,0],['Blood pressure',null,1],['Heart rate',null,1]],
+  harm:'Dizziness: 10 of 212 on serelaxin (4.7%) against 1 of 108 on placebo (0.9%), in one trial.'},
+ eye:{tab:'Dry eye',title:'46, severe dry eye',about:'Eyes burn by afternoon; screens make it worse.',
+  mark:.58, markText:'Today: surface damage and discomfort hold the stress signal above baseline.',
+  avg:'NGF eye drops (cenegermin): controlled trials disagree on whether the drops beat their vehicle (5 trials, 917 people).',
+  trials:[['NCT05136170','b',85,'NGF'],['NCT05133180','b',104,'NGF'],['NCT06244316','b',317,'NGF'],['NCT03982368','n',261,'NGF'],['NCT03019627','n',150,'NGF']],
+  watch:[['Eye surface and tears',76,0],['Quality of life',2,0],['Screen time and sleep',null,1]],
+  harm:'Eye pain: 148 of 855 on NGF (17.3%) against 34 of 492 on control (6.9%), across 7 trials. The same drop that helps the surface can raise discomfort, and the twin weighs both for one person.'}
+};
+
+/* ---------- Knee tiles ---------- */
+const kt=document.getElementById('kneeTiles');
+for(let i=0;i<100;i++){const d=document.createElement('div');d.className='tile '+(i<7?'vb':'vn');kt.appendChild(d)}
+
+/* ---------- Twin ---------- */
+const tabs=document.getElementById('tabs'), twin=document.getElementById('twin');
+const col={b:'var(--good)',n:'var(--flat)',h:'var(--warn)'}, word={b:'Benefit',n:'No difference',h:'Harm'};
+function personSVG(seed){
+  // simple figure with sensor points
+  return `<svg viewBox="0 0 86 86" aria-hidden="true"><circle cx="43" cy="43" r="41" fill="none" stroke="rgba(233,230,218,.15)"/>
+  <circle cx="43" cy="27" r="9" fill="none" stroke="#e9e6da" stroke-width="1.5"/>
+  <path d="M25 70c2-14 9-22 18-22s16 8 18 22" fill="none" stroke="#e9e6da" stroke-width="1.5"/>
+  <circle class="pulse" cx="${seed==='heart'?47:seed==='eye'?46:52}" cy="${seed==='heart'?56:seed==='eye'?26:68}" r="3.5" fill="#d9b878"/></svg>`;
+}
+function render(key){
+  const p=P[key];
+  [...tabs.children].forEach(b=>b.setAttribute('aria-selected',b.dataset.k===key));
+  const nb=p.trials.filter(t=>t[1]==='b').length, nn=p.trials.filter(t=>t[1]==='n').length;
+  twin.innerHTML=`
+   <div class="panel">
+     <span class="label">ILLUSTRATIVE PATIENT</span>
+     <div class="person">${personSVG(key)}<div><h3>${p.title}</h3><p>${p.about}</p></div></div>
+     <span class="label">WHAT THE TWIN WATCHES</span>
+     <div class="chips">${p.watch.map(([n,c,w])=>`<span class="chip${w?' w':''}">${c!==null?`<b>${c}</b>`:'<b>⌚</b>'}${n}</span>`).join('')}</div>
+     <p style="font-size:.8rem;color:var(--muted)">Numbers are measures recorded in these trials. ⌚ marks signals a wearable tracks daily.</p>
+     <div class="gauge"><span class="label">BODY STRESS SIGNAL · ILLUSTRATIVE</span>
+       <div class="bar"><span class="needle" id="needle"></span></div>
+       <div class="ends"><span>Settling: benefit</span><span>Rising: harm</span></div>
+       <p>${p.markText} The signal falls when a treatment settles the body and rises when it stresses it.</p></div>
+   </div>
+   <div class="panel">
+     <span class="label">WHAT THE TRIALS SAY</span>
+     <p class="avg">${p.avg}</p>
+     <div class="trials">${p.trials.map(([id,v,n,drug])=>`<div class="trow"><span class="pdot" style="background:${col[v]}"></span><span class="name">${drug} <span style="color:var(--muted)">${id}</span></span><span class="meta">${word[v]} · ${n.toLocaleString()}</span></div>`).join('')}</div>
+     ${p.harm?`<span class="label">SIDE-EFFECT SIGNAL</span><p class="harm">${p.harm}</p>`:''}
+     <p style="font-size:.86rem;color:#c9c6bb;margin-top:16px">The trials give one answer for everyone. The twin asks it again for this person, using the signals they share with the people who responded.</p>
+   </div>`;
+  const nd=document.getElementById('needle'); nd.style.left='50%'; requestAnimationFrame(()=>requestAnimationFrame(()=>{nd.style.left=(p.mark*100)+'%'}));
+}
+Object.entries(P).forEach(([k,p],i)=>{const b=document.createElement('button');b.type='button';b.role='tab';b.dataset.k=k;b.textContent=p.tab;b.id='tab-'+k;b.onclick=()=>render(k);tabs.appendChild(b)});
+render('knee');
+
+/* ---------- Hero crowd: many people, one highlighted ---------- */
+(function(){
+  const c=document.getElementById('crowd'), x=c.getContext('2d'); let W,H,dots=[],me,t0=performance.now();
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function size(){const r=c.getBoundingClientRect(),d=Math.min(2,devicePixelRatio||1);W=r.width;H=r.height;c.width=W*d;c.height=H*d;x.setTransform(d,0,0,d,0,0);
+    const n=Math.round(Math.min(900,W*H/520)); dots=[];
+    for(let i=0;i<n;i++){ // bell-shaped crowd: an "average"
+      let g=0;for(let k=0;k<4;k++)g+=Math.random(); g=g/4;
+      dots.push({x:W*(.18+.64*g)+ (Math.random()-.5)*30, y:H*(.25+Math.random()*.7), r:Math.random()*1.3+.5, p:Math.random()*6.28, s:.2+Math.random()*.4});}
+    me={x:W*.82,y:H*.14};}
+  function frame(now){const t=(now-t0)/1000; x.clearRect(0,0,W,H);
+    for(const d of dots){const dx=reduce?0:Math.sin(t*d.s+d.p)*3; x.fillStyle='rgba(233,230,218,.16)'; x.beginPath(); x.arc(d.x+dx,d.y,d.r,0,6.283); x.fill();}
+    const pulse=reduce?0:(Math.sin(t*2)+1)/2;
+    x.strokeStyle=`rgba(217,184,120,${.25+.35*pulse})`; x.lineWidth=1; x.beginPath(); x.arc(me.x,me.y,10+pulse*10,0,6.283); x.stroke();
+    x.fillStyle='#d9b878'; x.beginPath(); x.arc(me.x,me.y,4.5,0,6.283); x.fill();
+    x.fillStyle='rgba(217,184,120,.85)'; x.font='500 11px "IBM Plex Mono",monospace'; x.fillText('n = 1',me.x+14,me.y+4);
+    if(!reduce) requestAnimationFrame(frame);}
+  size(); addEventListener('resize',()=>{size(); if(reduce) frame(performance.now());}); requestAnimationFrame(frame);
+})();
+</script>
+<footer>
+  <div class="wrap">
+    <div class="foot-top sitemap">
+      <div class="foot-brand">
+        <a href="/" class="mark"><img src="/assets/img/logo-mark-112.webp" alt="Instructional Biology mark" width="56" height="56">Instructional Biology</a>
+        <p>Building an evidence-aware bridge between biological complexity, computational reasoning, and disciplined translation.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Company</h5>
+        <a href="/about/">About Us</a>
+        <a href="/about/founder/">Founder's Story</a>
+        <a href="/about/contact/">Contact Us</a>
+        <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
+        <a href="/about/pipeline/">Our Pipeline</a>
+        <a href="/about/revenue-streams/">Revenue Streams</a>
+        <a href="/press/">Press</a>
+        <a href="/faq/">FAQ</a>
+        <a href="/glossary/">Glossary</a>
+        <a href="/investors/">Investors</a>
+      </div>
+      <div class="foot-col">
+        <h5>Technologies</h5>
+        <a href="/patient-twin/">Patient Twin</a>
+        <a href="/technologies/">Our Technologies</a>
+        <a href="/technologies/poincare/">Poincaré Explorer</a>
+        <a href="/technologies/vpe-3/">VPE-3 (POEF)</a>
+        <a href="/science/">The Science</a>
+        <a href="/science/bio-manufacturing/">MHFBP</a>
+        <a href="/science/pathogen-reduction/">Pathogen-Reduction System</a>
+        <a href="/science/carrier-manufacturing/">Carrier (Exosome) Manufacturing System</a>
+        <a href="/science/reasoning-system/">Reasoning System</a>
+        <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
+      </div>
+      <div class="foot-col">
+        <h5>Insights</h5>
+        <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
+        <a href="/insights/digital-twins/">Digital Twins</a>
+        <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>
+        <a href="/insights/adaptive-medicine/">Adaptive Medicine</a>
+        <a href="/insights/personalized-medicine/">Medicine, Made For You</a>
+        <a href="/insights/in-silico/">In Silico</a>
+        <a href="/insights/mhfbp-manufacturing/">Innovations in Manufacturing</a>
+        <a href="/insights/patent-cliff-2/">Patent Cliff 2.0</a>
+        <a href="/insights/thermosensitive-peptidome/">The Thermosensitive Peptidome</a>
+        <a href="/insights/humanitarian-impact/">The Cost of Learning Too Late</a>
+        <a href="/insights/patient-digital-twin/">Patient Twin Explained</a>
+        <a href="/insights/cost-to-develop-a-new-drug/">Cost of a New Drug</a>
+        <a href="/insights/protein-aggregation-biologics/">Protein Aggregation</a>
+        <a href="/insights/knowledge-graphs-in-biology/">Knowledge Graphs</a>
+        <a href="/insights/what-are-exosomes/">What Are Exosomes</a>
+        <a href="/insights/why-heat-denatures-proteins/">Heat and Proteins</a>
+        <a href="/insights/wearable-health-monitoring/">Wearable Monitoring</a>
+        <a href="/insights/why-drugs-fail-clinical-trials/">Why Drugs Fail</a>
+      </div>
+    </div>
+    <div class="foot-row">
+      <span>© 2026 Instructional Biology Inc. All rights reserved.</span>
+      <span style="display:flex;gap:14px;flex-wrap:wrap;"><a class="foot-social" href="/sitemap/">Sitemap</a><a class="foot-social" href="https://www.linkedin.com/company/instructional-biology/" target="_blank" rel="noopener">Company LinkedIn ↗</a><a class="foot-social" href="https://www.linkedin.com/in/borismarkosian" target="_blank" rel="noopener">Founder LinkedIn ↗</a></span>
+    </div>
+    <div class="foot-fine">Public, non-confidential information. Platform and program descriptions concern technologies in development and are not claims of clinical efficacy, regulatory approval, or medical advice. This site uses Google Analytics to measure visits.</div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>
