@@ -190,9 +190,75 @@
     <p>We call the reasoning system ASAP, the Advanced Science AI Platform. ASAP is the operating system behind everything we build: the ISRS-ML module, the retrofit bioreactor skids, the MET-APFS targeting system and the personalized-medicine digital twin. ASAP is to our platform what the processor is to a computer: it sits at the center and governs them all. Every safety stop runs in hardware on its own, so if ASAP ever goes silent, the process stops safely.</p>
 
     <p>Two design choices make this possible. First, the underlying graph is embedded in a hyperbolic space rather than a flat, Euclidean one — a geometry that naturally accommodates the exponential branching of a real biological hierarchy without running out of representational room at the periphery, the way flat layouts do. Second, the reasoning layer on top of that embedding uses graph neural network message-passing that explicitly tracks relationship polarity — the difference between a peptide that activates a pathway and one that suppresses it — so that an activating relationship and an inhibiting one between the same two biological entities are never collapsed into a single, ambiguous signal.</p>
-  <figure class="infographic">
-    <img loading="lazy" decoding="async" src="/assets/img/infographics/infographic-science-reasoning-system-800.webp" srcset="/assets/img/infographics/infographic-science-reasoning-system-800.webp 800w, /assets/img/infographics/infographic-science-reasoning-system-1200.webp 1200w" sizes="(max-width: 900px) 100vw, 880px" alt="Infographic: the reasoning system — a hyperbolic knowledge graph of peptides, receptors, signaling cascades, master regulators, disease states and outcomes, reasoned over by a polarity-aware graph neural network to rank evidence-traceable hypotheses" width="1200" height="1624">
-    <figcaption>The reasoning system organizes biological evidence in hyperbolic space and ranks traceable, human-reviewed hypotheses linking signaling biology to individual outcome.</figcaption>
+  <figure class="ibx" id="ibx-rs" aria-labelledby="ibx-rs-title">
+    <div class="ibx-head">
+      <p class="ibx-eyebrow">Infographic · Science · System 04</p>
+      <h3 class="ibx-title" id="ibx-rs-title">The Reasoning System</h3>
+      <p class="ibx-sub">A hyperbolic knowledge graph linking signaling biology to individual outcome, reasoned over by a graph neural network built to distinguish agonist from antagonist, and evidence from inference.</p>
+    </div>
+
+    <div class="ibx-rs-stage">
+      <svg class="ibx-rs-svg" viewBox="0 0 360 360" role="img" aria-label="Illustration: six tiers of a branching biological hierarchy drawn in a Poincaré disc, with activating and suppressing links"></svg>
+      <div class="ibx-rs-side">
+        <p class="ibx-label">What the graph organizes</p>
+        <div class="ibx-chips" role="group" aria-label="Show one tier">
+          <button type="button" class="ibx-chip" data-tier="0">Peptides</button>
+          <button type="button" class="ibx-chip" data-tier="1">Receptors</button>
+          <button type="button" class="ibx-chip" data-tier="2">Signaling cascades</button>
+          <button type="button" class="ibx-chip" data-tier="3">Master regulators</button>
+          <button type="button" class="ibx-chip" data-tier="4">Disease states</button>
+          <button type="button" class="ibx-chip" data-tier="5">Outcomes</button>
+        </div>
+        <div class="ibx-chips" role="group" aria-label="Show one kind of link">
+          <button type="button" class="ibx-chip ibx-plus" data-sign="1">+ activates</button>
+          <button type="button" class="ibx-chip ibx-minus" data-sign="-1">− suppresses</button>
+        </div>
+        <p class="ibx-rs-note" aria-live="polite"></p>
+        <p class="ibx-fine">Linked by directional, typed relationships, held in a structure a model can reason over explicitly. Illustration only, not the trained graph.</p>
+      </div>
+    </div>
+
+    <div class="ibx-grid2">
+      <div class="ibx-card">
+        <p class="ibx-label">1 · Hyperbolic embedding</p>
+        <p>The graph sits in hyperbolic rather than flat Euclidean space, a geometry that naturally accommodates the exponential branching of a real biological hierarchy, with representational room right out to the periphery.</p>
+      </div>
+      <div class="ibx-card">
+        <p class="ibx-label">2 · Polarity-aware message passing</p>
+        <p>Graph neural network message-passing tracks relationship polarity, so a peptide that activates a pathway and one that suppresses it are always kept distinct.</p>
+      </div>
+    </div>
+
+    <div class="ibx-grid2">
+      <div class="ibx-card ibx-yes">
+        <p class="ibx-label">Produces</p>
+        <ul class="ibx-list">
+          <li>A ranked set of hypotheses linking a signaling molecule to a possible outcome</li>
+          <li>Weighted by evidence support and the centrality of the intermediate biology</li>
+          <li>Traceable back to the supporting evidence</li>
+          <li>Reviewed by a human before it goes near a laboratory bench</li>
+        </ul>
+      </div>
+      <div class="ibx-card ibx-no">
+        <p class="ibx-label">Does not produce</p>
+        <ul class="ibx-list">
+          <li>A diagnosis</li>
+          <li>A treatment decision</li>
+          <li>A claim of efficacy</li>
+        </ul>
+        <p class="ibx-fine">Every output goes to a human reviewer, well before any patient.</p>
+      </div>
+    </div>
+
+    <div class="ibx-chain" aria-label="The layer the stack depends on">
+      <div class="ibx-link"><p class="ibx-label">Feeds it intact evidence</p><p><a href="/science/bio-manufacturing/">Bio-processing system</a><br><a href="/science/pathogen-reduction/">Pathogen-reduction system</a></p></div>
+      <span class="ibx-arrow" aria-hidden="true">→</span>
+      <div class="ibx-link ibx-here"><p class="ibx-label">Maps the biology</p><p><strong>Reasoning system</strong><br>Hyperbolic knowledge graph + polarity-aware graph neural network</p></div>
+      <span class="ibx-arrow" aria-hidden="true">→</span>
+      <div class="ibx-link"><p class="ibx-label">Takes its configuration</p><p><a href="/science/carrier-manufacturing/">Carrier (exosome) manufacturing</a><br><a href="/science/therapeutic-regulation/">Therapeutic-regulation system</a></p></div>
+    </div>
+
+    <figcaption>The reasoning system organizes biological evidence in hyperbolic space and ranks traceable, human-reviewed hypotheses linking signaling biology to individual outcome. Research-stage; not medical advice.</figcaption>
   </figure>
 
 
@@ -281,5 +347,6 @@
 </footer>
 
 <script src="/assets/js/main.js" defer></script>
+<script src="/assets/js/ibx-reasoning.js" defer></script>
 </body>
 </html>
