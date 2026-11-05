@@ -1,0 +1,422 @@
+WEBVTT
+
+1
+00:00:01.600 --> 00:00:06.710
+For the last century, medical science has largely treated the human body like a machine.
+
+2
+00:00:07.240 --> 00:00:12.670
+If a part isn't working, we invent a synthetic chemical in a lab and use it to force a
+
+3
+00:00:12.680 --> 00:00:14.010
+receptor into submission.
+
+4
+00:00:14.500 --> 00:00:18.710
+But this mechanical approach carries a massive human cost.
+
+5
+00:00:19.220 --> 00:00:23.530
+When you treat complex biological systems as simple chemical equations,
+
+6
+00:00:23.880 --> 00:00:25.670
+you get catastrophic failures.
+
+7
+00:00:26.160 --> 00:00:31.090
+The opioid epidemic is a devastating example of what happens when we try to bludgeon the
+
+8
+00:00:31.100 --> 00:00:32.870
+body's receptors into compliance.
+
+9
+00:00:34.060 --> 00:00:37.470
+There is a hidden flaw in how we make modern biologic drugs too.
+
+10
+00:00:38.260 --> 00:00:41.930
+Traditional manufacturing relies on heat to sterilize and process materials.
+
+11
+00:00:42.640 --> 00:00:46.490
+But biological proteins are delicate three-dimensional structures.
+
+12
+00:00:46.880 --> 00:00:48.270
+When you expose them to heat,
+
+13
+00:00:48.640 --> 00:00:49.430
+they denature.
+
+14
+00:00:49.760 --> 00:00:51.790
+They literally unfold and fall apart.
+
+15
+00:00:52.460 --> 00:00:54.570
+In biology, form is function.
+
+16
+00:00:54.840 --> 00:00:59.690
+If you destroy a protein's physical shape during processing, you destroy its ability to
+
+17
+00:00:59.700 --> 00:01:01.670
+deliver the right message to the patient.
+
+18
+00:01:02.740 --> 00:01:05.210
+Boris Markosian looks at the body entirely differently.
+
+19
+00:01:05.720 --> 00:01:11.030
+He argues the human body isn't a collection of independent mechanical parts to be blocked
+
+20
+00:01:11.040 --> 00:01:11.830
+or forced.
+
+21
+00:01:12.180 --> 00:01:15.130
+It is a highly interconnected language of signals.
+
+22
+00:01:15.760 --> 00:01:20.550
+This perspective is the foundation of a new therapeutic field called Instructional Medicine.
+
+23
+00:01:21.160 --> 00:01:26.050
+Instead of introducing foreign chemicals, the goal is to heal the body by using the natural
+
+24
+00:01:26.060 --> 00:01:28.210
+signaling proteins it already produces,
+
+25
+00:01:28.740 --> 00:01:31.810
+isolating them with their physical structures completely intact.
+
+26
+00:01:32.460 --> 00:01:35.570
+But translating that biological language isn't simple.
+
+27
+00:01:36.180 --> 00:01:41.290
+To crack it, you need someone who understands the physical realities of handling delicate
+
+28
+00:01:41.300 --> 00:01:46.710
+organic tissue, and who can also build the computational architecture required to map
+
+29
+00:01:46.720 --> 00:01:48.950
+millions of molecular interactions.
+
+30
+00:01:49.820 --> 00:01:53.210
+Markosian represents that rare cross-disciplinary overlap.
+
+31
+00:01:53.220 --> 00:01:58.850
+His career spans both intensive laboratory science and massive data operations,
+
+32
+00:01:59.260 --> 00:02:03.690
+positioning him to translate the instructions the medical establishment has overlooked.
+
+33
+00:02:05.100 --> 00:02:09.610
+Markosian's understanding of physical biology started with his studies in physiology and
+
+34
+00:02:09.620 --> 00:02:11.570
+neuroscience at UC San Diego.
+
+35
+00:02:12.080 --> 00:02:16.710
+From there, he moved into high-stakes wet lab environments, conducting cancer immunotherapy
+
+36
+00:02:16.720 --> 00:02:22.230
+research at the UCSD Moores Cancer Center, and working on oncolytic virotherapy as a
+
+37
+00:02:22.240 --> 00:02:23.530
+scientist at Genelux.
+
+38
+00:02:24.260 --> 00:02:28.950
+He also gained crucial operational experience managing complex laboratory environments
+
+39
+00:02:28.960 --> 00:02:31.630
+at the Salk Institute for Biological Studies.
+
+40
+00:02:32.760 --> 00:02:38.090
+Spending a decade handling delicate organic materials showed him firsthand exactly why
+
+41
+00:02:38.100 --> 00:02:39.850
+traditional processing methods fail.
+
+42
+00:02:40.380 --> 00:02:45.470
+He saw how standard techniques structurally destroy the very signaling molecules researchers
+
+43
+00:02:45.480 --> 00:02:46.670
+are trying to study.
+
+44
+00:02:47.160 --> 00:02:50.890
+Then he did something unusual for a biological researcher.
+
+45
+00:02:51.400 --> 00:02:55.990
+He stepped out of the laboratory entirely and took a role as a data operations lead at
+
+46
+00:02:56.000 --> 00:02:56.430
+Google.
+
+47
+00:02:56.760 --> 00:03:02.170
+In this corporate tech environment, he learned how to manage, map, and scale impossibly
+
+48
+00:03:02.180 --> 00:03:04.050
+complex information architectures.
+
+49
+00:03:04.540 --> 00:03:07.490
+He was learning how to organize massive data sets,
+
+50
+00:03:07.900 --> 00:03:12.510
+skills directly applicable to the millions of signaling pathways in the human body.
+
+51
+00:03:13.160 --> 00:03:18.910
+He first attempted to merge biology and data by founding Vaxenta Biotechnologies at Johnson
+
+52
+00:03:18.920 --> 00:03:22.610
+& Johnson's JLabs, focusing on a cancer vaccine thesis.
+
+53
+00:03:23.360 --> 00:03:25.850
+Later, he launched Placenta Products LLC,
+
+54
+00:03:26.220 --> 00:03:30.650
+bringing an oral supplement to market to test the practical delivery of biological signaling
+
+55
+00:03:30.660 --> 00:03:31.450
+molecules.
+
+56
+00:03:32.240 --> 00:03:34.890
+These early ventures proved a crucial concept.
+
+57
+00:03:35.260 --> 00:03:40.210
+Biological signals carry vital information that standard chemical and nutritional models
+
+58
+00:03:40.220 --> 00:03:47.090
+completely miss. 15 years of research recently culminated in a massive 2026
+
+59
+00:03:47.100 --> 00:03:49.590
+master intellectual property portfolio.
+
+60
+00:03:50.060 --> 00:03:53.590
+Markosian prepared and filed it himself as the sole inventor,
+
+61
+00:03:53.980 --> 00:03:55.550
+without outside legal counsel.
+
+62
+00:03:56.100 --> 00:04:01.710
+The portfolio includes six patent applications, built from over 200 drafts, designed to
+
+63
+00:04:01.720 --> 00:04:04.970
+lay the groundwork for an entirely new therapeutic ecosystem.
+
+64
+00:04:05.560 --> 00:04:07.950
+The first half of this system is computational.
+
+65
+00:04:07.960 --> 00:04:11.970
+It's called the Advanced Science AI Platform, or ASAP,
+
+66
+00:04:12.500 --> 00:04:16.970
+and it's designed to map exactly how the human body reasons on a molecular level.
+
+67
+00:04:17.700 --> 00:04:19.370
+Take a look at these pathway diagrams.
+
+68
+00:04:19.980 --> 00:04:22.950
+This is ASAP's Signaling Cascade Knowledge Graph.
+
+69
+00:04:23.200 --> 00:04:27.770
+It tracks how specific biological ingredients trigger direct outcomes.
+
+70
+00:04:28.220 --> 00:04:33.670
+On the left, glowing connective lines map the pathway from an ingredient through receptors
+
+71
+00:04:33.680 --> 00:04:36.450
+to an indication, like a diabetic foot ulcer.
+
+72
+00:04:36.460 --> 00:04:40.350
+On the right, a similar route maps to wound healing.
+
+73
+00:04:41.120 --> 00:04:42.270
+Notice the text at the bottom.
+
+74
+00:04:43.000 --> 00:04:48.390
+Standard databases only list facts, but this engine applies hyperbolic geometry to actively
+
+75
+00:04:48.400 --> 00:04:50.090
+forecast disease directions,
+
+76
+00:04:50.480 --> 00:04:53.150
+tracking every prediction back to its source literature.
+
+77
+00:04:53.700 --> 00:04:58.050
+Because before you can deliver a natural biological instruction to a patient, you must
+
+78
+00:04:58.060 --> 00:05:02.470
+first have the advanced computational map required to know which instruction to send.
+
+79
+00:05:02.480 --> 00:05:05.090
+Once the right instruction is identified,
+
+80
+00:05:05.400 --> 00:05:08.350
+the second half of the system has to physically extract it.
+
+81
+00:05:08.640 --> 00:05:12.030
+This is the Markosian High-Fidelity Bio-Processing Protocol.
+
+82
+00:05:12.680 --> 00:05:17.990
+To solve the denaturing problem, this protocol utilizes a proprietary thermodynamic cold
+
+83
+00:05:18.000 --> 00:05:18.350
+stop.
+
+84
+00:05:18.800 --> 00:05:23.590
+It isolates heat-labile signaling peptides without ever using the destructive heat that
+
+85
+00:05:23.600 --> 00:05:28.570
+ruins standard biologics. Markosian has engineered the two necessary halves,
+
+86
+00:05:29.000 --> 00:05:33.590
+the computational brain to find the exact biological signals, and the physical engine
+
+87
+00:05:33.600 --> 00:05:36.610
+to extract them with their structures perfectly intact.
+
+88
+00:05:37.240 --> 00:05:41.510
+The long-term objective here is to move away from mass-produced synthetic chemicals that
+
+89
+00:05:41.520 --> 00:05:45.250
+treat the average patient, who doesn't actually exist.
+
+90
+00:05:46.060 --> 00:05:49.450
+Instead, the goal is bespoke therapeutics,
+
+91
+00:05:49.800 --> 00:05:53.130
+dosed and tailored to the unique biology of the individual.
+
+92
+00:05:53.140 --> 00:05:58.350
+The platform's future involves payload-agnostic engineered exosomes,
+
+93
+00:05:58.800 --> 00:06:03.510
+which will safely carry these natural biologics directly to where the body needs them.
+
+94
+00:06:03.900 --> 00:06:04.910
+Look at this illustration.
+
+95
+00:06:05.520 --> 00:06:07.790
+It perfectly represents this new approach,
+
+96
+00:06:08.260 --> 00:06:13.290
+matching data-driven computation on the left with natural, complex protein structures
+
+97
+00:06:13.300 --> 00:06:14.070
+on the right.
+
+98
+00:06:14.420 --> 00:06:17.630
+It captures the body's messages in their original form,
+
+99
+00:06:17.960 --> 00:06:20.650
+resulting in medicine that is endogenous by design.
+
+100
+00:06:20.660 --> 00:06:24.170
+It all points back to Markosian's core philosophy.
+
+101
+00:06:24.680 --> 00:06:27.030
+The body already knows how to heal itself.
+
+102
+00:06:27.400 --> 00:06:28.950
+We simply provide the reminder.
+
+103
+00:06:29.640 --> 00:06:35.250
+Sometimes a genuine medical shift requires someone who sits outside the traditional silos,
+
+104
+00:06:35.720 --> 00:06:41.310
+a cross-disciplinary pioneer willing to finally learn and speak the language the medical
+
+105
+00:06:41.320 --> 00:06:42.630
+establishment has forgotten.
+

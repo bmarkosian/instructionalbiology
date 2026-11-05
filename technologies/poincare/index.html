@@ -35,6 +35,28 @@
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.instructionalbiology.com/"}, {"@type": "ListItem", "position": 2, "name": "Our Technologies", "item": "https://www.instructionalbiology.com/technologies/"}, {"@type": "ListItem", "position": 3, "name": "Every signal, mapped in its native geometry.", "item": "https://www.instructionalbiology.com/technologies/poincare/"}]}]}
 </script>
+<script type="application/ld+json">
+
+{
+ "@context": "https://schema.org",
+ "@type": "VideoObject",
+ "name": "How the Poincaré Ball Maps Biology",
+ "description": "An illustrated concept film on over-smoothing and why a hyperbolic Poincaré ball keeps branching biological signals distinct.",
+ "thumbnailUrl": [
+  "https://www.instructionalbiology.com/assets/video/poincare-ball-maps-biology-poster.jpg"
+ ],
+ "uploadDate": "2026-11-02T12:00:00-08:00",
+ "duration": "PT1M28S",
+ "contentUrl": "https://www.instructionalbiology.com/assets/video/poincare-ball-maps-biology.mp4",
+ "inLanguage": "en",
+ "publisher": {
+  "@type": "Organization",
+  "name": "Instructional Biology",
+  "url": "https://www.instructionalbiology.com/"
+ }
+}
+
+</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to content</a>
@@ -49,12 +71,14 @@
         <div class="nav-dropdown">
           <a href="/about/">Overview</a>
           <a href="/about/founder/">Founder's Story</a>
+          <a href="/about/ip-portfolio/">IP Portfolio</a>
           <a href="/about/contact/">Contact Us</a>
           <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
           <a href="/about/pipeline/">Our Pipeline</a>
           <a href="/about/revenue-streams/">Revenue Streams</a>
         </div>
       </div>
+      <a href="/instructional-medicine/">Instructional Medicine</a>
       <div class="nav-item">
         <a href="/technologies/">Our Technologies</a>
         <div class="nav-dropdown">
@@ -113,12 +137,14 @@
     <div class="mobile-sub">
       <a href="/about/">Overview</a>
       <a href="/about/founder/">Founder's Story</a>
+      <a href="/about/ip-portfolio/">IP Portfolio</a>
       <a href="/about/contact/">Contact Us</a>
       <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
       <a href="/about/pipeline/">Our Pipeline</a>
       <a href="/about/revenue-streams/">Revenue Streams</a>
     </div>
   </details>
+  <a href="/instructional-medicine/">Instructional Medicine</a>
   <details class="mobile-nav-group">
     <summary>Our Technologies<span class="mn-caret">+</span></summary>
     <div class="mobile-sub">
@@ -211,7 +237,7 @@
         <div class="exp-caption">Drag to rotate. Click any node — or the line connecting two nodes — and it rotates to the center, tracing its labeled connections. Regulators with the most cross-talk render larger and outlined in gold. Illustrative synthetic data — six tiers, seven nodes each.</div>
       </div>
       <div class="exp-card" style="margin-top:14px;">
-        <h6 aria-level="3">Polarity under message passing</h6>
+        <h3 class="as-h6">Polarity under message passing</h3>
         <div class="exp-polar">
           <div class="exp-pcell">
             <canvas id="expPA" width="220" height="130"></canvas>
@@ -228,22 +254,22 @@
 
     <aside>
       <div class="exp-card">
-        <h6 aria-level="4">Selected node</h6>
+        <h3 class="as-h6">Selected node</h3>
         <div id="expSel"><div class="ph">Click a node or a connecting line to trace it.</div></div>
       </div>
       <div class="exp-card">
-        <h6 aria-level="5">Master regulators</h6>
+        <h3 class="as-h6">Master regulators</h3>
         <div class="exp-legend" id="expHubs"></div>
         <p class="exp-note">Ranked by cross-talk connection count within the regulator tier — modeling how a handful of hub regulators (illustratively, the AKT/mTOR pattern) end up with disproportionately more pathway connections than the rest, rather than every regulator being equally connected.</p>
       </div>
       <div class="exp-card">
-        <h6>Layout diagnostics</h6>
+        <h3 class="as-h6">Layout diagnostics</h3>
         <div class="exp-metric"><span class="k">Outer ÷ inner tier radius</span><span class="v" id="expSep">—</span></div>
         <div class="exp-metric"><span class="k">Unconnected ÷ connected distance</span><span class="v" id="expEnc">—</span></div>
         <div class="exp-metric"><span class="k">Max radius</span><span class="v" id="expRad">—</span></div>
       </div>
       <div class="exp-card">
-        <h6>Tiers</h6>
+        <h3 class="as-h6">Tiers</h3>
         <div class="exp-legend" id="expLeg"></div>
       </div>
     </aside>
@@ -269,12 +295,27 @@
 
     <p>That's the property our Signaling Cascade Knowledge Graph is built to exploit: a biological signaling hierarchy — few master regulators, exponentially more specific downstream detail — is exactly the shape this geometry was shown to represent well, at far lower dimensionality than a comparably accurate Euclidean alternative would require.</p>
 
+    <figure class="infographic page-figure" style="max-width:420px;">
+      <video controls preload="metadata" playsinline poster="/assets/video/poincare-ball-maps-biology-poster.jpg" width="720" height="1220" style="width:100%;height:auto;display:block;border:1px solid var(--hair-dark);border-radius:6px;background:#000;" aria-label="Video: How the Poincaré Ball Maps Biology">
+        <source src="/assets/video/poincare-ball-maps-biology.mp4" type="video/mp4">
+        <track kind="captions" src="/assets/video/poincare-ball-maps-biology-en.vtt" srclang="en" label="English">
+        Your browser cannot play this video. <a href="/assets/video/poincare-ball-maps-biology.mp4">Download it (MP4)</a>.
+      </video>
+      <figcaption>How the Poincaré Ball Maps Biology (1:28): why flat maps blur biology, and how a curved one keeps every branch apart. An illustrated concept film. Dramatization: the animations are illustrations, not real footage. <a href="/videos/how-the-poincare-ball-maps-biology/" style="color:var(--gold);">Watch on its film page</a>.</figcaption>
+      <details class="embed-code"><summary>Read the transcript</summary><div class="video-transcript">
+        <p><strong>0:01</strong> The Poincaré ball is a geometric map for complex data, but how does it handle massive biological networks? On a traditional flat graph, branching pathways crowd together, causing distinct signals to blur. Take a single starting molecule. It triggers three receptors, which trigger three cascades, fanning out toward thousands of outcomes.</p>
+        <p><strong>0:25</strong> Map this on a flat grid, and the branches quickly run out of space. The nodes collide. When these branches overlap, opposing signals like activate and inhibit just average together into a blur. This data loss is called over smoothing.</p>
+        <p><strong>0:42</strong> But warp that grid into a hyperbolic Poincaré ball and the rules change. In this curved space, the available room actually grows exponentially the further you move toward the rim. Place that starting molecule back at the center. As the signal fans out, thousands of outcomes fit perfectly along the outer rings without colliding.</p>
+        <p><strong>1:03</strong> Because every branch has its own room, inhibitory signals can freely flip direction without hitting their neighbors, preserving the exact biological instruction. And that starting molecule from the beginning, you can trace its exact unblurred path through the network, predicting the final outcome with perfect clarity.</p>
+      </div></details>
+    </figure>
+
     <h2>Reading the map</h2>
     <p>Radial position tells you how broadly influential a node is — closer to the center means a wider reach across the downstream network, the way a master regulator affects many cascades at once, while a specific outcome sits far out because it's the endpoint of one particular path, not a hub many paths pass through. Angular position and clustering reflect similarity: nodes that share more context or evidence tend to sit nearer each other around the disk. Edges represent asserted relationships between tiers, each one meant to be traceable back to the evidence that supports it rather than inferred silently.</p>
 
     <p>What you're looking at here is a public, illustrative concept model — a demonstration of the geometry and the interaction pattern, not a rendering of our full internal evidence graph, which is considerably larger and remains internal to ongoing research. We built this public version because we think the geometry itself is worth understanding on its own, independent of any specific dataset behind it.</p>
 
-    <div class="article-disclaimer" style="max-width:none;">This page presents a public, illustrative concept model of the Signaling Cascade Knowledge Graph's structure and geometry. It does not disclose Instructional Biology's proprietary internal graph, dataset, or evidence weightings. Instructional Biology's platform and programs are research-stage and have not completed clinical development.</div>
+    <div class="article-disclaimer" style="max-width:none;">This page presents a public, illustrative concept model of the Signaling Cascade Knowledge Graph's structure and geometry. It does not disclose Instructional Biology's proprietary internal graph, dataset, or evidence weightings. Instructional Biology's technology is patent-pending and not yet approved for clinical use.</div>
   </div>
 </section>
 </main>
@@ -287,20 +328,23 @@
         <p>Building an evidence-aware bridge between biological complexity, computational reasoning, and disciplined translation.</p>
       </div>
       <div class="foot-col">
-        <h5>Company</h5>
+        <h2 class="as-h5">Company</h2>
         <a href="/about/">About Us</a>
         <a href="/about/founder/">Founder's Story</a>
+        <a href="/about/ip-portfolio/">IP Portfolio</a>
         <a href="/about/contact/">Contact Us</a>
         <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
         <a href="/about/pipeline/">Our Pipeline</a>
         <a href="/about/revenue-streams/">Revenue Streams</a>
         <a href="/press/">Press</a>
+        <a href="/videos/">Films</a>
         <a href="/faq/">FAQ</a>
         <a href="/glossary/">Glossary</a>
         <a href="/investors/">Investors</a>
       </div>
       <div class="foot-col">
-        <h5>Technologies</h5>
+        <h2 class="as-h5">Technologies</h2>
+        <a href="/instructional-medicine/">Instructional Medicine</a>
         <a href="/patient-twin/">Patient Twin</a>
         <a href="/technologies/">Our Technologies</a>
         <a href="/technologies/poincare/">Poincaré Explorer</a>
@@ -313,7 +357,7 @@
         <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
       </div>
       <div class="foot-col">
-        <h5>Insights</h5>
+        <h2 class="as-h5">Insights</h2>
         <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
         <a href="/insights/digital-twins/">Digital Twins</a>
         <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>

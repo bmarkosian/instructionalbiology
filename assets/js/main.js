@@ -194,7 +194,7 @@
   });
   // Collapse the drawer if the viewport grows past the mobile breakpoint.
   window.addEventListener('resize', function () {
-    if (window.innerWidth > 860) setOpen(false);
+    if (window.innerWidth > 1000) setOpen(false);
   });
 })();
 

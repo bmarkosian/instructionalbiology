@@ -1,0 +1,40 @@
+# Instructional Biology
+
+> Biotechnology company in Oceanside, California, founded in 2026 by Boris Markosian, founder, CEO and sole inventor. Instructional Biology is developing Instructional Medicine: therapeutics made from the body's own native signaling proteins, kept intact from discovery to delivery, so they can instruct cells instead of forcing a single receptor. The technology is patent-pending and pre-clinical; no Instructional Biology product is approved for clinical use.
+
+## What Instructional Biology is building
+Five connected systems, each designed to be licensable on its own:
+- ASAP (Advanced Science AI Platform): biology-native AI that maps how the body's signals interact, on a hyperbolic (Poincaré ball) Signaling Cascade Knowledge Graph.
+- MHFBP (Markosian High-Fidelity Bio-Processing Protocol): low-temperature bioprocessing designed to keep proteins in their native, folded state.
+- ISRS-ML: pathogen reduction with light in continuous flow, without the heat that damages delicate biologics.
+- MET-APFS (Markosian Exosomal Transcytosis - Autonomic Pharmacokinetic Feedback System): an exosome carrier configured for the individual patient, and a dosing loop that adapts in real time inside limits a prescriber signs.
+- Patient digital twin: a model of one person, updated from wearable data and kept inside clinician-set limits.
+
+## Status
+- Six U.S. patent applications filed in 2026, naming Boris Markosian as sole inventor, including U.S. Patent Application No. 19/793,487.
+- Pre-clinical. Nothing on this site is medical advice or a claim that any product treats, cures or prevents a disease.
+
+## Partnerships and licensing
+Pharmaceutical companies, contract manufacturers, trial sponsors and research institutions can license a single technology without adopting the whole platform: https://www.instructionalbiology.com/about/partnerships/
+
+## Contact
+- Email: boris@instructionalbiology.com
+- Phone: +1-818-208-0270
+- Location: Oceanside, California, United States
+- LinkedIn: https://www.linkedin.com/company/instructional-biology/
+
+## Key pages
+- Home: https://www.instructionalbiology.com/
+- Instructional Medicine: https://www.instructionalbiology.com/instructional-medicine/
+- About Us: https://www.instructionalbiology.com/about/
+- Founder: https://www.instructionalbiology.com/about/founder/
+- IP Portfolio: https://www.instructionalbiology.com/about/ip-portfolio/
+- Our Pipeline: https://www.instructionalbiology.com/about/pipeline/
+- Our Technologies: https://www.instructionalbiology.com/technologies/
+- The Science: https://www.instructionalbiology.com/science/
+- Films: https://www.instructionalbiology.com/videos/
+- FAQ: https://www.instructionalbiology.com/faq/
+- Glossary: https://www.instructionalbiology.com/glossary/
+- Insights: https://www.instructionalbiology.com/insights/
+- Press: https://www.instructionalbiology.com/press/
+- Investors: https://www.instructionalbiology.com/investors/

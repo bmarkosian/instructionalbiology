@@ -49,12 +49,14 @@
         <div class="nav-dropdown">
           <a href="/about/">Overview</a>
           <a href="/about/founder/">Founder's Story</a>
+          <a href="/about/ip-portfolio/">IP Portfolio</a>
           <a href="/about/contact/">Contact Us</a>
           <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
           <a href="/about/pipeline/">Our Pipeline</a>
           <a href="/about/revenue-streams/">Revenue Streams</a>
         </div>
       </div>
+      <a href="/instructional-medicine/">Instructional Medicine</a>
       <div class="nav-item">
         <a href="/technologies/">Our Technologies</a>
         <div class="nav-dropdown">
@@ -113,12 +115,14 @@
     <div class="mobile-sub">
       <a href="/about/">Overview</a>
       <a href="/about/founder/">Founder's Story</a>
+      <a href="/about/ip-portfolio/">IP Portfolio</a>
       <a href="/about/contact/">Contact Us</a>
       <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
       <a href="/about/pipeline/">Our Pipeline</a>
       <a href="/about/revenue-streams/">Revenue Streams</a>
     </div>
   </details>
+  <a href="/instructional-medicine/">Instructional Medicine</a>
   <details class="mobile-nav-group">
     <summary>Our Technologies<span class="mn-caret">+</span></summary>
     <div class="mobile-sub">
@@ -185,6 +189,12 @@
     <h2>The problem this system exists to solve</h2>
     <p>Every biomanufacturing process has to answer the same question: how do you make source material safe without destroying what made it valuable in the first place? For decades, the default answer has been heat — reliable at killing pathogens, and reliably indifferent to the delicate three-dimensional folds that give complex signaling peptides their function. A sterilized-but-structurally-silent extract solves the safety problem while quietly failing the actual goal.</p>
 
+  <figure class="infographic">
+    <img loading="lazy" decoding="async" src="/assets/img/infographics/infographic-isrs-ml-biomanufacturing-paradox-800.webp" srcset="/assets/img/infographics/infographic-isrs-ml-biomanufacturing-paradox-800.webp 800w, /assets/img/infographics/infographic-isrs-ml-biomanufacturing-paradox-1200.webp 1200w" sizes="(max-width: 900px) 100vw, 880px" alt="The century-old biomanufacturing paradox: heat or harsh solvent clears the pathogen but also denatures the payload, a thermosensitive peptide, so its structural integrity and efficacy are lost" width="1200" height="647">
+    <figcaption>The paradox ISRS-ML exists to solve: heat clears the pathogen and destroys the payload with it.</figcaption>
+  </figure>
+
+
     <p>Our pathogen-reduction system is built around a different physical mechanism entirely: ultrashort-pulse optical clearance, operating in the visible-to-near-infrared range at femtosecond-to-sub-picosecond pulse widths, tuned below the threshold that damages protein structure. Rather than depositing heat, it delivers a sharp mechanical impulse tuned to a pathogen's own structural vibrational modes — weakening the bonds holding it together without the sustained thermal load that denatures the surrounding material.</p>
   <figure class="infographic">
     <img loading="lazy" decoding="async" src="/assets/img/infographics/infographic-science-pathogen-reduction-800.webp" srcset="/assets/img/infographics/infographic-science-pathogen-reduction-800.webp 800w, /assets/img/infographics/infographic-science-pathogen-reduction-1200.webp 1200w" sizes="(max-width: 900px) 100vw, 880px" alt="Infographic: how the non-thermal pathogen-reduction system works — ultrashort-pulse optical clearance delivers a mechanical impulse tuned to a pathogen's vibrational modes while protecting protein structure" width="1200" height="1620">
@@ -197,7 +207,7 @@
 
     <div class="hub-nested-cta">
       <div>
-        <h4 aria-level="3">How lasers kill viruses</h4>
+        <h3 class="as-h4">How lasers kill viruses</h3>
         <p>The full mechanism, with citations to the published research this system builds on.</p>
       </div>
       <a href="/insights/how-lasers-kill-viruses/" class="btn-ghost">Read the explainer →</a>
@@ -206,7 +216,15 @@
     <h2>Why this has to work alongside the bio-processing system, not instead of it</h2>
     <p>Pathogen safety and structural preservation have historically been treated as a single combined problem, solved with a single blunt tool. We treat them as two distinct engineering problems, each solved by a purpose-built system: the <a href="/science/bio-manufacturing/" style="color:var(--gold);">bio-processing system</a> governs thermal and chemical exposure to preserve native structure, and the pathogen-reduction system handles safety separately, through a mechanism that doesn't compete with that goal. Neither system is sufficient alone — safety without structural integrity is a wasted process, and structural integrity without safety isn't a usable product.</p>
 
-    <div class="article-disclaimer" style="max-width:none;">This page describes a research thesis and technology under development, in general terms, for a public and non-confidential audience. It does not disclose proprietary process parameters and is not a claim that any Instructional Biology product treats, cures, or prevents any disease. Instructional Biology's platform and programs are research-stage and have not completed clinical development.</div>
+    <h2>Release On Real-Time Data</h2>
+    <p>Because ISRS-ML is designed to verify safety and structural integrity continuously, during processing rather than after it, it is built for parametric release: product released on real-time process data instead of waiting in quarantine on post-run assay holds. For high-value biologics such as plasma products and cell therapies, those holds cost time and degrade the product.</p>
+  <figure class="infographic">
+    <img loading="lazy" decoding="async" src="/assets/img/infographics/infographic-isrs-ml-parametric-release-800.webp" srcset="/assets/img/infographics/infographic-isrs-ml-parametric-release-800.webp 800w, /assets/img/infographics/infographic-isrs-ml-parametric-release-1200.webp 1200w" sizes="(max-width: 900px) 100vw, 880px" alt="Parametric release: the status quo holds product in quarantine for post-run assays, while ISRS-ML's continuous real-time verification lets product be approved for release on parameter data" width="1200" height="647">
+    <figcaption>Parametric release: product approved on real-time process data instead of post-run assay holds.</figcaption>
+  </figure>
+
+
+    <div class="article-disclaimer" style="max-width:none;">This page describes patent-pending technology in general terms, for a public and non-confidential audience. It does not disclose proprietary process parameters and is not a claim that any Instructional Biology product treats, cures, or prevents any disease. It is not yet approved for clinical use.</div>
   </div>
 </section>
 </main>
@@ -219,20 +237,23 @@
         <p>Building an evidence-aware bridge between biological complexity, computational reasoning, and disciplined translation.</p>
       </div>
       <div class="foot-col">
-        <h5>Company</h5>
+        <h2 class="as-h5">Company</h2>
         <a href="/about/">About Us</a>
         <a href="/about/founder/">Founder's Story</a>
+        <a href="/about/ip-portfolio/">IP Portfolio</a>
         <a href="/about/contact/">Contact Us</a>
         <a href="/about/partnerships/">Partnerships &amp; Licensing</a>
         <a href="/about/pipeline/">Our Pipeline</a>
         <a href="/about/revenue-streams/">Revenue Streams</a>
         <a href="/press/">Press</a>
+        <a href="/videos/">Films</a>
         <a href="/faq/">FAQ</a>
         <a href="/glossary/">Glossary</a>
         <a href="/investors/">Investors</a>
       </div>
       <div class="foot-col">
-        <h5>Technologies</h5>
+        <h2 class="as-h5">Technologies</h2>
+        <a href="/instructional-medicine/">Instructional Medicine</a>
         <a href="/patient-twin/">Patient Twin</a>
         <a href="/technologies/">Our Technologies</a>
         <a href="/technologies/poincare/">Poincaré Explorer</a>
@@ -245,7 +266,7 @@
         <a href="/science/therapeutic-regulation/">Therapeutic-Regulation System</a>
       </div>
       <div class="foot-col">
-        <h5>Insights</h5>
+        <h2 class="as-h5">Insights</h2>
         <a href="/insights/how-lasers-kill-viruses/">How Lasers Kill Viruses</a>
         <a href="/insights/digital-twins/">Digital Twins</a>
         <a href="/insights/bespoke-therapeutics/">Bespoke Therapeutics</a>

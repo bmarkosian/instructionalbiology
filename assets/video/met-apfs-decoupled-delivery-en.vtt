@@ -1,0 +1,342 @@
+WEBVTT
+
+1
+00:00:01.440 --> 00:00:05.910
+This diagram illustrates a staggering reality in modern health care.
+
+2
+00:00:06.400 --> 00:00:09.210
+For some of the 10 highest-grossing drugs in the United States,
+
+3
+00:00:09.560 --> 00:00:13.330
+only 1 in 25 patients actually benefits from the treatment.
+
+4
+00:00:13.960 --> 00:00:16.410
+At best, that number improves to 1 in 4.
+
+5
+00:00:17.180 --> 00:00:21.250
+The math breaks down because the entire pharmaceutical pipeline is built around an entity
+
+6
+00:00:21.260 --> 00:00:23.550
+that doesn't actually exist in nature,
+
+7
+00:00:23.980 --> 00:00:25.270
+the average patient.
+
+8
+00:00:25.900 --> 00:00:30.710
+Clinical trials compress thousands of unique metabolisms and genetic profiles into a single
+
+9
+00:00:30.720 --> 00:00:31.790
+statistical mean.
+
+10
+00:00:32.460 --> 00:00:35.130
+This widespread failure rate isn't a medical mystery.
+
+11
+00:00:35.460 --> 00:00:39.770
+It stems directly from two distinct mechanical bottlenecks and how we administer drugs,
+
+12
+00:00:40.200 --> 00:00:43.270
+how they physically reach a cell, and how we time the dose.
+
+13
+00:00:43.920 --> 00:00:48.250
+As long as the medical infrastructure relies on that single one-size-fits-all assumption,
+
+14
+00:00:48.580 --> 00:00:51.610
+treatments will continue to break down at both of these exact points.
+
+15
+00:00:52.300 --> 00:00:56.290
+Solving this crisis requires abandoning the average patient model entirely,
+
+16
+00:00:56.700 --> 00:01:01.350
+both in the physical way a drug enters the tissue and the rigid timeline of how it is
+
+17
+00:01:01.360 --> 00:01:01.850
+prescribed.
+
+18
+00:01:02.640 --> 00:01:04.490
+The first bottleneck is physical delivery.
+
+19
+00:01:04.940 --> 00:01:08.050
+Standard lipid nanoparticles are essentially blind packages.
+
+20
+00:01:08.760 --> 00:01:13.070
+They ignore the specific receptor expressions of a patient's cellular microenvironment,
+
+21
+00:01:13.400 --> 00:01:16.750
+failing to penetrate the target tissue and simply degrading in the bloodstream.
+
+22
+00:01:17.640 --> 00:01:19.330
+The second bottleneck is static dosing.
+
+23
+00:01:19.340 --> 00:01:25.330
+Currently, a physician derives a fixed prescription based on a single snapshot in time,
+
+24
+00:01:25.840 --> 00:01:28.310
+a brief clinic visit or a solitary blood draw.
+
+25
+00:01:28.920 --> 00:01:32.890
+That model assumes your internal biology stays perfectly flat between appointments.
+
+26
+00:01:33.460 --> 00:01:35.330
+In reality, your receptor availability,
+
+27
+00:01:35.840 --> 00:01:38.950
+inflammation levels, and metabolic rates fluctuate constantly.
+
+28
+00:01:39.860 --> 00:01:45.530
+Instructional Biology addresses both of these flaws through a platform called MET-APFS,
+
+29
+00:01:45.540 --> 00:01:50.030
+a system designed to treat the individual rather than the statistical average.
+
+30
+00:01:50.920 --> 00:01:53.230
+They achieve this by splitting the problem in half.
+
+31
+00:01:53.660 --> 00:01:58.470
+They decoupled the physical delivery vehicle from its ongoing digital regulation, creating
+
+32
+00:01:58.480 --> 00:02:02.010
+two distinct technologies that can be licensed across the entire industry.
+
+33
+00:02:02.640 --> 00:02:07.710
+The physical solution is the Markosian exosomal transcytosis system, or MET.
+
+34
+00:02:08.060 --> 00:02:09.830
+These carriers are highly specific.
+
+35
+00:02:10.200 --> 00:02:13.710
+Before a single exosome is loaded, it goes through an outer design loop.
+
+36
+00:02:13.720 --> 00:02:18.830
+A machine learning model computes a configuration record tailored to the patient, identifying
+
+37
+00:02:18.840 --> 00:02:23.170
+the exact targeting ligand needed before the manufacturing apparatus even turns on.
+
+38
+00:02:23.640 --> 00:02:27.670
+This 3D model demonstrates the system's core commercial advantage.
+
+39
+00:02:28.320 --> 00:02:31.470
+The MET exosome is completely payload-agnostic.
+
+40
+00:02:31.920 --> 00:02:36.190
+As you can see, the complex engineering required to target specific cells on the outside
+
+41
+00:02:36.200 --> 00:02:40.510
+is entirely separate from the proprietary cargo loaded on the inside.
+
+42
+00:02:40.960 --> 00:02:42.750
+This creates a direct commercial pathway.
+
+43
+00:02:42.760 --> 00:02:48.130
+A third-party biotech company can license the MET system to deliver their own vulnerable
+
+44
+00:02:48.140 --> 00:02:53.470
+RNA, proteins, or small molecules without having to invent a new delivery vehicle from
+
+45
+00:02:53.480 --> 00:02:53.790
+scratch.
+
+46
+00:02:54.420 --> 00:02:59.590
+It turns cell-specific drug delivery from a bespoke, highly risky science experiment into
+
+47
+00:02:59.600 --> 00:03:02.150
+reliable plug-and-play physical infrastructure.
+
+48
+00:03:02.560 --> 00:03:06.310
+Once the drug enters the body, the inner administration loop takes over.
+
+49
+00:03:06.620 --> 00:03:11.970
+This is governed by the Autonomic Pharmacokinetic Feedback System, or APFS, which solves
+
+50
+00:03:11.980 --> 00:03:14.230
+the temporal bottleneck of static dosing.
+
+51
+00:03:14.680 --> 00:03:19.950
+APFS pulls continuous physiological data from consumer wearables, like smartwatches and
+
+52
+00:03:19.960 --> 00:03:24.030
+rings, which have been specifically calibrated against clinical reference sensors for
+
+53
+00:03:24.040 --> 00:03:25.130
+that individual patient.
+
+54
+00:03:25.720 --> 00:03:29.470
+That continuous data feed powers a patient-specific digital twin.
+
+55
+00:03:29.920 --> 00:03:36.310
+This model calculates the individual's unique biological state, and predicts exactly how
+
+56
+00:03:36.320 --> 00:03:38.590
+they will respond to the medication over time.
+
+57
+00:03:39.340 --> 00:03:41.290
+Take a look at this trajectory graph.
+
+58
+00:03:41.840 --> 00:03:46.390
+It plots the twin's predicted response against the patient's measured reality.
+
+59
+00:03:46.780 --> 00:03:51.930
+The moment those lines diverge, the system automatically calculates a revised dose or
+
+60
+00:03:51.940 --> 00:03:52.970
+a new dosing interval.
+
+61
+00:03:53.760 --> 00:03:58.230
+To prevent algorithmic hallucinations and ensure absolute safety,
+
+62
+00:03:58.740 --> 00:04:00.630
+notice this rigid bounding box.
+
+63
+00:04:01.120 --> 00:04:03.910
+This is the prescriber authorization envelope.
+
+64
+00:04:04.300 --> 00:04:08.830
+It contains hard upper and lower limits, cryptographically signed by a doctor.
+
+65
+00:04:09.580 --> 00:04:13.810
+Automated adjustments only execute if they fall strictly within this envelope.
+
+66
+00:04:14.380 --> 00:04:16.350
+If a computed revision hits the boundary,
+
+67
+00:04:16.720 --> 00:04:20.250
+the command turns red, the rejection is logged to an immutable ledger,
+
+68
+00:04:20.720 --> 00:04:24.950
+and the local safety controller instantly drops the device to a safe basal rate.
+
+69
+00:04:25.720 --> 00:04:30.350
+Because this digital safety net operates independently of the exosome carrier,
+
+70
+00:04:30.980 --> 00:04:36.610
+APFS can be licensed to dynamically regulate entirely unrelated third-party therapies
+
+71
+00:04:36.620 --> 00:04:38.530
+across the pharmaceutical sector.
+
+72
+00:04:39.200 --> 00:04:41.550
+Within Instructional Biology's own pipeline,
+
+73
+00:04:42.100 --> 00:04:48.710
+MET and APFS work together to bridge the massive gap between population averages and individual
+
+74
+00:04:48.720 --> 00:04:49.350
+patients.
+
+75
+00:04:50.080 --> 00:04:53.690
+As the schematic shows, their disruptive value comes from independence.
+
+76
+00:04:54.560 --> 00:04:57.330
+The central stack powers internal therapeutics,
+
+77
+00:04:57.660 --> 00:05:00.690
+while the horizontal axis enables external licensing.
+
+78
+00:05:01.500 --> 00:05:05.350
+Pharma companies can lease the MET carrier to salvage stalled assets,
+
+79
+00:05:05.840 --> 00:05:11.210
+and trial sponsors can separately license the APFS digital twin for personalized dosing.
+
+80
+00:05:12.000 --> 00:05:14.250
+Partners acquire exactly what they need.
+
+81
+00:05:14.640 --> 00:05:19.150
+They are never forced to adopt the company's entire manufacturing and intelligence stack
+
+82
+00:05:19.160 --> 00:05:22.050
+just to benefit from one specific capability.
+
+83
+00:05:22.820 --> 00:05:25.590
+By decoupling the vehicle from the algorithm,
+
+84
+00:05:26.100 --> 00:05:31.610
+Instructional Biology offers modular infrastructure, where biological packaging and digital
+
+85
+00:05:31.620 --> 00:05:34.410
+regulation finally adapt to the individual.
+

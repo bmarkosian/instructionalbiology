@@ -1,97 +1,97 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:04.720
+00:00:01.600 --> 00:00:06.320
 The Poincaré ball is a geometric map for complex data,
 
-00:00:04.720 --> 00:00:08.660
+00:00:06.320 --> 00:00:10.260
 but how does it handle massive biological networks?
 
-00:00:08.660 --> 00:00:10.480
+00:00:10.260 --> 00:00:12.080
 On a traditional flat graph,
 
-00:00:10.480 --> 00:00:12.880
+00:00:12.080 --> 00:00:14.480
 branching pathways crowd together,
 
-00:00:12.880 --> 00:00:15.040
+00:00:14.480 --> 00:00:16.640
 causing distinct signals to blur.
 
-00:00:15.040 --> 00:00:17.240
+00:00:16.640 --> 00:00:18.840
 Take a single starting molecule.
 
-00:00:17.240 --> 00:00:18.960
+00:00:18.840 --> 00:00:20.560
 It triggers three receptors,
 
-00:00:18.960 --> 00:00:21.040
+00:00:20.560 --> 00:00:22.640
 which trigger three cascades,
 
-00:00:21.040 --> 00:00:23.760
+00:00:22.640 --> 00:00:25.360
 fanning out toward thousands of outcomes.
 
-00:00:23.760 --> 00:00:25.640
+00:00:25.360 --> 00:00:27.240
 Map this on a flat grid,
 
-00:00:25.640 --> 00:00:27.840
+00:00:27.240 --> 00:00:29.440
 and the branches quickly run out of space.
 
-00:00:27.840 --> 00:00:29.400
+00:00:29.440 --> 00:00:31.000
 The nodes collide.
 
-00:00:29.800 --> 00:00:31.520
+00:00:31.400 --> 00:00:33.120
 When these branches overlap,
 
-00:00:31.520 --> 00:00:34.760
+00:00:33.120 --> 00:00:36.360
 opposing signals like activate and inhibit
 
-00:00:34.760 --> 00:00:37.720
+00:00:36.360 --> 00:00:39.320
 just average together into a blur.
 
-00:00:37.720 --> 00:00:40.840
+00:00:39.320 --> 00:00:42.440
 This data loss is called over smoothing.
 
-00:00:40.840 --> 00:00:44.720
+00:00:42.440 --> 00:00:46.320
 But warp that grid into a hyperbolic Poincaré ball
 
-00:00:44.720 --> 00:00:46.200
+00:00:46.320 --> 00:00:47.800
 and the rules change.
 
-00:00:46.200 --> 00:00:47.640
+00:00:47.800 --> 00:00:49.240
 In this curved space,
 
-00:00:47.640 --> 00:00:50.360
+00:00:49.240 --> 00:00:51.960
 the available room actually grows exponentially
 
-00:00:50.360 --> 00:00:52.880
+00:00:51.960 --> 00:00:54.480
 the further you move toward the rim.
 
-00:00:52.880 --> 00:00:55.680
+00:00:54.480 --> 00:00:57.280
 Place that starting molecule back at the center.
 
-00:00:55.680 --> 00:00:57.360
+00:00:57.280 --> 00:00:58.960
 As the signal fans out,
 
-00:00:57.360 --> 00:01:00.360
+00:00:58.960 --> 00:01:01.960
 thousands of outcomes fit perfectly along the outer rings
 
-00:01:00.360 --> 00:01:02.000
+00:01:01.960 --> 00:01:03.600
 without colliding.
 
-00:01:02.000 --> 00:01:04.040
+00:01:03.600 --> 00:01:05.640
 Because every branch has its own room,
 
-00:01:04.040 --> 00:01:06.800
+00:01:05.640 --> 00:01:08.400
 inhibitory signals can freely flip direction
 
-00:01:06.800 --> 00:01:08.160
+00:01:08.400 --> 00:01:09.760
 without hitting their neighbors,
 
-00:01:08.160 --> 00:01:10.960
+00:01:09.760 --> 00:01:12.560
 preserving the exact biological instruction.
 
-00:01:10.960 --> 00:01:13.280
+00:01:12.560 --> 00:01:14.880
 And that starting molecule from the beginning,
 
-00:01:13.280 --> 00:01:16.880
+00:01:14.880 --> 00:01:18.480
 you can trace its exact unblurred path through the network,
 
-00:01:16.880 --> 00:01:19.560
+00:01:18.480 --> 00:01:21.160
 predicting the final outcome with perfect clarity.

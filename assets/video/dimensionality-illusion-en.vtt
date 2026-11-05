@@ -1,253 +1,253 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:03.440
+00:00:01.600 --> 00:00:05.040
 Biology operates in a constant state of flux.
 
-00:00:03.440 --> 00:00:05.800
+00:00:05.040 --> 00:00:07.400
 Every second, metabolic rates shift,
 
-00:00:05.800 --> 00:00:07.600
+00:00:07.400 --> 00:00:09.200
 inflammatory markers rise,
 
-00:00:07.600 --> 00:00:09.840
+00:00:09.200 --> 00:00:11.440
 and endocrine signals recalibrate.
 
-00:00:09.840 --> 00:00:13.200
+00:00:11.440 --> 00:00:14.800
 Yet conventional pharmacology treats this dynamic system
 
-00:00:13.200 --> 00:00:14.880
+00:00:14.800 --> 00:00:16.480
 as a static target.
 
-00:00:14.880 --> 00:00:18.520
+00:00:16.480 --> 00:00:20.120
 We calculate a fixed chemical dose based on a single snapshot
 
-00:00:18.520 --> 00:00:20.480
+00:00:20.120 --> 00:00:22.080
 taken during a clinic visit.
 
-00:00:20.480 --> 00:00:23.480
+00:00:22.080 --> 00:00:25.080
 That snapshot expires almost instantly.
 
-00:00:23.480 --> 00:00:26.120
+00:00:25.080 --> 00:00:27.720
 Biological signaling continuously fluctuates
 
-00:00:26.120 --> 00:00:29.720
+00:00:27.720 --> 00:00:31.320
 across circadian, endocrine, and inflammatory cycles.
 
-00:00:30.360 --> 00:00:32.800
+00:00:31.960 --> 00:00:34.400
 Because the baseline is always moving,
 
-00:00:32.800 --> 00:00:35.320
+00:00:34.400 --> 00:00:36.920
 a static dose inevitably drifts out of alignment
 
-00:00:35.320 --> 00:00:37.920
+00:00:36.920 --> 00:00:39.520
 with the patient's actual physiological state
 
-00:00:37.920 --> 00:00:41.080
+00:00:39.520 --> 00:00:42.680
 over the weeks or months between appointments.
 
-00:00:41.080 --> 00:00:43.320
+00:00:42.680 --> 00:00:44.920
 This diagram contrasts the theoretical model
 
-00:00:43.320 --> 00:00:45.040
+00:00:44.920 --> 00:00:46.640
 with the clinical reality.
 
-00:00:45.040 --> 00:00:47.520
+00:00:46.640 --> 00:00:49.120
 On the left, a smooth static bell curve
 
-00:00:47.520 --> 00:00:50.280
+00:00:49.120 --> 00:00:51.880
 represents a population average from a trial.
 
-00:00:50.280 --> 00:00:53.080
+00:00:51.880 --> 00:00:54.680
 On the right, we see the individual reality,
 
-00:00:53.080 --> 00:00:55.760
+00:00:54.680 --> 00:00:57.360
 specific patients drifting widely out of the target
 
-00:00:55.760 --> 00:00:57.840
+00:00:57.360 --> 00:00:59.440
 efficacy zone over time.
 
-00:00:57.840 --> 00:01:00.120
+00:00:59.440 --> 00:01:01.720
 The clinical trial average accurately describes
 
-00:01:00.120 --> 00:01:01.280
+00:01:01.720 --> 00:01:02.880
 the trial cohort.
 
-00:01:01.280 --> 00:01:03.920
+00:01:02.880 --> 00:01:05.520
 It does not describe the individual patient.
 
-00:01:03.920 --> 00:01:05.920
+00:01:05.520 --> 00:01:07.520
 Instructional medicine resolves this drift
 
-00:01:05.920 --> 00:01:08.600
+00:01:07.520 --> 00:01:10.200
 by regulating dosing through a patient-specific,
 
-00:01:08.600 --> 00:01:10.880
+00:01:10.200 --> 00:01:12.480
 responsive digital twin.
 
-00:01:10.880 --> 00:01:13.760
+00:01:12.480 --> 00:01:15.360
 The barrier to building this twin is topological.
 
-00:01:13.760 --> 00:01:16.960
+00:01:15.360 --> 00:01:18.560
 Standard artificial intelligence cannot accurately construct
 
-00:01:16.960 --> 00:01:19.320
+00:01:18.560 --> 00:01:20.920
 or maintain a continuously responsive model
 
-00:01:19.320 --> 00:01:20.720
+00:01:20.920 --> 00:01:22.320
 of human biology.
 
-00:01:20.720 --> 00:01:23.160
+00:01:22.320 --> 00:01:24.760
 Standard algorithms attempt to plot data
 
-00:01:23.160 --> 00:01:26.240
+00:01:24.760 --> 00:01:27.840
 on flat vector spaces, but the sheer density
 
-00:01:26.240 --> 00:01:29.080
+00:01:27.840 --> 00:01:30.680
 of a living network rapidly exhausts
 
-00:01:29.080 --> 00:01:31.560
+00:01:30.680 --> 00:01:33.160
 the available volume of a flat grid.
 
-00:01:31.560 --> 00:01:34.240
+00:01:33.160 --> 00:01:35.840
 To model biological compensation accurately,
 
-00:01:34.240 --> 00:01:37.400
+00:01:35.840 --> 00:01:39.000
 the architecture requires a non-Euclidean manifold
 
-00:01:37.400 --> 00:01:39.600
+00:01:39.000 --> 00:01:41.200
 of negative sectional curvature.
 
-00:01:39.600 --> 00:01:41.640
+00:01:41.200 --> 00:01:43.240
 Without this specialized geometry,
 
-00:01:41.640 --> 00:01:44.240
+00:01:43.240 --> 00:01:45.840
 any attempt to map a highly interconnected,
 
-00:01:44.240 --> 00:01:47.520
+00:01:45.840 --> 00:01:49.120
 branching biological system causes the predictive model
 
-00:01:47.520 --> 00:01:50.480
+00:01:49.120 --> 00:01:52.080
 to collapse under its own dimensionality.
 
-00:01:50.480 --> 00:01:52.200
+00:01:52.080 --> 00:01:53.800
 The foundation of this digital twin
 
-00:01:52.200 --> 00:01:56.160
+00:01:53.800 --> 00:01:57.760
 is the Signaling Cascade Knowledge Graph, or SCKG.
 
-00:01:56.160 --> 00:01:59.520
+00:01:57.760 --> 00:02:01.120
 This is a massive map of biological cause and effect
 
-00:01:59.520 --> 00:02:03.040
+00:02:01.120 --> 00:02:04.640
 extracted from decades of biomedical literature.
 
-00:02:03.040 --> 00:02:06.680
+00:02:04.640 --> 00:02:08.280
 The geometry of this graph presents a severe spatial problem.
 
-00:02:06.680 --> 00:02:10.240
+00:02:08.280 --> 00:02:11.840
 Biological Signaling Cascades branch exponentially.
 
-00:02:10.240 --> 00:02:12.320
+00:02:11.840 --> 00:02:13.920
 A single upstream ligand fans out
 
-00:02:12.320 --> 00:02:15.080
+00:02:13.920 --> 00:02:16.680
 into thousands of intracellular pathways,
 
-00:02:15.080 --> 00:02:17.280
+00:02:16.680 --> 00:02:18.880
 disease states, and clinical outcomes.
 
-00:02:17.280 --> 00:02:19.680
+00:02:18.880 --> 00:02:21.280
 The reasoning subsystem must compute dynamically
 
-00:02:19.680 --> 00:02:21.760
+00:02:21.280 --> 00:02:23.360
 across these nodes.
 
-00:02:21.760 --> 00:02:25.320
+00:02:23.360 --> 00:02:26.920
 This visualization maps data traveling between proteins
 
-00:02:25.320 --> 00:02:26.840
+00:02:26.920 --> 00:02:28.440
 and curved space.
 
-00:02:26.840 --> 00:02:30.840
+00:02:28.440 --> 00:02:32.440
 The ASAP model executes anisotropic message passing.
 
-00:02:30.840 --> 00:02:33.280
+00:02:32.440 --> 00:02:34.880
 Every edge carries strict polarity.
 
-00:02:33.280 --> 00:02:36.320
+00:02:34.880 --> 00:02:37.920
 A signed operator specifies positive activation
 
-00:02:36.320 --> 00:02:38.400
+00:02:37.920 --> 00:02:40.000
 or negative repression.
 
-00:02:38.400 --> 00:02:41.680
+00:02:40.000 --> 00:02:43.280
 Furthermore, attention coefficients weight each neighbor,
 
-00:02:41.680 --> 00:02:43.320
+00:02:43.280 --> 00:02:44.920
 allowing the model to differentiate
 
-00:02:43.320 --> 00:02:46.120
+00:02:44.920 --> 00:02:47.720
 between simple activation and complex
 
-00:02:46.120 --> 00:02:48.320
+00:02:47.720 --> 00:02:49.920
 phosphorylation dependencies.
 
-00:02:48.320 --> 00:02:51.920
+00:02:49.920 --> 00:02:53.520
 This mathematical architecture ensures the AI reads
 
-00:02:51.920 --> 00:02:55.080
+00:02:53.520 --> 00:02:56.680
 the literal cause and effect instructions of biology,
 
-00:02:55.080 --> 00:02:58.840
+00:02:56.680 --> 00:03:00.440
 rather than hallucinating near statistical associations.
 
-00:02:58.840 --> 00:03:01.080
+00:03:00.440 --> 00:03:02.680
 The resulting biological digital twin
 
-00:03:01.080 --> 00:03:03.560
+00:03:02.680 --> 00:03:05.160
 functions as an active, evidence-bounded,
 
-00:03:03.560 --> 00:03:06.560
+00:03:05.160 --> 00:03:08.160
 computational hypothesis, dynamically updating
 
-00:03:06.560 --> 00:03:10.360
+00:03:08.160 --> 00:03:11.960
 to track the patient's unique signaling trajectory over time.
 
-00:03:10.360 --> 00:03:14.160
+00:03:11.960 --> 00:03:15.760
 To regulate actual healing, this in-solico hypothesis
 
-00:03:14.160 --> 00:03:16.840
+00:03:15.760 --> 00:03:18.440
 must connect directly to the physical world.
 
-00:03:16.840 --> 00:03:20.320
+00:03:18.440 --> 00:03:21.920
 This flowchart outlines the cyber-physical actuation loop.
 
-00:03:20.320 --> 00:03:24.240
+00:03:21.920 --> 00:03:25.840
 Step one, telemetry streams from a consumer wearable.
 
-00:03:24.240 --> 00:03:27.040
+00:03:25.840 --> 00:03:28.640
 Step two, the twin computes diversions
 
-00:03:27.040 --> 00:03:29.320
+00:03:28.640 --> 00:03:30.920
 from the expected healthy state.
 
-00:03:29.320 --> 00:03:32.920
+00:03:30.920 --> 00:03:34.520
 Steps three and four, the system calculates the dose revision
 
-00:03:32.920 --> 00:03:34.880
+00:03:34.520 --> 00:03:36.480
 and actuates the delivery device,
 
-00:03:34.880 --> 00:03:39.120
+00:03:36.480 --> 00:03:40.720
 strictly within limits cryptographically signed by a physician.
 
-00:03:39.120 --> 00:03:42.400
+00:03:40.720 --> 00:03:44.000
 The digital twin transcends predictive modeling.
 
-00:03:42.400 --> 00:03:45.480
+00:03:44.000 --> 00:03:47.080
 It is a closed-loop cyber-physical system
 
-00:03:45.480 --> 00:03:48.640
+00:03:47.080 --> 00:03:50.240
 built to actuate true homeostatic restoration
 
-00:03:48.640 --> 00:03:50.440
+00:03:50.240 --> 00:03:52.040
 at an n of 1 scale.
