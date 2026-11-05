@@ -650,3 +650,35 @@ h3.as-h6{font-size:.67em;font-weight:bold;text-align:inherit;margin-left:0;margi
 .film-card h3{font-family:'Instrument Serif',serif;font-weight:400;font-size:1.3rem;line-height:1.25;margin-top:14px;}
 .film-card a:hover h3{color:var(--gold);}
 .film-card p{margin-top:8px;color:var(--muted-on-dark);font-size:.88rem;line-height:1.6;}
+
+/* 4 Nov 2026: nested menus. Revenue Streams opens a second menu beside About Us; long menus scroll inside the window */
+.nav-dropdown--long{max-height:calc(100vh - 90px);overflow-y:auto;overscroll-behavior:contain;}
+.nav-sub{position:relative;}
+.nav-sub > a::after{content:'\203A';float:right;margin-left:14px;opacity:.7;}
+.nav-subdrop{position:absolute;top:-9px;left:100%;min-width:240px;background:var(--ink-2);border:1px solid var(--hair-dark);padding:8px 0;
+  opacity:0;visibility:hidden;transform:translateX(4px);transition:opacity .15s,transform .15s,visibility .15s;z-index:41;}
+.nav-sub:hover > .nav-subdrop,.nav-sub:focus-within > .nav-subdrop{opacity:1;visibility:visible;transform:translateX(0);}
+/* phone: the second level reads as a menu inside the menu (5 Nov 2026, Boris: "On desktop it is") */
+.mobile-nav-group .mobile-nav-sub{border-top:1px solid var(--hair-dark);}
+.mobile-nav-group .mobile-nav-sub summary{padding:12px 22px 12px 34px;font-size:.85rem;color:var(--muted-on-dark);}
+.mobile-nav-group .mobile-nav-sub summary .mn-caret{font-family:inherit;font-size:1.1rem;line-height:1;transform:none;}
+.mobile-nav-group .mobile-nav-sub summary .mn-caret::before{content:'\203A';}
+.mobile-nav-group .mobile-nav-sub summary .mn-caret{font-size:0;}
+.mobile-nav-group .mobile-nav-sub summary .mn-caret::before{font-size:1.25rem;display:inline-block;transition:transform .2s;}
+.mobile-nav-group .mobile-nav-sub[open] summary .mn-caret{transform:none;}
+.mobile-nav-group .mobile-nav-sub[open] summary .mn-caret::before{transform:rotate(90deg);}
+.mobile-nav-group .mobile-nav-sub[open] summary{color:var(--gold);background:rgba(217,184,120,.06);}
+.mobile-nav-group .mobile-nav-sub > .mobile-sub{margin:0 0 8px 34px;padding:4px 0;background:rgba(0,0,0,.38);border-left:3px solid var(--gold);}
+.mobile-nav-group .mobile-nav-sub > .mobile-sub a{padding:11px 18px;font-size:.82rem;border-top:1px solid rgba(233,230,218,.06);}
+.mobile-nav-group .mobile-nav-sub > .mobile-sub a:first-child{border-top:none;}
+
+/* 4 Nov 2026: with Films in the header there is no room for the "Start a conversation" button on a computer screen (it stays in the
+   phone menu, and Contact Us is under About Us); the menu tightens below 1100 px, and the last two menus open to the left */
+/* 5 Nov 2026: five headings now, so the button is back on computer screens */
+@media (max-width:1100px) and (min-width:1001px){ nav.primary-nav{gap:11px;font-size:.74rem;} .headbar{gap:12px;} }
+.nav-item--right .nav-dropdown{left:auto;right:0;}
+
+/* 5 Nov 2026: a closed side menu takes no room (it was widening the page between 1001 and 1100 px); near the right edge it opens to the left */
+.nav-subdrop{display:none;}
+.nav-sub:hover > .nav-subdrop,.nav-sub:focus-within > .nav-subdrop{display:block;}
+.nav-sub.opens-left > .nav-subdrop{left:auto;right:100%;}

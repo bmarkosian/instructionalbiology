@@ -1,0 +1,434 @@
+WEBVTT
+
+1
+00:00:01.600 --> 00:00:04.850
+Biological signaling doesn't move in a straight line.
+
+2
+00:00:05.320 --> 00:00:09.290
+It operates like a tree, fanning out exponentially from a single origin.
+
+3
+00:00:10.180 --> 00:00:14.810
+Introduce a native multiprotein composition into the body, and it triggers a set of receptors.
+
+4
+00:00:15.320 --> 00:00:19.750
+Those receptors cascade into hundreds of intracellular pathways, which eventually dictate
+
+5
+00:00:19.760 --> 00:00:22.110
+thousands of measurable physical outcomes.
+
+6
+00:00:23.040 --> 00:00:27.710
+Standard artificial intelligence attempts to map this deep hierarchy inside a traditional
+
+7
+00:00:27.720 --> 00:00:28.710
+Euclidean graph.
+
+8
+00:00:28.980 --> 00:00:32.830
+It tries to force this sprawling biology onto a flat plane.
+
+9
+00:00:33.580 --> 00:00:38.250
+The mathematical reality is that geometric room in flat space grows only polynomially
+
+10
+00:00:38.260 --> 00:00:39.790
+as you move away from the center.
+
+11
+00:00:40.140 --> 00:00:43.350
+As the biological network branches out from that central composition,
+
+12
+00:00:43.760 --> 00:00:46.670
+it rapidly hits the edge of that polynomial capacity.
+
+13
+00:00:47.120 --> 00:00:51.750
+The peripheral nodes representing diseases and outcomes crowd together into an unreadable
+
+14
+00:00:51.760 --> 00:00:52.250
+knot.
+
+15
+00:00:52.920 --> 00:00:56.850
+Computer scientists call this structural failure topological over-smoothing.
+
+16
+00:00:57.240 --> 00:01:01.190
+The system can no longer distinguish one distinct pathway from another.
+
+17
+00:01:01.880 --> 00:01:06.390
+Conventional deep neural networks fail to map deep biology because they literally run
+
+18
+00:01:06.400 --> 00:01:08.930
+out of geometric room to store the complexity.
+
+19
+00:01:09.380 --> 00:01:14.290
+Instructional Biology bypasses this bottleneck by moving the map entirely out of flat
+
+20
+00:01:14.300 --> 00:01:16.590
+space and into a hyperbolic geometry.
+
+21
+00:01:17.000 --> 00:01:21.630
+This blueprint shows ASAP's core architecture, embedding the biological graph inside a
+
+22
+00:01:21.640 --> 00:01:27.410
+Poincaré ball. Here, geometric volume expands as an exponential function, so physical
+
+23
+00:01:27.420 --> 00:01:29.730
+space grows faster as you move outward.
+
+24
+00:01:30.380 --> 00:01:34.150
+To ensure this massive expansion remains computationally viable,
+
+25
+00:01:34.740 --> 00:01:38.150
+dimensionality is strictly capped at 128 dimensions.
+
+26
+00:01:38.680 --> 00:01:41.850
+In the specific case of this Signaling Cascade Knowledge Graph,
+
+27
+00:01:42.180 --> 00:01:45.610
+the system is functionally locked at exactly 16 dimensions.
+
+28
+00:01:46.400 --> 00:01:51.210
+Executing deep message passing within a fixed 16-dimensional architecture prevents the
+
+29
+00:01:51.220 --> 00:01:54.730
+memory explosions that routinely crash standard biological models.
+
+30
+00:01:55.440 --> 00:01:57.970
+By projecting the graph into a Poincaré ball,
+
+31
+00:01:58.400 --> 00:02:02.770
+ASAP resolves the peripheral crowding constraint and holds the entire biological tree
+
+32
+00:02:02.780 --> 00:02:08.470
+with 57% less distortion than a flat space, all while running on a highly constrained
+
+33
+00:02:08.480 --> 00:02:09.650
+computational footprint.
+
+34
+00:02:10.120 --> 00:02:14.790
+This projection shows the 16-dimensional Signaling Cascade Knowledge Graph across six
+
+35
+00:02:14.800 --> 00:02:15.850
+concentric rings.
+
+36
+00:02:16.560 --> 00:02:19.530
+Anchoring the core is the Thermosensitive Peptidome, or TSP.
+
+37
+00:02:20.340 --> 00:02:24.010
+Expanding outward, yellow and blue rings trace immediate reactions,
+
+38
+00:02:24.340 --> 00:02:27.590
+as the TSP triggers receptors and intracellular cascades.
+
+39
+00:02:28.280 --> 00:02:31.570
+Finally, outer rings link to terminal diseases and clinical outcomes.
+
+40
+00:02:32.200 --> 00:02:36.870
+Because this geometry is hyperbolic, these terminal disease tiers enjoy abundant physical
+
+41
+00:02:36.880 --> 00:02:37.410
+volume.
+
+42
+00:02:37.600 --> 00:02:39.370
+They never overlap or crowd together.
+
+43
+00:02:39.720 --> 00:02:41.490
+This structure isn't theoretical.
+
+44
+00:02:41.860 --> 00:02:47.610
+The architecture is built directly from more than 42,000 specific findings, extracted
+
+45
+00:02:47.620 --> 00:02:50.363
+from nearly 9,500 scientific papers.
+
+46
+00:02:51.033 --> 00:02:56.823
+This layout arranges tens of thousands of disjointed biological reactions into a sequential,
+
+47
+00:02:57.173 --> 00:03:02.143
+highly traversable map from initial chemical cause to final physiological effect.
+
+48
+00:03:03.953 --> 00:03:08.583
+Standard graph neural networks carry a fatal mathematical flaw when evaluating these complex
+
+49
+00:03:08.593 --> 00:03:09.283
+cascades.
+
+50
+00:03:10.073 --> 00:03:14.703
+Conventional models treat the edges connecting these biological nodes as simple, unsigned
+
+51
+00:03:14.713 --> 00:03:15.723
+scalar weights.
+
+52
+00:03:15.953 --> 00:03:20.183
+In human biology, signals constantly pull in opposite directions.
+
+53
+00:03:20.573 --> 00:03:24.863
+A node will frequently receive an activation signal from an agonist and a suppression
+
+54
+00:03:24.873 --> 00:03:27.403
+signal from an antagonist simultaneously.
+
+55
+00:03:28.033 --> 00:03:33.083
+A standard graph convolution mathematically averages those two conflicting signals together,
+
+56
+00:03:33.353 --> 00:03:35.763
+pulling both vectors directly towards zero.
+
+57
+00:03:36.413 --> 00:03:40.043
+This error state is known as isotropic polarity collapse.
+
+58
+00:03:40.673 --> 00:03:45.243
+When conventional AI models encounter fierce biochemical competition, the math forces
+
+59
+00:03:45.253 --> 00:03:48.703
+them to hallucinate that the competing signals simply do not exist.
+
+60
+00:03:49.233 --> 00:03:54.123
+Claim 18c of the ASAP patent resolves this collapse by implementing anisotropic message
+
+61
+00:03:54.133 --> 00:03:54.763
+passing.
+
+62
+00:03:55.173 --> 00:03:59.863
+Inside the Poincaré ball, every directed edge carries a signed relation operator.
+
+63
+00:04:00.513 --> 00:04:04.743
+When an antagonist signal is introduced, the vector rotates along a curved arc within
+
+64
+00:04:04.753 --> 00:04:06.703
+the tangent space, rather than shrinking.
+
+65
+00:04:07.073 --> 00:04:10.503
+This geometric movement is a norm-preserving transformation.
+
+66
+00:04:10.513 --> 00:04:14.803
+The magnitude remains identical before and after the rotation.
+
+67
+00:04:15.453 --> 00:04:20.483
+The math preserves the absolute strength of the biological signal, while strictly tracking
+
+68
+00:04:20.493 --> 00:04:25.083
+its directional sign, preventing activation and suppression from canceling each other
+
+69
+00:04:25.093 --> 00:04:25.563
+out.
+
+70
+00:04:26.093 --> 00:04:31.043
+We can observe the physical power of this architecture by examining the relationship between
+
+71
+00:04:31.053 --> 00:04:36.143
+corticotropin-releasing hormone, or CRH, and its binding protein, CRHBP.
+
+72
+00:04:36.773 --> 00:04:42.043
+In physiology, CRH drives the adrenal axis by engaging with specific receptors.
+
+73
+00:04:43.013 --> 00:04:48.903
+Meanwhile, CRHBP acts as a native binding protein that sequesters circulating CRH, actively
+
+74
+00:04:48.913 --> 00:04:50.663
+withholding it from those receptors.
+
+75
+00:04:51.353 --> 00:04:55.323
+Because both molecules operate in the exact same topological neighborhood,
+
+76
+00:04:55.873 --> 00:05:00.803
+standard AI algorithms collapse the signaling ligand and the decoy protein into identical
+
+77
+00:05:00.813 --> 00:05:02.003
+mathematical embeddings.
+
+78
+00:05:02.573 --> 00:05:07.583
+By utilizing norm-preserving operators, the ASAP architecture differentiates the binding
+
+79
+00:05:07.593 --> 00:05:11.723
+protein's sequestration edge from the native hormone's receptor engagement edge.
+
+80
+00:05:12.073 --> 00:05:13.783
+They remain mathematically distinct.
+
+81
+00:05:14.733 --> 00:05:19.003
+Preserving both polarities allows the system to accurately compute the molar ratios and
+
+82
+00:05:19.013 --> 00:05:23.223
+affinities, determining the true bioavailable quantity of free ligands.
+
+83
+00:05:23.773 --> 00:05:29.123
+Anisotropic message passing ensures the artificial intelligence retains the exact physical
+
+84
+00:05:29.133 --> 00:05:33.123
+reality of competing biochemical signals across deep cascades.
+
+85
+00:05:33.333 --> 00:05:38.123
+The structural advantages of this network generated highly specific empirical results
+
+86
+00:05:38.133 --> 00:05:42.043
+during the October 2026 Build F5B blind test.
+
+87
+00:05:42.513 --> 00:05:47.883
+This graph view shows a confirmed completed path where the central TSP traces directly
+
+88
+00:05:47.893 --> 00:05:52.883
+down through multiple intermediate cascades to influence keratinocyte differentiation.
+
+89
+00:05:54.073 --> 00:06:00.097
+Supplying the evidence for these routes requires a massive data foundation of 9,452 papers.
+
+90
+00:06:00.547 --> 00:06:02.757
+Operating strictly on this verified data,
+
+91
+00:06:03.067 --> 00:06:08.977
+the network achieved an 81.8% accuracy rate in reproducing hidden, signed links across
+
+92
+00:06:08.987 --> 00:06:09.697
+the geometry.
+
+93
+00:06:10.127 --> 00:06:13.897
+Using this validated map, the engine output its primary deliverable.
+
+94
+00:06:14.167 --> 00:06:18.797
+It predicted exactly 46 novel disease targets that the native therapeutic composition
+
+95
+00:06:18.807 --> 00:06:19.517
+could treat.
+
+96
+00:06:19.807 --> 00:06:25.837
+The platform assigned up to a 93.8% computational certainty to its highest ranking novel
+
+97
+00:06:25.847 --> 00:06:26.757
+disease predictions.
+
+98
+00:06:27.087 --> 00:06:32.557
+The 16-dimensional architecture synthesizes known science to accurately predict unmapped
+
+99
+00:06:32.567 --> 00:06:33.837
+biological realities.
+
+100
+00:06:34.407 --> 00:06:37.697
+These calculations extend far beyond the latent space of the graph.
+
+101
+00:06:38.227 --> 00:06:43.337
+The SCKG actually functions as the intelligence layer for a comprehensive cyber-physical
+
+102
+00:06:43.347 --> 00:06:44.677
+bioprocessing system.
+
+103
+00:06:45.427 --> 00:06:50.897
+The computational free ligand quantities output by the knowledge graph are directly converted
+
+104
+00:06:50.907 --> 00:06:53.997
+into physical parameters for fluid fractionation.
+
+105
+00:06:54.337 --> 00:07:00.797
+This precise biochemical data feeds directly into the reporting subsystem to set the exact
+
+106
+00:07:00.807 --> 00:07:05.677
+molecular weight cut points on a downstream tangential flow filtration skid.
+
+107
+00:07:06.287 --> 00:07:11.397
+ASAP operates as a geometric engine that processes the branching complexity of native
+
+108
+00:07:11.407 --> 00:07:17.537
+physiology and outputs explicit executable instructions for physical bio-manufacturing.
+

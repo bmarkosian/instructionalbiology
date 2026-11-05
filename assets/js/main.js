@@ -236,3 +236,14 @@
     });
   });
 })();
+
+// 5 Nov 2026: a side menu that would run past the right edge of the window opens to the left instead
+(function () {
+  document.querySelectorAll('.nav-sub').forEach(function (sub) {
+    sub.addEventListener('mouseenter', function () {
+      sub.classList.remove('opens-left');
+      var r = sub.getBoundingClientRect();
+      if (r.right + 260 > window.innerWidth) sub.classList.add('opens-left');
+    });
+  });
+})();

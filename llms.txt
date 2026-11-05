@@ -10,6 +10,15 @@ Five connected systems, each designed to be licensable on its own:
 - MET-APFS (Markosian Exosomal Transcytosis - Autonomic Pharmacokinetic Feedback System): an exosome carrier configured for the individual patient, and a dosing loop that adapts in real time inside limits a prescriber signs.
 - Patient digital twin: a model of one person, updated from wearable data and kept inside clinician-set limits.
 
+## ASAP in numbers (frozen graph, November 4, 2026)
+- Signaling Cascade Knowledge Graph (SCKG): 12,835 nodes and 35,004 edges, built from 19,519 PubMed papers and 11,537 clinical trials.
+- Tiers: the TSP at the center, 81 native signaling constituents, 973 receptors, 4,927 signaling-cascade nodes, 1,338 master regulators, 779 diseases and 4,736 disease phenotypes.
+- Trained 128-dimensional Poincaré ball; mean distortion 0.0469 on held-out node pairs, within the 0.05 gate.
+- 33,024 x 64 trained tangent angles (64 rotation planes per signed edge); tangent spaces viewable in 2D and 3D.
+- 19,251 new predicted-benefit calls across 2,409 diseases and disease phenotypes with no direct link, shared paper or tested trial; 14,269 contraindications flagged across all pairs scored.
+- 20 demo patient digital twins (simulated subjects).
+- All computational results, not clinical results.
+
 ## Status
 - Six U.S. patent applications filed in 2026, naming Boris Markosian as sole inventor, including U.S. Patent Application No. 19/793,487.
 - Pre-clinical. Nothing on this site is medical advice or a claim that any product treats, cures or prevents a disease.
