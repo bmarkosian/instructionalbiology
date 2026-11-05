@@ -178,6 +178,7 @@
   if (!toggle || !nav) return;
 
   function setOpen(open) {
+    if (open) { var hd = document.querySelector('header'); if (hd) { var b = Math.round(hd.getBoundingClientRect().bottom); nav.style.top = b + 'px'; nav.style.maxHeight = (window.innerHeight - b) + 'px'; } }
     nav.classList.toggle('is-open', open);
     nav.hidden = !open;
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');

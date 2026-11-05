@@ -108,6 +108,8 @@ nav.primary-nav > a,nav.primary-nav .nav-item > a{white-space:nowrap;}
   background:var(--ink-2);border-bottom:1px solid var(--hair-dark);
 }
 .mobile-nav.is-open{display:flex;}
+/* 4 Nov 2026: the drawer opens under the sticky header wherever you are on the page, not at the top of the page */
+@media (max-width:860px){.mobile-nav{position:fixed;left:0;right:0;top:77px;z-index:29;max-height:calc(100vh - 77px);overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;box-shadow:0 12px 24px rgba(0,0,0,.45);}}
 .mobile-nav > a{
   padding:16px 22px;font-size:.95rem;color:var(--cream-text);
   border-top:1px solid var(--hair-dark);transition:background .15s;
