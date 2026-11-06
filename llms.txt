@@ -10,13 +10,14 @@ Five connected systems, each designed to be licensable on its own:
 - MET-APFS (Markosian Exosomal Transcytosis - Autonomic Pharmacokinetic Feedback System): an exosome carrier configured for the individual patient, and a dosing loop that adapts in real time inside limits a prescriber signs.
 - Patient digital twin: a model of one person, updated from wearable data and kept inside clinician-set limits.
 
-## ASAP in numbers (frozen graph, November 4, 2026)
-- Signaling Cascade Knowledge Graph (SCKG): 12,835 nodes and 35,004 edges, built from 19,519 PubMed papers and 11,537 clinical trials.
-- Tiers: the TSP at the center, 81 native signaling constituents, 973 receptors, 4,927 signaling-cascade nodes, 1,338 master regulators, 779 diseases and 4,736 disease phenotypes.
+## ASAP in numbers (November 5, 2026; trained ball frozen November 4, 2026)
+- Signaling Cascade Knowledge Graph (SCKG): 13,090 nodes and 35,446 edges, built from 21,425 PubMed papers and 12,014 clinical trials.
+- Tiers: the TSP at the center, native signaling constituents, receptors, signaling-cascade nodes and master regulators, 999 diseases and 4,749 disease phenotypes.
 - Trained 128-dimensional Poincaré ball; mean distortion 0.0469 on held-out node pairs, within the 0.05 gate.
 - 33,024 x 64 trained tangent angles (64 rotation planes per signed edge); tangent spaces viewable in 2D and 3D.
-- 19,251 new predicted-benefit calls across 2,409 diseases and disease phenotypes with no direct link, shared paper or tested trial; 14,269 contraindications flagged across all pairs scored.
-- 20 demo patient digital twins (simulated subjects).
+- 351,890 computational simulations: every pairing scored by the trained network for predicted benefit or harm.
+- 19,251 novel predicted benefits across 202 diseases and 2,207 disease phenotypes, where the record has no direct link, no shared paper and no tested trial; 14,269 contraindications flagged across all pairs scored.
+- 36 demo patient digital twins (simulated subjects).
 - All computational results, not clinical results.
 
 ## Status
@@ -24,26 +25,32 @@ Five connected systems, each designed to be licensable on its own:
 - Pre-clinical. Nothing on this site is medical advice or a claim that any product treats, cures or prevents a disease.
 
 ## Partnerships and licensing
-Pharmaceutical companies, contract manufacturers, trial sponsors and research institutions can license a single technology without adopting the whole platform: https://www.instructionalbiology.com/about/partnerships/
+Pharmaceutical companies, contract manufacturers, trial sponsors and research institutions can license a single technology without adopting the whole platform: [Partnerships and Licensing](https://www.instructionalbiology.com/about/partnerships/)
 
 ## Contact
 - Email: boris@instructionalbiology.com
 - Phone: +1-818-208-0270
 - Location: Oceanside, California, United States
-- LinkedIn: https://www.linkedin.com/company/instructional-biology/
+- LinkedIn: [Instructional Biology on LinkedIn](https://www.linkedin.com/company/instructional-biology/)
 
 ## Key pages
-- Home: https://www.instructionalbiology.com/
-- Instructional Medicine: https://www.instructionalbiology.com/instructional-medicine/
-- About Us: https://www.instructionalbiology.com/about/
-- Founder: https://www.instructionalbiology.com/about/founder/
-- IP Portfolio: https://www.instructionalbiology.com/about/ip-portfolio/
-- Our Pipeline: https://www.instructionalbiology.com/about/pipeline/
-- Our Technologies: https://www.instructionalbiology.com/technologies/
-- The Science: https://www.instructionalbiology.com/science/
-- Films: https://www.instructionalbiology.com/videos/
-- FAQ: https://www.instructionalbiology.com/faq/
-- Glossary: https://www.instructionalbiology.com/glossary/
-- Insights: https://www.instructionalbiology.com/insights/
-- Press: https://www.instructionalbiology.com/press/
-- Investors: https://www.instructionalbiology.com/investors/
+- [Home](https://www.instructionalbiology.com/)
+- [Instructional Medicine](https://www.instructionalbiology.com/instructional-medicine/)
+- [About Us](https://www.instructionalbiology.com/about/)
+- [Founder](https://www.instructionalbiology.com/about/founder/)
+- [IP Portfolio](https://www.instructionalbiology.com/about/ip-portfolio/)
+- [Our Pipeline](https://www.instructionalbiology.com/about/pipeline/)
+- [Our Technologies](https://www.instructionalbiology.com/technologies/)
+- [The Science](https://www.instructionalbiology.com/science/)
+- [Films](https://www.instructionalbiology.com/videos/)
+- [FAQ](https://www.instructionalbiology.com/faq/)
+- [Glossary](https://www.instructionalbiology.com/glossary/)
+- [Insights](https://www.instructionalbiology.com/insights/)
+- [Press](https://www.instructionalbiology.com/press/)
+- [Investors](https://www.instructionalbiology.com/investors/)
+- [Patient Digital Twin](https://www.instructionalbiology.com/patient-twin/)
+- [MET-APFS: The Carrier And Its Feedback System](https://www.instructionalbiology.com/technologies/met-apfs/)
+- [ASAP Reasoning System](https://www.instructionalbiology.com/science/reasoning-system/)
+- [Revenue Streams](https://www.instructionalbiology.com/about/revenue-streams/)
+- [Partnerships and Licensing](https://www.instructionalbiology.com/about/partnerships/)
+- [How to build a drug interaction and clinical relationship knowledge graph](https://www.instructionalbiology.com/insights/knowledge-graphs-in-biology/)

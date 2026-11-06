@@ -31,7 +31,7 @@
 <link rel="preload" href="/assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/css/styles.css">
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.instructionalbiology.com/"}, {"@type": "ListItem", "position": 2, "name": "Patient Twin", "item": "https://www.instructionalbiology.com/patient-twin/"}]}, {"@type": "WebPage", "name": "Patient Digital Twin: The End of Average | Instructional Biology", "url": "https://www.instructionalbiology.com/patient-twin/", "description": "Every medicine is approved on an average, and nobody is the average. Our patient digital twin reads the trials and asks one question for one person.", "publisher": {"@type": "Organization", "name": "Instructional Biology", "url": "https://www.instructionalbiology.com/"}}, {"@type": "VideoObject", "name": "Digital Twins: The End of Average Medicine", "description": "How a patient digital twin replaces one-size-fits-all dosing with a model of one person, updated from wearable data and kept inside clinician-set limits.", "thumbnailUrl": ["https://www.instructionalbiology.com/assets/video/digital-twins-end-of-average-poster.jpg"], "uploadDate": "2026-10-29T12:00:00-07:00", "duration": "PT4M44S", "contentUrl": "https://www.instructionalbiology.com/assets/video/digital-twins-end-of-average.mp4", "inLanguage": "en", "publisher": {"@type": "Organization", "name": "Instructional Biology", "url": "https://www.instructionalbiology.com/"}}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.instructionalbiology.com/"}, {"@type": "ListItem", "position": 2, "name": "Patient Twin", "item": "https://www.instructionalbiology.com/patient-twin/"}]}, {"@type": "WebPage", "name": "Patient Digital Twin: The End of Average | Instructional Biology", "url": "https://www.instructionalbiology.com/patient-twin/", "description": "Every medicine is approved on an average, and nobody is the average. Our patient digital twin reads the trials and asks one question for one person.", "publisher": {"@type": "Organization", "name": "Instructional Biology", "url": "https://www.instructionalbiology.com/"}}]}
 </script>
 <style>
 /* Patient Twin page: scoped under .ptw so it cannot touch the site header or footer */
@@ -110,8 +110,21 @@
 .ptw .pipe{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--hair);border:1px solid var(--hair)}
 @media (min-width:700px){.ptw .pipe{grid-template-columns:repeat(4,minmax(0,1fr))}}
 .ptw .pstep{background:var(--ink);padding:18px 16px;display:grid;gap:6px;align-content:start;justify-items:center;text-align:center}
-.ptw .pstep .pn{font-family:var(--display);font-size:2.2rem;line-height:1;color:var(--cream);font-variant-numeric:tabular-nums}
+.ptw .pstep .pn{font-family:var(--display);font-size:2.2rem;line-height:1;color:var(--gold);font-variant-numeric:tabular-nums}
 .ptw .pstep .t{font-size:.84rem;color:var(--muted)}
+/* 5 Nov 2026: the novel predictions stand out; the graph and the twin's trials are labelled apart (Boris) */
+.ptw .calls{border:1px solid rgba(217,184,120,.5);background:var(--ink-2);padding:30px 18px 22px;text-align:center;margin-bottom:8px}
+.ptw .calls .big{font-family:var(--display);font-size:clamp(3.8rem,15vw,6.8rem);line-height:.95;color:var(--gold);font-variant-numeric:tabular-nums}
+.ptw .calls .what{font-size:1.06rem;color:var(--cream);max-width:44ch;margin:12px auto 0}
+.ptw .calls .sub{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:22px;border-top:1px solid var(--hair);padding-top:18px}
+.ptw .calls .sub .n{display:block;font-family:var(--display);font-size:clamp(1.5rem,6vw,2.1rem);line-height:1;color:var(--gold);font-variant-numeric:tabular-nums}
+.ptw .calls .sub .l{display:block;font-size:.8rem;color:var(--muted);margin-top:6px}
+.ptw .calls .note{font-size:.8rem;color:var(--muted);margin-top:16px}
+.ptw .grp{margin-top:40px}
+.ptw .grp h3{font-size:1.55rem;text-align:center}
+.ptw .grp .gl{color:var(--muted);text-align:center;max-width:60ch;margin:6px auto 16px;font-size:.92rem}
+@media (min-width:700px){.ptw .pipe.three{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.ptw .pstep.wide{grid-column:1/-1}
 .ptw .pclose{padding-block:64px;text-align:center}
 .ptw .pclose h2{font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;max-width:18ch;margin-inline:auto}
 .ptw .pclose .ptag{margin-top:14px}
@@ -227,6 +240,8 @@
           <a href="/videos/from-discovery-to-delivery/">From Discovery To Delivery</a>
           <a href="/videos/the-matrixed-monopoly/">The Matrixed Monopoly</a>
           <a href="/videos/escaping-ai-flatland/">Escaping AI Flatland: The ASAP Prediction Engine</a>
+          <a href="/videos/the-post-chemical-era/">The Post-Chemical Era</a>
+          <a href="/videos/medicine-made-by-the-body-for-the-body/">Medicine Made by the Body, For the Body</a>
           <a href="/videos/instructional-medicine/">Instructional Medicine</a>
           <a href="/videos/the-biological-software-update/">The Biological Software Update</a>
           <a href="/videos/speaking-the-bodys-native-language/">Speaking the Body's Native Language</a>
@@ -346,6 +361,8 @@
       <a href="/videos/from-discovery-to-delivery/">From Discovery To Delivery</a>
       <a href="/videos/the-matrixed-monopoly/">The Matrixed Monopoly</a>
       <a href="/videos/escaping-ai-flatland/">Escaping AI Flatland: The ASAP Prediction Engine</a>
+      <a href="/videos/the-post-chemical-era/">The Post-Chemical Era</a>
+      <a href="/videos/medicine-made-by-the-body-for-the-body/">Medicine Made by the Body, For the Body</a>
       <a href="/videos/instructional-medicine/">Instructional Medicine</a>
       <a href="/videos/the-biological-software-update/">The Biological Software Update</a>
       <a href="/videos/speaking-the-bodys-native-language/">Speaking the Body's Native Language</a>
@@ -497,22 +514,44 @@
     <div class="head">
       <span class="pe">WHAT THE TWIN LEARNS FROM</span>
       <h2>The hardest science to get, read trial by trial.</h2>
-      <p class="lede">Registry results and published papers for the signalling proteins in our platform, scored on each trial's primary outcome against its control, on top of the SCKG, our knowledge graph of the published literature.</p>
+      <p class="lede">Two layers of evidence: the Signaling Cascade Knowledge Graph (SCKG), our map of the published literature, and the clinical trials the twin reads result by result. Here is what they produce, and what they are built from.</p>
     </div>
-    <div class="pipe">
-      <div class="pstep"><span class="pn">566</span><span class="t">clinical trials reviewed</span></div>
-      <div class="pstep"><span class="pn">13,641</span><span class="t">patient measurements read from the trial results</span></div>
-      <div class="pstep"><span class="pn">3,040</span><span class="t">different things the trials measured in patients</span></div>
-      <div class="pstep"><span class="pn">104</span><span class="t">of them a wearable can track every day</span></div>
-      <div class="pstep"><span class="pn">388</span><span class="t">body-stress signals: inflammation, pain, sleep, heart rate, mood</span></div>
-      <div class="pstep"><span class="pn">1,005</span><span class="t">side-effect comparisons, treatment against control</span></div>
-      <div class="pstep"><span class="pn">19,519</span><span class="t">PubMed papers (PMIDs) in the SCKG</span></div>
-      <div class="pstep"><span class="pn">12,835</span><span class="t">nodes in the SCKG knowledge graph</span></div>
-      <div class="pstep"><span class="pn">35,004</span><span class="t">edges joining those nodes</span></div>
-      <div class="pstep"><span class="pn">11,537</span><span class="t">clinical trials in the SCKG</span></div>
-      <div class="pstep"><span class="pn">2,409</span><span class="t">diseases and phenotypes with new predicted-benefit calls</span></div>
-      <div class="pstep"><span class="pn">20</span><span class="t">demo patient digital twins, each a simulated subject</span></div>
+    <div class="calls">
+      <div class="big">351,890</div>
+      <p class="what">computational simulations run by ASAP's trained network, each pairing scored for predicted benefit or harm</p>
+      <div class="sub">
+        <div><span class="n">19,251</span><span class="l">novel predicted benefits</span></div>
+        <div><span class="n">202</span><span class="l">diseases with novel predictions</span></div>
+        <div><span class="n">2,207</span><span class="l">disease phenotypes with novel predictions</span></div>
+      </div>
+      <p class="note">A novel prediction is one where the published record has no direct link, no shared paper and no tested trial. Computational predictions, not clinical results: each one is a hypothesis to test.</p>
     </div>
+
+    <div class="grp">
+      <h3>The SCKG: The Published Record ASAP Reasons Over</h3>
+      <p class="gl">Every paper and trial is linked to the molecules, cascades and diseases it describes.</p>
+      <div class="pipe">
+        <div class="pstep"><span class="pn">21,425</span><span class="t">PubMed papers (PMIDs)</span></div>
+        <div class="pstep"><span class="pn">12,014</span><span class="t">clinical trials linked as evidence</span></div>
+        <div class="pstep"><span class="pn">13,090</span><span class="t">nodes: molecules, receptors, cascades, regulators, diseases</span></div>
+        <div class="pstep"><span class="pn">35,446</span><span class="t">edges joining those nodes</span></div>
+      </div>
+    </div>
+
+    <div class="grp">
+      <h3>The Patient Digital Twin: Trials Read Result By Result</h3>
+      <p class="gl">The graph links 12,014 trials. The twin goes deeper: the trials on the signaling proteins in our platform, read down to each patient measurement and scored on each trial's primary outcome against its control.</p>
+      <div class="pipe three">
+        <div class="pstep"><span class="pn">566</span><span class="t">clinical trials read result by result</span></div>
+        <div class="pstep"><span class="pn">13,641</span><span class="t">patient measurements read from those results</span></div>
+        <div class="pstep"><span class="pn">3,040</span><span class="t">different things the trials measured in patients</span></div>
+        <div class="pstep"><span class="pn">104</span><span class="t">of them a wearable can track every day</span></div>
+        <div class="pstep"><span class="pn">388</span><span class="t">body-stress signals: inflammation, pain, sleep, heart rate, mood</span></div>
+        <div class="pstep"><span class="pn">1,005</span><span class="t">side-effect comparisons, treatment against control</span></div>
+        <div class="pstep wide"><span class="pn">25</span><span class="t">demo patient digital twins, each a simulated subject</span></div>
+      </div>
+    </div>
+  </div>
   </div>
 </section>
 
@@ -540,7 +579,7 @@
 
 <div class="pnotes">
   <div class="pw">
-    <p>Trial results from ClinicalTrials.gov and PubMed, reviewed 29 October 2026. Each trial is scored benefit, no difference or harm on its own primary outcome against its control. Side-effect figures are raw rates pooled across trials, not a statistical test. Approval rate: Citeline (Norstella), Biomedtracker data 2014–2023; BIO, Informa and QLS report 7.9% for 2011–2020. Biologics: BIO and Biomedtracker, 2003–2010. Responders: Schork, Nature 2015. PMID and node counts are distinct PMIDs and distinct nodes in the frozen SCKG record of 4 November 2026; the 20 demo twins are simulated subjects, not patients.</p>
+    <p>Trial results from ClinicalTrials.gov and PubMed, reviewed 29 October 2026. Each trial is scored benefit, no difference or harm on its own primary outcome against its control. Side-effect figures are raw rates pooled across trials, not a statistical test. Approval rate: Citeline (Norstella), Biomedtracker data 2014–2023; BIO, Informa and QLS report 7.9% for 2011–2020. Biologics: BIO and Biomedtracker, 2003–2010. Responders: Schork, Nature 2015. PMID, node, edge and trial counts are from the SCKG record of 5 November 2026; pairing and prediction counts are from the ball frozen on 4 November 2026 (distinct PMIDs and distinct nodes); a novel prediction is a pairing where the record has no direct link, no shared paper and no tested trial; the 36 demo twins are simulated subjects, not patients.</p>
     <p>Patients on this page are illustrative. This page shows the evidence the twin learns from. It is not medical advice.</p>
     <p>Instructional Biology · www.instructionalbiology.com</p>
   </div>
